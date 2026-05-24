@@ -1416,6 +1416,9 @@
                 }
             }
 
+            // Populate dropdown initially
+            renderOptions();
+
             // Show dropdown on focus
             inputElement.addEventListener('focus', () => {
                 renderOptions(inputElement.value);
