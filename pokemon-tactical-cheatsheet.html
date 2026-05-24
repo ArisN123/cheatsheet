@@ -2220,6 +2220,15 @@
             if (team.length < 4) return [];
 
             const combinations = [];
+            let hasMandatoryLocks = false;
+
+            // Check if there are any lock constraints
+            for (const member of team) {
+                if (member.lockState !== 'none') {
+                    hasMandatoryLocks = true;
+                    break;
+                }
+            }
 
             // Generate all 4-mon combinations
             for (let i = 0; i < team.length; i++) {
@@ -2282,6 +2291,47 @@
                                 defensiveRatio: defensiveRatio,
                                 combinedScore: finalScore
                             });
+                        }
+                    }
+                }
+            }
+
+            // If no valid combinations found with lock constraints, generate all combinations without constraints
+            if (combinations.length === 0 && hasMandatoryLocks) {
+                for (let i = 0; i < team.length; i++) {
+                    for (let j = i + 1; j < team.length; j++) {
+                        for (let k = j + 1; k < team.length; k++) {
+                            for (let l = k + 1; l < team.length; l++) {
+                                const squad = [team[i], team[j], team[k], team[l]];
+
+                                // Skip if any squad member has no Pokémon selected
+                                if (squad.some(member => !member.pokemonName || member.pokemonName.trim() === '')) {
+                                    continue;
+                                }
+
+                                const front2 = squad.slice(0, 2);
+                                const back2 = squad.slice(2, 4);
+
+                                const offensiveScore = calculateOffensiveScore(front2);
+                                const defensiveScore = calculateDefensiveScore(front2, back2);
+                                const defensiveRatio = defensiveScore.total > 0
+                                    ? defensiveScore.covered / defensiveScore.total
+                                    : 0;
+
+                                const baseScore = offensiveScore + (defensiveRatio * 10);
+                                const counterMultiplier = calculateCounterCoverage(squad, enemyRoster.filter(e => e.pokemonName));
+                                const finalScore = baseScore * counterMultiplier;
+
+                                combinations.push({
+                                    squad: squad,
+                                    front2: front2,
+                                    back2: back2,
+                                    offensiveScore: offensiveScore,
+                                    defensiveScore: defensiveScore,
+                                    defensiveRatio: defensiveRatio,
+                                    combinedScore: finalScore
+                                });
+                            }
                         }
                     }
                 }
