@@ -291,6 +291,87 @@
             color: #ffffff !important;
         }
 
+        /* SEARCHABLE DROPDOWN */
+        .searchable-dropdown {
+            position: relative;
+            width: 100%;
+        }
+
+        .dropdown-input {
+            padding: 9px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: border-color 0.3s, background-color 0.3s;
+            background: rgba(25, 23, 41, 0.8);
+            color: #fff;
+            font-family: inherit;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .dropdown-input:hover {
+            border-color: rgba(102, 126, 234, 0.5);
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        .dropdown-input:focus {
+            outline: none;
+            border-color: #667eea;
+            background: rgba(25, 23, 41, 0.9) !important;
+            box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+            color: #ffffff !important;
+        }
+
+        .dropdown-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #191729;
+            border: 1px solid #2d2a4a;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            max-height: 250px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+            margin-top: -1px;
+        }
+
+        .dropdown-list.active {
+            display: block;
+        }
+
+        .dropdown-option {
+            padding: 8px 12px;
+            cursor: pointer;
+            color: #fff;
+            transition: background-color 0.2s;
+        }
+
+        .dropdown-option:hover {
+            background: rgba(102, 126, 234, 0.3);
+        }
+
+        .dropdown-option.selected {
+            background: rgba(102, 126, 234, 0.5);
+            color: #ffd166;
+            font-weight: 600;
+        }
+
+        .dropdown-option.no-match {
+            padding: 12px;
+            text-align: center;
+            color: #888;
+            cursor: default;
+        }
+
+        .dropdown-option.no-match:hover {
+            background: transparent;
+        }
+
         select {
             -webkit-appearance: none;
             -moz-appearance: none;
@@ -1300,19 +1381,86 @@
             }
         }, 5000);
 
+        function setupSearchableDropdown(slotIndex, pokemonList) {
+            const inputElement = document.getElementById(`pokemon-${slotIndex}`);
+            const dropdownList = document.getElementById(`pokemon-list-${slotIndex}`);
+            const dropdownContainer = document.getElementById(`pokemon-dropdown-${slotIndex}`);
+
+            // Render full list initially
+            function renderOptions(filterText = '') {
+                const filtered = filterText.trim() === ''
+                    ? pokemonList
+                    : pokemonList.filter(name =>
+                        name.toLowerCase().includes(filterText.toLowerCase())
+                    );
+
+                if (filtered.length === 0) {
+                    dropdownList.innerHTML = '<div class="dropdown-option no-match">No Pokémon found</div>';
+                } else {
+                    dropdownList.innerHTML = filtered.map(name =>
+                        `<div class="dropdown-option" data-value="${name}">${capitalize(name)}</div>`
+                    ).join('');
+
+                    // Add click handlers
+                    dropdownList.querySelectorAll('.dropdown-option').forEach(option => {
+                        option.addEventListener('click', () => {
+                            const pokemonName = option.getAttribute('data-value');
+                            inputElement.value = capitalize(pokemonName);
+                            userRoster[slotIndex].pokemonName = pokemonName;
+                            dropdownList.classList.remove('active');
+                            updateAbilities(slotIndex, pokemonName);
+                            updateEnemyThreatTypes();
+                            updateSheet();
+                        });
+                    });
+                }
+            }
+
+            // Show dropdown on focus
+            inputElement.addEventListener('focus', () => {
+                renderOptions(inputElement.value);
+                dropdownList.classList.add('active');
+            });
+
+            // Filter as user types
+            inputElement.addEventListener('input', (e) => {
+                renderOptions(e.target.value);
+                dropdownList.classList.add('active');
+            });
+
+            // Hide dropdown on blur
+            inputElement.addEventListener('blur', () => {
+                setTimeout(() => dropdownList.classList.remove('active'), 200);
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!dropdownContainer.contains(e.target)) {
+                    dropdownList.classList.remove('active');
+                }
+            });
+        }
+
         function initializeTeam() {
             const container = document.getElementById('teamInputs');
             for (let i = 0; i < TEAM_SIZE; i++) {
                 const slot = document.createElement('div');
                 slot.className = 'team-slot';
+                const pokemonList = Object.keys(database).sort();
+
                 slot.innerHTML = `
                     <label>Pokémon ${i + 1}</label>
-                    <select id="pokemon-${i}" data-slot="${i}">
-                        <option value="">Select Pokémon</option>
-                        ${Object.keys(database).sort().map(name =>
-                            `<option value="${name}">${capitalize(name)}</option>`
-                        ).join('')}
-                    </select>
+                    <div class="searchable-dropdown" id="pokemon-dropdown-${i}">
+                        <input
+                            type="text"
+                            class="dropdown-input"
+                            id="pokemon-${i}"
+                            data-slot="${i}"
+                            placeholder="Search Pokémon..."
+                            autocomplete="off"
+                        />
+                        <div class="dropdown-list" id="pokemon-list-${i}"></div>
+                    </div>
                     <label>Ability</label>
                     <select id="ability-${i}" data-slot="${i}" disabled>
                         <option value="">Select Ability</option>
@@ -1324,12 +1472,10 @@
                 `;
                 container.appendChild(slot);
 
+                // Set up searchable dropdown
+                setupSearchableDropdown(i, pokemonList);
+
                 // Event listeners
-                document.getElementById(`pokemon-${i}`).addEventListener('change', (e) => {
-                    updateAbilities(i, e.target.value);
-                    updateEnemyThreatTypes();
-                    updateSheet();
-                });
                 document.getElementById(`ability-${i}`).addEventListener('change', updateSheet);
 
                 // Lock button listeners
@@ -1476,6 +1622,8 @@
             if (!container) return;
 
             container.innerHTML = '';
+            const pokemonList = Object.keys(database).sort();
+
             for (let i = 0; i < TEAM_SIZE; i++) {
                 const slot = document.createElement('div');
                 slot.className = 'team-slot';
@@ -1487,41 +1635,99 @@
                 label.style.marginBottom = '4px';
                 label.style.display = 'block';
 
-                const select = document.createElement('select');
-                select.id = `enemy-pokemon-${i}`;
-                select.className = 'pokemon-input';
-                select.value = enemyRoster[i]?.pokemonName || '';
+                const dropdownDiv = document.createElement('div');
+                dropdownDiv.className = 'searchable-dropdown';
+                dropdownDiv.id = `enemy-pokemon-dropdown-${i}`;
 
-                const defaultOption = document.createElement('option');
-                defaultOption.value = '';
-                defaultOption.textContent = 'Select Pokémon';
-                select.appendChild(defaultOption);
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.className = 'dropdown-input pokemon-input';
+                input.id = `enemy-pokemon-${i}`;
+                input.placeholder = 'Search enemy Pokémon...';
+                input.style.fontSize = '0.95em';
+                input.autocomplete = 'off';
+                input.value = enemyRoster[i]?.pokemonName ? capitalize(enemyRoster[i].pokemonName) : '';
 
-                Object.keys(database).forEach(name => {
-                    const option = document.createElement('option');
-                    option.value = name;
-                    option.textContent = capitalize(name);
-                    select.appendChild(option);
-                });
+                const listDiv = document.createElement('div');
+                listDiv.className = 'dropdown-list';
+                listDiv.id = `enemy-pokemon-list-${i}`;
 
-                select.addEventListener('change', (e) => {
-                    const pokemonName = e.target.value;
-                    if (pokemonName && database[pokemonName]) {
-                        enemyRoster[i] = {
-                            pokemonName: pokemonName,
-                            ability: database[pokemonName].abilities[0] || ''
-                        };
-                    } else {
-                        enemyRoster[i] = { pokemonName: '', ability: '' };
-                    }
-                    updateEnemyThreatTypes();
-                    updateSheet();
-                });
+                dropdownDiv.appendChild(input);
+                dropdownDiv.appendChild(listDiv);
 
                 slot.appendChild(label);
-                slot.appendChild(select);
+                slot.appendChild(dropdownDiv);
                 container.appendChild(slot);
+
+                // Set up enemy searchable dropdown
+                setupEnemySearchableDropdown(i, pokemonList);
             }
+        }
+
+        function setupEnemySearchableDropdown(slotIndex, pokemonList) {
+            const inputElement = document.getElementById(`enemy-pokemon-${slotIndex}`);
+            const dropdownList = document.getElementById(`enemy-pokemon-list-${slotIndex}`);
+            const dropdownContainer = document.getElementById(`enemy-pokemon-dropdown-${slotIndex}`);
+
+            // Render full list initially
+            function renderOptions(filterText = '') {
+                const filtered = filterText.trim() === ''
+                    ? pokemonList
+                    : pokemonList.filter(name =>
+                        name.toLowerCase().includes(filterText.toLowerCase())
+                    );
+
+                if (filtered.length === 0) {
+                    dropdownList.innerHTML = '<div class="dropdown-option no-match">No Pokémon found</div>';
+                } else {
+                    dropdownList.innerHTML = filtered.map(name =>
+                        `<div class="dropdown-option" data-value="${name}">${capitalize(name)}</div>`
+                    ).join('');
+
+                    // Add click handlers
+                    dropdownList.querySelectorAll('.dropdown-option').forEach(option => {
+                        option.addEventListener('click', () => {
+                            const pokemonName = option.getAttribute('data-value');
+                            inputElement.value = capitalize(pokemonName);
+                            if (pokemonName && database[pokemonName]) {
+                                enemyRoster[slotIndex] = {
+                                    pokemonName: pokemonName,
+                                    ability: database[pokemonName].abilities[0] || ''
+                                };
+                            } else {
+                                enemyRoster[slotIndex] = { pokemonName: '', ability: '' };
+                            }
+                            dropdownList.classList.remove('active');
+                            updateEnemyThreatTypes();
+                            updateSheet();
+                        });
+                    });
+                }
+            }
+
+            // Show dropdown on focus
+            inputElement.addEventListener('focus', () => {
+                renderOptions(inputElement.value);
+                dropdownList.classList.add('active');
+            });
+
+            // Filter as user types
+            inputElement.addEventListener('input', (e) => {
+                renderOptions(e.target.value);
+                dropdownList.classList.add('active');
+            });
+
+            // Hide dropdown on blur
+            inputElement.addEventListener('blur', () => {
+                setTimeout(() => dropdownList.classList.remove('active'), 200);
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!dropdownContainer.contains(e.target)) {
+                    dropdownList.classList.remove('active');
+                }
+            });
         }
 
         function setLockState(slotIndex, newState) {
