@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-vgc-tactical-cheatsheet",
+  "version": "1.0.0",
+  "description": "VGC Tactical Team Sheet - Professional competitive Pokémon dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "pokemon",
+    "vgc",
+    "competitive",
+    "team-builder",
+    "type-coverage"
+  ],
+  "author": "",
+  "license": "MIT"
+}

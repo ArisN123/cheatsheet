@@ -1,0 +1,2800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-Month Tactical Cheat Sheet</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.8em;
+            background: linear-gradient(180deg, #FFFFFF 0%, #B0B5E3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-title-container {
+            border-left: 4px solid #ffd166;
+            padding-left: 12px;
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 800;
+            background: linear-gradient(180deg, #FFFFFF 0%, #B0B5E3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 1.3em;
+        }
+
+        .section-title-cyan {
+            border-left-color: #4cc9f0;
+        }
+
+        /* ROSTER MODE TOGGLE SWITCH */
+        .playbook-controls-hud {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #191729;
+            border: 1px solid #2d2a4a;
+            border-radius: 8px;
+            padding: 10px 16px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .controls-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 12px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            color: #b0b5e3;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .controls-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .composition-label {
+            font-size: 12px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            color: #b0b5e3;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        #compositionButtonsContainer {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+
+        #compositionButtonsContainer .composition-selector {
+            padding: 4px 8px;
+            background: transparent;
+            border: 1px solid #2d2a4a;
+            color: #7dd3fc;
+            border-radius: 6px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 11px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #compositionButtonsContainer .composition-selector:hover {
+            border-color: #3d3a5a;
+            background: rgba(125, 211, 252, 0.05);
+        }
+
+        #compositionButtonsContainer .composition-selector[data-active="true"] {
+            background: rgba(251, 191, 36, 0.2);
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+
+        .roster-toggle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            gap: 20px;
+            background: #191729;
+            border: 1px solid #2d2a4a;
+            border-radius: 12px;
+            padding: 16px 24px;
+            box-sizing: border-box;
+        }
+
+        .roster-toggle-label {
+            font-size: 0.85em;
+            font-weight: 700;
+            color: #7dd3fc;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 100px;
+            height: 32px;
+            background: #0f0d1a;
+            border: 1px solid #2d2a4a;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .toggle-switch:hover {
+            border-color: #3d3a5a;
+        }
+
+        .toggle-switch.enemy-mode {
+            border-color: #e74c3c;
+            box-shadow: 0 0 16px rgba(231, 76, 60, 0.2);
+        }
+
+        .toggle-slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(135deg, #7dd3fc 0%, #60a5fa 100%);
+            border-radius: 6px;
+            transition: left 0.3s ease;
+            box-shadow: 0 4px 12px rgba(125, 211, 252, 0.4);
+        }
+
+        .toggle-switch.enemy-mode .toggle-slider {
+            left: 50%;
+            background: linear-gradient(135deg, #f87171 0%, #dc2626 100%);
+            box-shadow: 0 4px 12px rgba(248, 113, 113, 0.4);
+        }
+
+        /* ROSTER MODE CARD STYLING */
+        .input-section {
+            transition: all 0.3s ease;
+        }
+
+        .input-section.enemy-mode {
+            border-color: #e74c3c;
+            box-shadow: 0 8px 32px rgba(231, 76, 60, 0.2);
+        }
+
+        .lock-buttons-row {
+            display: flex;
+            gap: 3px;
+            margin-top: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .lock-buttons-row.hidden {
+            display: none;
+        }
+
+
+        /* INPUT LAYER */
+        .input-section {
+            background: #191729;
+            border: 1px solid #2d2a4a;
+            border-radius: 12px;
+            padding: 28px;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+            max-width: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .input-section h2 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+        }
+
+        .team-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .team-slot {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex: 1;
+            min-width: 140px;
+            box-sizing: border-box;
+        }
+
+        .team-slot label {
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.05em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .team-slot select {
+            padding: 9px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: border-color 0.3s, background-color 0.3s;
+            background: rgba(25, 23, 41, 0.8);
+            color: #fff;
+            font-family: inherit;
+        }
+
+        .team-slot select:hover {
+            border-color: rgba(102, 126, 234, 0.5);
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        .team-slot select:focus {
+            outline: none;
+            border-color: #667eea;
+            background: rgba(25, 23, 41, 0.9) !important;
+            box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+            color: #ffffff !important;
+        }
+
+        /* DROPDOWN OPTION VISIBILITY FIX */
+        select, select option {
+            background-color: #191729 !important;
+            color: #ffffff !important;
+        }
+
+        select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            padding-right: 24px;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            background-size: 16px;
+        }
+
+        select:focus {
+            background-color: #191729 !important;
+            color: #ffffff !important;
+            outline: 1px solid #ffd166;
+        }
+
+        option {
+            background-color: #191729;
+            color: #ffffff;
+            padding: 8px;
+        }
+
+        option:checked {
+            background: linear-gradient(#667eea, #667eea);
+            background-color: #667eea !important;
+            color: #ffffff !important;
+        }
+
+        /* DEEP DIVE BREAKDOWN TOGGLE */
+        .deep-dive-toggle-bar {
+            width: 100%;
+            padding: 12px 16px;
+            background: #191729;
+            border: 1px solid #2d2a4a;
+            border-left: 4px solid #a5afdf;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 24px;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+        }
+
+        .deep-dive-toggle-bar:hover {
+            border-color: #3d3a5a;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .deep-dive-toggle-bar .toggle-arrow {
+            margin-right: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .deep-dive-toggle-bar .toggle-arrow.expanded {
+            transform: rotate(90deg);
+        }
+
+        .deep-dive-breakdown-content {
+            transition: all 0.3s ease;
+        }
+
+        .deep-dive-breakdown-content.collapsed {
+            display: none !important;
+        }
+
+        /* PIVOT WHEEL SYNERGY NOTE */
+        .pivot-synergy-note {
+            width: 100%;
+            font-size: 11px;
+            color: #a5afdf;
+            font-family: 'Montserrat', sans-serif;
+            border-top: 1px dashed #2d2a4a;
+            padding-top: 6px;
+            margin-top: 8px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* TACTICAL GRID */
+        .tactical-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(320px, 1fr));
+            gap: 16px;
+            margin-bottom: 60px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .pokemon-card {
+            background: #191729;
+            border: 1px solid #2d2a4a;
+            border-radius: 12px;
+            padding: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+        }
+
+        .pokemon-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+            border-color: #3b82f6;
+        }
+
+        /* CORE PROFILE */
+        .profile {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            width: 100%;
+        }
+
+        .sprite {
+            width: 72px;
+            height: 72px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            flex-shrink: 0;
+        }
+
+        .name-capsule {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .pokemon-name {
+            font-size: 1.2em;
+            font-weight: 700;
+            color: #fff;
+            text-transform: capitalize;
+        }
+
+        .ability-tag {
+            display: inline-block;
+            background: rgba(102, 126, 234, 0.3);
+            color: #a8b8ff;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.7em;
+            text-transform: capitalize;
+            width: fit-content;
+            border: 1px solid rgba(102, 126, 234, 0.5);
+        }
+
+        /* STRENGTHS & WEAKNESSES */
+        .strengths,
+        .weaknesses {
+            margin-bottom: 8px;
+        }
+
+        .strengths h3,
+        .weaknesses h3 {
+            font-size: 0.85em;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .strengths h3 {
+            color: #7dd3fc;
+        }
+
+        .weaknesses h3 {
+            color: #fca5a5;
+        }
+
+        .type-badges {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .type-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;
+            gap: 4px;
+        }
+
+        .multiplier-label {
+            font-size: 0.65em;
+            opacity: 0.85;
+        }
+
+        /* TYPE COLORS */
+        .type-normal { background: #A8A878; }
+        .type-fighting { background: #C03028; }
+        .type-flying { background: #A890F0; }
+        .type-poison { background: #A040A0; }
+        .type-ground { background: #E0C068; color: #333; }
+        .type-rock { background: #B8A038; }
+        .type-bug { background: #A8B820; }
+        .type-ghost { background: #705898; }
+        .type-steel { background: #B8B8D0; color: #333; }
+        .type-fire { background: #F08030; }
+        .type-water { background: #6890F0; }
+        .type-grass { background: #78C850; }
+        .type-electric { background: #F8D030; color: #333; }
+        .type-psychic { background: #F85888; }
+        .type-ice { background: #98D8D8; color: #333; }
+        .type-dragon { background: #7038F8; }
+        .type-dark { background: #705848; }
+        .type-fairy { background: #EE99AC; }
+        .type-stellar { background: #FFBA12; color: #333; }
+
+        /* SWITCH-IN PARTNERS */
+        .weaknesses {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding: 0;
+        }
+
+        .weakness-row {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 6px;
+            padding: 0;
+            background: transparent;
+            border-radius: 0;
+            width: 100%;
+        }
+
+        .weakness-badge {
+            width: 105px;
+            flex-shrink: 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .weakness-badge::after {
+            content: '➔';
+            margin-left: 4px;
+            font-size: 0.8em;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .partners {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px;
+            align-items: center;
+            vertical-align: middle;
+        }
+
+        .partner-name {
+            background: #2a2747;
+            color: #a8b8ff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: capitalize;
+            display: inline-flex;
+            align-items: center;
+            gap: 2px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .switch-icon {
+            margin-right: 0;
+            display: none;
+        }
+
+        .team-blindspot {
+            background: transparent;
+            color: #fca5a5;
+            padding: 0;
+            border-radius: 0;
+            font-size: 0.75em;
+            font-weight: 600;
+            display: inline;
+            align-items: center;
+            gap: 0;
+            border: none;
+        }
+
+        /* OFFENSIVE SYNERGY SECTION */
+        .divider {
+            height: 1px;
+            background: #eee;
+            margin: 15px 0;
+        }
+
+        .field-partners {
+            margin-top: 6px;
+        }
+
+        .field-partners h3 {
+            font-size: 0.85em;
+            color: #fbbf24;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .partner-row {
+            background: transparent;
+            border-left: 3px solid #ffd700;
+            padding: 6px 10px;
+            border-radius: 6px;
+            margin-bottom: 4px;
+        }
+
+        .partner-row:nth-child(3) {
+            border-left-color: #a0aec0;
+        }
+
+        .partner-rank {
+            font-weight: 700;
+            color: #ffd700;
+            margin-bottom: 6px;
+            font-size: 0.8em;
+        }
+
+        .partner-row:nth-child(3) .partner-rank {
+            color: #a0aec0;
+        }
+
+        .partner-info {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            width: 100%;
+            margin-bottom: 4px;
+        }
+
+        .partner-name-large {
+            background: #383452;
+            color: #ffffff !important;
+            padding: 5px 12px;
+            border-radius: 8px;
+            font-size: 0.8em;
+            font-weight: bold;
+            text-transform: capitalize;
+            flex-shrink: 0;
+            border: 1px solid #ffd700;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .partner-row:nth-child(3) .partner-name-large {
+            background: #383452;
+            color: #ffffff !important;
+            border-color: #a0aec0;
+        }
+
+        .coverage-score {
+            background: rgba(251, 191, 36, 0.15);
+            color: #fbbf24;
+            padding: 3px 8px;
+            border: 1px solid rgba(251, 191, 36, 0.3);
+            border-radius: 8px;
+            font-size: 0.75em;
+            font-weight: 600;
+            flex-shrink: 0;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .partner-row:nth-child(3) .coverage-score {
+            background: rgba(192, 192, 192, 0.15);
+            color: #c0c0c0;
+            border-color: rgba(192, 192, 192, 0.3);
+        }
+
+        .new-coverage-badges {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 3px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .new-coverage-badge {
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.7em;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: white;
+            border: none;
+        }
+
+        .coverage-label {
+            font-size: 0.7em;
+            color: rgba(255, 255, 255, 0.5);
+            margin-right: 4px;
+        }
+
+        /* DEFENSIVE BENCH ANCHOR */
+        .bench-anchor {
+            background: #221f38;
+            border-left: 3px solid #3b82f6;
+            padding: 8px 10px;
+            margin-bottom: 6px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .bench-anchor h3 {
+            display: none;
+        }
+
+        .anchor-info {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .anchor-name {
+            background: transparent;
+            color: #60a5fa;
+            padding: 0;
+            border-radius: 0;
+            font-size: 0.9em;
+            font-weight: 600;
+            text-transform: capitalize;
+            flex-shrink: 0;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            border: none;
+        }
+
+        .anchor-name::before {
+            content: '🛡️';
+            margin-right: 0;
+        }
+
+        .anchor-score {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60a5fa;
+            padding: 4px 10px;
+            border: 1px solid #3b82f6;
+            border-radius: 8px;
+            font-size: 0.8em;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .anchor-covered-types {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .anchor-type-badge {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 2px 6px;
+            border-radius: 5px;
+            font-size: 0.65em;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+
+        .empty-state p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .empty-state-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+
+        /* SQUAD CONFIGURATION */
+        .squad-section {
+            margin-top: 40px;
+            padding: 0;
+            width: 100% !important;
+            box-sizing: border-box !important;
+        }
+
+        .squad-section h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.7em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .squad-grid {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            gap: 0;
+            margin-bottom: 40px;
+            width: 100% !important;
+            box-sizing: border-box !important;
+        }
+
+        .playbook-container {
+            width: 100% !important;
+            max-width: 100% !important;
+            box-sizing: border-box !important;
+            background: #191729;
+            border: 1px solid #2d2a4a;
+            border-radius: 12px;
+            padding: 50px;
+            margin: 0 !important;
+        }
+
+        .playbook-tabs {
+            display: flex !important;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2d2a4a;
+            padding-bottom: 0;
+            gap: 0;
+        }
+
+        .playbook-tab-group {
+            display: flex !important;
+            gap: 0;
+            border-right: 1px solid #2d2a4a;
+            padding-right: 16px;
+            margin-right: 16px;
+        }
+
+        .playbook-tab,
+        .playbook-priority {
+            padding: 16px 28px;
+            background: transparent;
+            border: none;
+            color: #7dd3fc;
+            font-weight: 700;
+            font-size: 1.3em;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            white-space: nowrap;
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .playbook-tab.active,
+        .playbook-priority.active {
+            color: #fbbf24;
+            border-bottom-color: #fbbf24;
+        }
+
+        .playbook-content {
+            display: grid !important;
+            grid-template-columns: 60% 40% !important;
+            gap: 20px !important;
+            width: 100% !important;
+            box-sizing: border-box !important;
+            max-width: 100% !important;
+            overflow: hidden !important;
+        }
+
+        .playbook-content > div {
+            width: 100%;
+            box-sizing: border-box;
+            min-width: 0;
+            overflow: hidden;
+        }
+
+        .playbook-content h3 {
+            font-size: 1.5em;
+            text-transform: uppercase;
+            color: #fbbf24;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .playbook-threat-list,
+        .playbook-cycle-list {
+            background: #1a1628;
+            padding: 20px;
+            border-radius: 6px;
+            width: 100%;
+            box-sizing: border-box;
+            max-height: none !important;
+            overflow: visible !important;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .playbook-threat-item,
+        .playbook-cycle-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 18px;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .playbook-cycle-item {
+            white-space: normal;
+            gap: 0;
+        }
+
+        .playbook-cycle-box {
+            width: 100%;
+            padding: 18px;
+            background: #1a1628;
+            border-left: 2px solid #7dd3fc;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+
+        .playbook-cycle-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+            font-size: 18px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .playbook-cycle-details {
+            color: #bbb;
+            font-size: 17px;
+            line-height: 1.6;
+            margin-left: 6px;
+        }
+
+        .playbook-cycle-details div {
+            margin-bottom: 4px;
+            word-break: break-word;
+            white-space: normal;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            align-items: center;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .protection-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .protection-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            margin-bottom: 8px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+
+        .protection-text-wrap {
+            display: inline-flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+            width: 100%;
+        }
+
+        .protection-badges-container {
+            display: inline-flex;
+            gap: 4px;
+            vertical-align: middle;
+        }
+
+        .playbook-metrics {
+            background: #221f38;
+            border-left: 3px solid #7dd3fc;
+            padding: 18px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .playbook-metric {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .playbook-metric-label {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #7dd3fc;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .playbook-metric-value {
+            font-size: 2em;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        .squad-card {
+            background: #191729;
+            border: 1px solid #2d2a4a;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+        }
+
+        .squad-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+            border-color: #3b82f6;
+        }
+
+        .squad-strategy-header {
+            font-size: 1em;
+            font-weight: 700;
+            color: #fbbf24;
+            margin-bottom: 12px;
+            text-align: center;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(251, 191, 36, 0.2);
+        }
+
+        .squad-lineup {
+            display: inline-flex;
+            gap: 6px;
+            margin-bottom: 8px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .squad-section-label {
+            font-size: 0.7em;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            min-width: 45px;
+        }
+
+        .squad-sprites {
+            display: inline-flex;
+            gap: 4px;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+
+        .squad-sprite {
+            width: 200px;
+            height: 200px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.04);
+        }
+
+        .squad-metrics {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .squad-metric {
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .squad-metric-label {
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .squad-metric-value {
+            background: rgba(251, 191, 36, 0.15);
+            color: #fbbf24;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 700;
+            border: 1px solid rgba(251, 191, 36, 0.2);
+        }
+
+        .divider {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.08);
+            margin: 4px 0;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 1024px) {
+            .tactical-grid {
+                grid-template-columns: repeat(2, minmax(300px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .tactical-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .team-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .squad-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>VGC Tactical Team Sheet</h1>
+
+        <!-- INPUT SECTION -->
+        <div class="input-section" id="inputSection">
+            <h2 class="section-title-container section-title-cyan">Build Your Team</h2>
+            <div class="team-grid" id="teamInputs"></div>
+        </div>
+
+        <!-- PLAYBOOK CONTROLS HUD (Unified) -->
+        <div class="playbook-controls-hud">
+            <div class="controls-left">
+                <span>Adjust Enemy Team:</span>
+                <div class="toggle-switch" id="rosterToggle">
+                    <div class="toggle-slider"></div>
+                </div>
+            </div>
+            <div class="controls-right">
+                <span class="composition-label">Archetypes:</span>
+                <div id="compositionButtonsContainer"></div>
+            </div>
+        </div>
+
+        <!-- ENEMY INPUTS (Hidden by default, shown when toggle is on) -->
+        <div class="input-section" id="enemyInputsSection" style="display: none;">
+            <h2 class="section-title-container section-title-cyan">Enemy Team</h2>
+            <div class="team-grid" id="enemyInputsContainer"></div>
+        </div>
+
+        <!-- SQUAD CONFIGURATION -->
+        <div class="squad-section" id="squadSection" style="display: none;">
+            <div class="squad-grid" id="squadGrid"></div>
+        </div>
+
+        <!-- TACTICAL SHEET -->
+        <div style="margin-top: 40px;">
+            <div class="deep-dive-toggle-bar" id="deepDiveToggleBar">
+                <span class="toggle-arrow">▶</span>
+                <span class="toggle-label">Click to expand individual member breakdowns</span>
+            </div>
+            <div class="deep-dive-breakdown-content collapsed" id="deepDiveBreakdownContent" style="margin-top: 20px;">
+                <div class="tactical-grid" id="tacticalGrid">
+                    <div class="empty-state">
+                        <div class="empty-state-icon"></div>
+                        <p>Select your team to generate the tactical cheat sheet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let database = {};
+        const TEAM_SIZE = 6;
+        const lockStates = new Array(TEAM_SIZE).fill('none');
+
+        // Dual roster state management
+        let userRoster = Array(TEAM_SIZE).fill({ pokemonName: '', ability: '' });
+        let enemyRoster = Array(TEAM_SIZE).fill({ pokemonName: '', ability: '' });
+        let isEnemyMode = false;
+
+        // Deep dive breakdown visibility state
+        let showDeepDiveBreakdown = false;
+
+        // Active enemy threats for dynamic scoring
+        let activeEnemyThreats = [];
+
+        console.log('Script loaded, attempting to fetch database...');
+
+        // OFFENSIVE TYPE CHART - What each type hits super-effectively
+        const OFFENSIVE_CHART = {
+            'normal': [],
+            'fighting': ['normal', 'rock', 'steel', 'ice', 'dark'],
+            'flying': ['fighting', 'bug', 'grass'],
+            'poison': ['grass', 'fairy'],
+            'ground': ['poison', 'rock', 'steel', 'fire', 'electric'],
+            'rock': ['flying', 'bug', 'fire', 'ice'],
+            'bug': ['grass', 'psychic', 'dark'],
+            'ghost': ['ghost', 'dark'],
+            'steel': ['rock', 'ice', 'fairy'],
+            'fire': ['grass', 'ice', 'bug', 'steel'],
+            'water': ['fire', 'ground', 'rock'],
+            'grass': ['water', 'ground', 'rock'],
+            'electric': ['water', 'flying'],
+            'psychic': ['fighting', 'poison'],
+            'ice': ['flying', 'ground', 'grass', 'dragon'],
+            'dragon': ['dragon'],
+            'dark': ['ghost', 'dark'],
+            'fairy': ['fighting', 'poison', 'dark'],
+            'stellar': []
+        };
+
+        // Setup roster toggle switch
+        setTimeout(() => {
+            const rosterToggle = document.getElementById('rosterToggle');
+            if (rosterToggle) {
+                rosterToggle.addEventListener('click', () => {
+                    switchRosterMode(!isEnemyMode);
+                });
+            }
+        }, 100);
+
+        // Setup deep-dive breakdown toggle
+        setTimeout(() => {
+            const deepDiveToggle = document.getElementById('deepDiveToggleBar');
+            if (deepDiveToggle) {
+                deepDiveToggle.addEventListener('click', toggleDeepDiveBreakdown);
+            }
+        }, 100);
+
+        // Load database
+        console.log('Starting database fetch...');
+
+        fetch('effectiveness_database.json')
+            .then(r => {
+                console.log('Fetch response received:', r.status);
+                if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
+                return r.json();
+            })
+            .then(data => {
+                console.log('Database loaded successfully:', Object.keys(data).length, 'pokémon');
+                database = data;
+                initializeTeam();
+                updateEnemyThreatTypes();
+            })
+            .catch(error => {
+                console.error('Failed to load database:', error);
+                document.getElementById('teamInputs').innerHTML = `<p style="color: #fca5a5; padding: 20px;">⚠️ Error loading Pokémon database: ${error.message}</p>`;
+            });
+
+        // Fallback timeout - if database doesn't load in 5 seconds, show error
+        setTimeout(() => {
+            if (Object.keys(database).length === 0) {
+                console.error('Database still not loaded after 5 seconds');
+                const container = document.getElementById('teamInputs');
+                if (container.textContent.includes('Loading')) {
+                    container.innerHTML = '<p style="color: #fca5a5; padding: 20px;">⚠️ Failed to load Pokémon database. Please refresh the page or check server connection.</p>';
+                }
+            }
+        }, 5000);
+
+        function initializeTeam() {
+            const container = document.getElementById('teamInputs');
+            for (let i = 0; i < TEAM_SIZE; i++) {
+                const slot = document.createElement('div');
+                slot.className = 'team-slot';
+                slot.innerHTML = `
+                    <label>Pokémon ${i + 1}</label>
+                    <select id="pokemon-${i}" data-slot="${i}">
+                        <option value="">Select Pokémon</option>
+                        ${Object.keys(database).sort().map(name =>
+                            `<option value="${name}">${capitalize(name)}</option>`
+                        ).join('')}
+                    </select>
+                    <label>Ability</label>
+                    <select id="ability-${i}" data-slot="${i}" disabled>
+                        <option value="">Select Ability</option>
+                    </select>
+                    <div class="lock-buttons-row" id="lock-buttons-${i}">
+                        <button id="lock-lead-${i}" style="flex: 1; padding: 5px 8px; font-size: 13px; background: transparent; border: 1px solid rgba(255,255,255,0.2); color: #fff; border-radius: 4px; cursor: pointer; transition: all 0.2s;">Force Front</button>
+                        <button id="lock-back-${i}" style="flex: 1; padding: 5px 8px; font-size: 13px; background: transparent; border: 1px solid rgba(255,255,255,0.2); color: #fff; border-radius: 4px; cursor: pointer; transition: all 0.2s;">Force Back</button>
+                    </div>
+                `;
+                container.appendChild(slot);
+
+                // Event listeners
+                document.getElementById(`pokemon-${i}`).addEventListener('change', (e) => {
+                    updateAbilities(i, e.target.value);
+                    updateEnemyThreatTypes();
+                    updateSheet();
+                });
+                document.getElementById(`ability-${i}`).addEventListener('change', updateSheet);
+
+                // Lock button listeners
+                const slotIndex = i;
+                document.getElementById(`lock-lead-${slotIndex}`).addEventListener('click', () => {
+                    setLockState(slotIndex, lockStates[slotIndex] === 'lead' ? 'none' : 'lead');
+                });
+                document.getElementById(`lock-back-${slotIndex}`).addEventListener('click', () => {
+                    setLockState(slotIndex, lockStates[slotIndex] === 'back' ? 'none' : 'back');
+                });
+            }
+
+            // Fill team with random Pokémon and abilities
+            setTimeout(() => {
+                const pokemonList = Object.keys(database);
+                const selectedPokemon = new Set();
+
+                for (let i = 0; i < TEAM_SIZE; i++) {
+                    let randomMon;
+                    // Ensure no duplicates
+                    do {
+                        randomMon = pokemonList[Math.floor(Math.random() * pokemonList.length)];
+                    } while (selectedPokemon.has(randomMon));
+
+                    selectedPokemon.add(randomMon);
+
+                    // Set Pokémon
+                    const pokemonSelect = document.getElementById(`pokemon-${i}`);
+                    pokemonSelect.value = randomMon;
+
+                    // Update abilities and set random one
+                    updateAbilities(i, randomMon);
+                    setTimeout(() => {
+                        const abilitySelect = document.getElementById(`ability-${i}`);
+                        const options = Array.from(abilitySelect.options).filter(opt => opt.value);
+                        if (options.length > 0) {
+                            const randomAbility = options[Math.floor(Math.random() * options.length)];
+                            abilitySelect.value = randomAbility.value;
+                        }
+                    }, 50);
+                }
+
+                // Trigger sheet update after all selections are done
+                setTimeout(() => {
+                    for (let i = 0; i < TEAM_SIZE; i++) {
+                        updateLockButtonUI(i);
+                    }
+                    updateSheet();
+                }, 200);
+            }, 100);
+        }
+
+        function updateAbilities(slotIndex, pokemonName) {
+            const abilitySelect = document.getElementById(`ability-${slotIndex}`);
+            abilitySelect.innerHTML = '<option value="">Select Ability</option>';
+
+            if (pokemonName && database[pokemonName]) {
+                database[pokemonName].abilities.forEach(ability => {
+                    const option = document.createElement('option');
+                    option.value = ability;
+                    option.textContent = capitalize(ability);
+                    abilitySelect.appendChild(option);
+                });
+                abilitySelect.disabled = false;
+            } else {
+                abilitySelect.disabled = true;
+            }
+        }
+
+        function getTeam() {
+            const team = [];
+            for (let i = 0; i < TEAM_SIZE; i++) {
+                const pokemonName = document.getElementById(`pokemon-${i}`).value;
+                const ability = document.getElementById(`ability-${i}`).value;
+                if (pokemonName) {
+                    team.push({ pokemonName, ability, slot: i, lockState: lockStates[i] });
+                }
+            }
+            return team;
+        }
+
+        function saveCurrentRoster() {
+            const currentRoster = [];
+            for (let i = 0; i < TEAM_SIZE; i++) {
+                const pokemonName = document.getElementById(`pokemon-${i}`).value;
+                const ability = document.getElementById(`ability-${i}`).value;
+                currentRoster.push({ pokemonName, ability });
+            }
+            return currentRoster;
+        }
+
+        function loadRosterToUI(roster) {
+            for (let i = 0; i < TEAM_SIZE; i++) {
+                if (roster[i]) {
+                    document.getElementById(`pokemon-${i}`).value = roster[i].pokemonName || '';
+                    updateAbilities(i, roster[i].pokemonName || '');
+                    setTimeout(() => {
+                        if (roster[i].ability) {
+                            document.getElementById(`ability-${i}`).value = roster[i].ability;
+                        }
+                    }, 50);
+                }
+            }
+        }
+
+        function switchRosterMode(toEnemyMode) {
+            isEnemyMode = toEnemyMode;
+            const toggle = document.getElementById('rosterToggle');
+            const enemyInputsSection = document.getElementById('enemyInputsSection');
+
+            if (isEnemyMode) {
+                toggle.classList.add('enemy-mode');
+                enemyInputsSection.style.display = 'block';
+                setTimeout(() => renderEnemyInputs(), 50);
+            } else {
+                toggle.classList.remove('enemy-mode');
+                enemyInputsSection.style.display = 'none';
+            }
+
+            updateEnemyThreatTypes();
+            updateSheet();
+        }
+
+        function toggleDeepDiveBreakdown() {
+            showDeepDiveBreakdown = !showDeepDiveBreakdown;
+            const toggleBar = document.getElementById('deepDiveToggleBar');
+            const breakdownContent = document.getElementById('deepDiveBreakdownContent');
+            const toggleArrow = toggleBar.querySelector('.toggle-arrow');
+            const toggleLabel = toggleBar.querySelector('.toggle-label');
+
+            if (showDeepDiveBreakdown) {
+                breakdownContent.classList.remove('collapsed');
+                toggleArrow.textContent = '▼';
+                toggleLabel.textContent = 'Click to hide individual member breakdowns';
+            } else {
+                breakdownContent.classList.add('collapsed');
+                toggleArrow.textContent = '▶';
+                toggleLabel.textContent = 'Click to expand individual member breakdowns';
+            }
+        }
+
+        function renderEnemyInputs() {
+            const container = document.getElementById('enemyInputsContainer');
+            if (!container) return;
+
+            container.innerHTML = '';
+            for (let i = 0; i < TEAM_SIZE; i++) {
+                const slot = document.createElement('div');
+                slot.className = 'team-slot';
+
+                const label = document.createElement('label');
+                label.textContent = 'Enemy ' + (i + 1);
+                label.style.fontSize = '0.85em';
+                label.style.color = '#999';
+                label.style.marginBottom = '4px';
+                label.style.display = 'block';
+
+                const select = document.createElement('select');
+                select.id = `enemy-pokemon-${i}`;
+                select.className = 'pokemon-input';
+                select.value = enemyRoster[i]?.pokemonName || '';
+
+                const defaultOption = document.createElement('option');
+                defaultOption.value = '';
+                defaultOption.textContent = 'Select Pokémon';
+                select.appendChild(defaultOption);
+
+                Object.keys(database).forEach(name => {
+                    const option = document.createElement('option');
+                    option.value = name;
+                    option.textContent = capitalize(name);
+                    select.appendChild(option);
+                });
+
+                select.addEventListener('change', (e) => {
+                    const pokemonName = e.target.value;
+                    if (pokemonName && database[pokemonName]) {
+                        enemyRoster[i] = {
+                            pokemonName: pokemonName,
+                            ability: database[pokemonName].abilities[0] || ''
+                        };
+                    } else {
+                        enemyRoster[i] = { pokemonName: '', ability: '' };
+                    }
+                    updateEnemyThreatTypes();
+                    updateSheet();
+                });
+
+                slot.appendChild(label);
+                slot.appendChild(select);
+                container.appendChild(slot);
+            }
+        }
+
+        function setLockState(slotIndex, newState) {
+            // If setting to 'lead' or 'back', check if we already have 2 of that type
+            if (newState === 'lead' || newState === 'back') {
+                const countOfType = lockStates.filter(state => state === newState).length;
+                if (countOfType >= 2) {
+                    // Find the first one with this state and remove it
+                    const firstIndex = lockStates.findIndex(state => state === newState);
+                    if (firstIndex !== -1) {
+                        lockStates[firstIndex] = 'none';
+                        updateLockButtonUI(firstIndex);
+                    }
+                }
+            }
+
+            lockStates[slotIndex] = newState;
+            updateLockButtonUI(slotIndex);
+            updateSheet();
+        }
+
+        function updateLockButtonUI(slotIndex) {
+            const leadBtn = document.getElementById(`lock-lead-${slotIndex}`);
+            const backBtn = document.getElementById(`lock-back-${slotIndex}`);
+
+            if (leadBtn && backBtn) {
+                leadBtn.style.borderColor = lockStates[slotIndex] === 'lead' ? '#fbbf24' : 'rgba(255,255,255,0.2)';
+                leadBtn.style.boxShadow = lockStates[slotIndex] === 'lead' ? '0 0 8px rgba(251,191,36,0.5)' : 'none';
+
+                backBtn.style.borderColor = lockStates[slotIndex] === 'back' ? '#fbbf24' : 'rgba(255,255,255,0.2)';
+                backBtn.style.boxShadow = lockStates[slotIndex] === 'back' ? '0 0 8px rgba(251,191,36,0.5)' : 'none';
+            }
+        }
+
+        function updateAllLockButtonsUI() {
+            for (let i = 0; i < TEAM_SIZE; i++) {
+                updateLockButtonUI(i);
+            }
+        }
+
+        // Map of ability-granted immunities to remove when ability is NOT selected
+        const ABILITY_IMMUNITIES = {
+            'levitate': 'ground',
+            'earth-eater': 'ground',
+            'flash-fire': 'fire',
+            'well-baked-body': 'fire',
+            'volt-absorb': 'electric',
+            'lightning-rod': 'electric',
+            'motor-drive': 'electric',
+            'water-absorb': 'water',
+            'storm-drain': 'water',
+            'dry-skin': 'water',
+            'water-bubble': 'water',
+            'sap-sipper': 'grass'
+        };
+
+        function applyAbilityModifiers(pokemonName, baseData, ability) {
+            // Deep copy the base data to avoid mutations
+            const data = JSON.parse(JSON.stringify(baseData));
+
+            // Create a working object of multipliers
+            const multipliers = {
+                'normal': 1, 'fighting': 1, 'flying': 1, 'poison': 1, 'ground': 1,
+                'rock': 1, 'bug': 1, 'ghost': 1, 'steel': 1, 'fire': 1,
+                'water': 1, 'grass': 1, 'electric': 1, 'psychic': 1, 'ice': 1,
+                'dragon': 1, 'dark': 1, 'fairy': 1, 'stellar': 1
+            };
+
+            // Initialize from base data
+            Object.entries(data.damage_from).forEach(([multiplier, types]) => {
+                const mult = parseFloat(multiplier.replace('x', ''));
+                types.forEach(type => {
+                    multipliers[type] = mult;
+                });
+            });
+
+            // Remove ability-granted immunities if they don't match the selected ability
+            const allOtherAbilities = database[pokemonName]?.abilities.filter(a => a !== ability) || [];
+            allOtherAbilities.forEach(otherAbility => {
+                const immunityType = ABILITY_IMMUNITIES[otherAbility];
+                if (immunityType && multipliers[immunityType] === 0) {
+                    // This immunity is from a different ability, restore it to 1x (neutral)
+                    multipliers[immunityType] = 1;
+                }
+            });
+
+            // Apply ability modifiers
+            if (!ability) return data;
+
+            const abilityEffects = {
+                // IMMUNITIES
+                'levitate': { immunities: ['ground'] },
+                'earth-eater': { immunities: ['ground'] },
+                'flash-fire': { immunities: ['fire'] },
+                'well-baked-body': { immunities: ['fire'] },
+                'volt-absorb': { immunities: ['electric'] },
+                'lightning-rod': { immunities: ['electric'] },
+                'motor-drive': { immunities: ['electric'] },
+                'water-absorb': { immunities: ['water'] },
+                'storm-drain': { immunities: ['water'] },
+                'dry-skin': { immunities: ['water'] },
+                'water-bubble': { immunities: ['water'] },
+                'sap-sipper': { immunities: ['grass'] },
+
+                // HALVERS
+                'thick-fat': { halves: ['fire', 'ice'] },
+                'heatproof': { halves: ['fire'] },
+                'fluffy': { halves: ['fire'] },
+                'purifying-salt': { halves: ['ghost'] },
+
+                // MITIGATORS & CUSTOMS
+                'filter': { mitigator: 0.75 },
+                'solid-rock': { mitigator: 0.75 },
+                'prism-armor': { mitigator: 0.75 },
+                'wonder-guard': { wonderGuard: true },
+                'tera-shell': { terraShell: true }
+            };
+
+            const effect = abilityEffects[ability];
+            if (!effect) return data;
+
+            // Apply immunities
+            if (effect.immunities) {
+                effect.immunities.forEach(type => {
+                    multipliers[type] = 0;
+                });
+            }
+
+            // Apply halvers
+            if (effect.halves) {
+                effect.halves.forEach(type => {
+                    multipliers[type] *= 0.5;
+                });
+            }
+
+            // Apply wonder-guard
+            if (effect.wonderGuard) {
+                Object.keys(multipliers).forEach(type => {
+                    if (multipliers[type] <= 1) {
+                        multipliers[type] = 0;
+                    }
+                });
+            }
+
+            // Apply tera-shell
+            if (effect.terraShell) {
+                Object.keys(multipliers).forEach(type => {
+                    multipliers[type] = 0.5;
+                });
+            }
+
+            // Apply mitigator
+            if (effect.mitigator) {
+                Object.keys(multipliers).forEach(type => {
+                    if (multipliers[type] > 1) {
+                        multipliers[type] *= effect.mitigator;
+                    }
+                });
+            }
+
+            // Rebuild data.damage_from from modified multipliers
+            const newDamageFrom = {
+                'x4.0': [],
+                'x2.0': [],
+                'x1.0': [],
+                'x0.5': [],
+                'x0.25': [],
+                'x0': []
+            };
+
+            Object.entries(multipliers).forEach(([type, mult]) => {
+                if (mult === 4) newDamageFrom['x4.0'].push(type);
+                else if (mult === 2) newDamageFrom['x2.0'].push(type);
+                else if (mult === 1) newDamageFrom['x1.0'].push(type);
+                else if (mult === 0.5) newDamageFrom['x0.5'].push(type);
+                else if (mult === 0.25) newDamageFrom['x0.25'].push(type);
+                else if (mult === 0) newDamageFrom['x0'].push(type);
+            });
+
+            data.damage_from = newDamageFrom;
+            return data;
+        }
+
+        function getStrengths(damageFrom) {
+            const strengths = [];
+            [
+                { mult: 'x0', label: 'Immune' },
+                { mult: 'x0.25', label: '¼ Dmg' },
+                { mult: 'x0.5', label: '½ Dmg' }
+            ].forEach(item => {
+                damageFrom[item.mult]?.forEach(type => {
+                    strengths.push({ type, label: item.label });
+                });
+            });
+            return strengths;
+        }
+
+        function getWeaknesses(damageFrom) {
+            const weaknesses = [];
+            [
+                { mult: 'x4.0', label: '4x Dmg' },
+                { mult: 'x2.0', label: '2x Dmg' }
+            ].forEach(item => {
+                damageFrom[item.mult]?.forEach(type => {
+                    weaknesses.push({ type, label: item.label });
+                });
+            });
+            return weaknesses;
+        }
+
+        function findSwitchPartners(team, weaknessType) {
+            return team
+                .filter(member => member.pokemonName !== team[0]?.pokemonName) // Don't match self
+                .filter(member => {
+                    const data = applyAbilityModifiers(
+                        member.pokemonName,
+                        database[member.pokemonName],
+                        member.ability
+                    );
+                    const strengths = getStrengths(data.damage_from);
+                    return strengths.some(s => s.type === weaknessType);
+                })
+                .map(member => member.pokemonName);
+        }
+
+        function hasTeamCoverage(team, typeToCheck) {
+            // Returns true if ANY team member has ANY defensive coverage (resist/immunity/neutral) against the type
+            return team.some(member => {
+                const data = applyAbilityModifiers(
+                    member.pokemonName,
+                    database[member.pokemonName],
+                    member.ability
+                );
+                const multiplier = getDamageMultiplier(data.damage_from, typeToCheck);
+                // Return true if there's any defensive coverage: immunity (0x), resist (<=0.5x), or neutral (1.0x)
+                return multiplier === 0 || multiplier <= 0.5 || multiplier === 1.0;
+            });
+        }
+
+        function getStabTypes(pokemonName) {
+            const types = database[pokemonName]?.types || [];
+            return types;
+        }
+
+        // Helper: Get exact damage multiplier for a type
+        function getDamageMultiplier(damageFrom, type) {
+            if (damageFrom['x0']?.includes(type)) return 0;
+            if (damageFrom['x0.25']?.includes(type)) return 0.25;
+            if (damageFrom['x0.5']?.includes(type)) return 0.5;
+            if (damageFrom['x1.0']?.includes(type)) return 1.0;
+            if (damageFrom['x2.0']?.includes(type)) return 2.0;
+            if (damageFrom['x4.0']?.includes(type)) return 4.0;
+            return 1.0; // default to neutral
+        }
+
+        function getOffensiveCoverage(typesList) {
+            const covered = new Set();
+            typesList.forEach(type => {
+                (OFFENSIVE_CHART[type] || []).forEach(targetType => {
+                    covered.add(targetType);
+                });
+            });
+            return covered;
+        }
+
+        function calculateOffensiveSynergy(activePokemon, partnerPokemon) {
+            const activeTypes = getStabTypes(activePokemon);
+            const partnerTypes = getStabTypes(partnerPokemon);
+            const combinedTypes = [...new Set([...activeTypes, ...partnerTypes])];
+
+            const combinedCoverage = getOffensiveCoverage(combinedTypes);
+            const activeCoverage = getOffensiveCoverage(activeTypes);
+
+            return {
+                combinedScore: combinedCoverage.size,
+                newTypesCovered: Array.from(combinedCoverage).filter(t => !activeCoverage.has(t))
+            };
+        }
+
+        function findBestFieldPartners(team, activeMember) {
+            const partners = team
+                .filter(member => member.pokemonName !== activeMember.pokemonName)
+                .map(member => {
+                    const synergy = calculateOffensiveSynergy(activeMember.pokemonName, member.pokemonName);
+                    return {
+                        name: member.pokemonName,
+                        score: synergy.combinedScore,
+                        newTypes: synergy.newTypesCovered
+                    };
+                })
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 2);
+
+            return partners;
+        }
+
+        function findDefensiveBenchAnchor(team, activeMember, activeData) {
+            // Get all weaknesses for the active Pokémon
+            const weaknesses = getWeaknesses(activeData.damage_from);
+            const weaknessTypes = weaknesses.map(w => w.type);
+
+            if (weaknessTypes.length === 0) {
+                return null;
+            }
+
+            // Score each teammate based on how many weaknesses they can cover
+            const anchors = team
+                .filter(member => member.pokemonName !== activeMember.pokemonName)
+                .map(member => {
+                    const memberBaseData = database[member.pokemonName];
+                    const memberData = applyAbilityModifiers(
+                        member.pokemonName,
+                        memberBaseData,
+                        member.ability
+                    );
+
+                    const strengths = getStrengths(memberData.damage_from);
+                    const coveredWeaknesses = weaknessTypes.filter(weaknessType =>
+                        strengths.some(s => s.type === weaknessType)
+                    );
+
+                    return {
+                        name: member.pokemonName,
+                        score: coveredWeaknesses.length,
+                        coveredTypes: coveredWeaknesses
+                    };
+                })
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 1)[0]; // Get the top anchor only
+
+            if (anchors) {
+                anchors.totalWeaknesses = weaknessTypes.length;
+            }
+
+            return anchors;
+        }
+
+        // SQUAD CONFIGURATION SYSTEM
+        function getTypeWeight(type) {
+            return activeEnemyThreats.includes(type) ? 2.5 : 1.0;
+        }
+
+        function calculateOffensiveScore(front2Members) {
+            const front2Types = [];
+            front2Members.forEach(member => {
+                const types = getStabTypes(member.pokemonName);
+                front2Types.push(...types);
+            });
+            const coverage = getOffensiveCoverage([...new Set(front2Types)]);
+
+            // Apply threat type weight multipliers
+            let weightedScore = 0;
+            coverage.forEach(type => {
+                weightedScore += getTypeWeight(type);
+            });
+
+            return weightedScore;
+        }
+
+        function calculateDefensiveScore(front2Members, back2Members) {
+            let totalCovered = 0;
+            let totalWeaknesses = 0;
+
+            // Get all weaknesses of front 2
+            front2Members.forEach(frontMember => {
+                const baseData = database[frontMember.pokemonName];
+                const data = applyAbilityModifiers(frontMember.pokemonName, baseData, frontMember.ability);
+                const weaknesses = getWeaknesses(data.damage_from);
+
+                // Apply threat type weight multipliers
+                weaknesses.forEach(weakness => {
+                    const threatWeight = getTypeWeight(weakness.type);
+                    totalWeaknesses += threatWeight;
+
+                    // Check how many are covered by back 2
+                    const isCovered = back2Members.some(backMember => {
+                        const backBaseData = database[backMember.pokemonName];
+                        const backData = applyAbilityModifiers(backMember.pokemonName, backBaseData, backMember.ability);
+                        const strengths = getStrengths(backData.damage_from);
+                        return strengths.some(s => s.type === weakness.type);
+                    });
+                    if (isCovered) totalCovered += threatWeight;
+                });
+            });
+
+            return { covered: totalCovered, total: totalWeaknesses };
+        }
+
+        function updateEnemyThreatTypes() {
+            activeEnemyThreats = [];
+
+            for (let i = 0; i < TEAM_SIZE; i++) {
+                const enemy = enemyRoster[i];
+                if (enemy && enemy.pokemonName && database[enemy.pokemonName]) {
+                    const types = database[enemy.pokemonName].types;
+                    types.forEach(type => {
+                        if (!activeEnemyThreats.includes(type)) {
+                            activeEnemyThreats.push(type);
+                        }
+                    });
+                }
+            }
+        }
+
+        function setEnemyPokemon(slot, pokemonName) {
+            if (!pokemonName || !database[pokemonName]) {
+                enemyRoster[slot] = { pokemonName: '', ability: '' };
+            } else {
+                enemyRoster[slot] = {
+                    pokemonName: pokemonName,
+                    ability: database[pokemonName].abilities[0] || ''
+                };
+                const select = document.getElementById(`enemy-pokemon-${slot}`);
+                if (select) select.value = pokemonName;
+            }
+            updateEnemyThreatTypes();
+            updateSheet();
+        }
+
+        function calculateCounterCoverage(squad, enemyTeam) {
+            // Calculate how well the squad counters the enemy team
+            if (enemyTeam.length === 0) return 1.0; // No multiplier if no enemy team
+
+            let counterCount = 0;
+            const enemyWeaknesses = new Set();
+
+            // Collect all enemy types and weaknesses
+            enemyTeam.forEach(enemy => {
+                if (enemy.pokemonName) {
+                    const enemyData = database[enemy.pokemonName];
+                    if (enemyData) {
+                        const enemyWeaknesses_ = getWeaknesses(enemyData.damage_from);
+                        enemyWeaknesses_.forEach(w => enemyWeaknesses.add(w.type));
+                    }
+                }
+            });
+
+            // Check how many enemy weaknesses our squad hits SE
+            squad.forEach(member => {
+                if (member.pokemonName) {
+                    const stabTypes = getStabTypes(member.pokemonName);
+                    const coverage = getOffensiveCoverage(stabTypes);
+                    coverage.forEach(type => {
+                        if (enemyWeaknesses.has(type)) counterCount++;
+                    });
+                }
+            });
+
+            // Return multiplier based on counter coverage
+            // If we cover 50%+ of enemy weaknesses, apply 2.5x multiplier
+            const coverageRatio = counterCount / Math.max(enemyWeaknesses.size, 1);
+            return coverageRatio >= 0.5 ? 2.5 : 1.0;
+        }
+
+        function getAllSquadCombinations(team) {
+            if (team.length < 4) return [];
+
+            const combinations = [];
+
+            // Generate all 4-mon combinations
+            for (let i = 0; i < team.length; i++) {
+                for (let j = i + 1; j < team.length; j++) {
+                    for (let k = j + 1; k < team.length; k++) {
+                        for (let l = k + 1; l < team.length; l++) {
+                            const squad = [team[i], team[j], team[k], team[l]];
+
+                            // CHECK LOCK CONSTRAINTS
+                            // Check 'lead' locks: must be in positions 0 or 1
+                            let lockConstraintMet = true;
+                            for (const member of team) {
+                                if (member.lockState === 'lead') {
+                                    const isInLead = squad[0].pokemonName === member.pokemonName || squad[1].pokemonName === member.pokemonName;
+                                    if (!isInLead) {
+                                        lockConstraintMet = false;
+                                        break;
+                                    }
+                                }
+                            }
+                            if (!lockConstraintMet) continue;
+
+                            // Check 'back' locks: must be in positions 2 or 3
+                            for (const member of team) {
+                                if (member.lockState === 'back') {
+                                    const isInBack = squad[2].pokemonName === member.pokemonName || squad[3].pokemonName === member.pokemonName;
+                                    if (!isInBack) {
+                                        lockConstraintMet = false;
+                                        break;
+                                    }
+                                }
+                            }
+                            if (!lockConstraintMet) continue;
+
+                            const front2 = squad.slice(0, 2);
+                            const back2 = squad.slice(2, 4);
+
+                            const offensiveScore = calculateOffensiveScore(front2);
+                            const defensiveScore = calculateDefensiveScore(front2, back2);
+                            const defensiveRatio = defensiveScore.total > 0
+                                ? defensiveScore.covered / defensiveScore.total
+                                : 0;
+
+                            // Calculate counter-play multiplier if enemy roster exists
+                            const baseScore = offensiveScore + (defensiveRatio * 10);
+                            const counterMultiplier = calculateCounterCoverage(squad, enemyRoster.filter(e => e.pokemonName));
+                            const finalScore = baseScore * counterMultiplier;
+
+                            combinations.push({
+                                squad: squad,
+                                front2: front2,
+                                back2: back2,
+                                offensiveScore: offensiveScore,
+                                defensiveScore: defensiveScore,
+                                defensiveRatio: defensiveRatio,
+                                combinedScore: finalScore
+                            });
+                        }
+                    }
+                }
+            }
+
+            return combinations;
+        }
+
+        function getOptimalSquads(team) {
+            const combinations = getAllSquadCombinations(team);
+
+            if (combinations.length === 0) {
+                return {
+                    offensive: null,
+                    defensive: null,
+                    balanced: null
+                };
+            }
+
+            // ⚔️ OFFENSIVE TEAM: Highest STAB coverage (max 18), filter defensive ratio >= 0.50
+            const offensivePool = combinations.filter(squad => squad.defensiveRatio >= 0.50);
+            const offensiveLineup = offensivePool.length > 0
+                ? offensivePool.reduce((best, current) =>
+                    current.offensiveScore > best.offensiveScore ? current : best
+                )
+                : null;
+
+            // 🛡️ DEFENSIVE TEAM: Highest defensive ratio pool first, then max offensive pressure
+            const defensivePool = combinations.reduce((best, current) => {
+                const bestRatio = best.defensiveRatio;
+                const currentRatio = current.defensiveRatio;
+
+                // First priority: highest defensive ratio
+                if (currentRatio > bestRatio) return current;
+                if (currentRatio < bestRatio) return best;
+
+                // Tiebreaker: highest offensive score
+                return current.offensiveScore > best.offensiveScore ? current : best;
+            });
+            const defensiveLineup = defensivePool;
+
+            // 🌀 BALANCED TEAM: Geometric multiplier formula
+            // balancedScore = offensiveScore * defensiveRatio * 20
+            const balancedLineup = combinations.reduce((best, current) => {
+                const bestDefensiveRatio = best.defensiveScore.total === 0 ? 1.0 :
+                    (best.defensiveScore.covered / best.defensiveScore.total);
+                const currentDefensiveRatio = current.defensiveScore.total === 0 ? 1.0 :
+                    (current.defensiveScore.covered / current.defensiveScore.total);
+
+                const bestScore = best.offensiveScore * bestDefensiveRatio * 20;
+                const currentScore = current.offensiveScore * currentDefensiveRatio * 20;
+
+                return currentScore > bestScore ? current : best;
+            });
+
+            return {
+                offensive: offensiveLineup,
+                defensive: defensiveLineup,
+                balanced: balancedLineup
+            };
+        }
+
+        function updateSheet() {
+            const team = getTeam();
+            const grid = document.getElementById('tacticalGrid');
+
+            if (team.length === 0) {
+                grid.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon"></div>
+                        <p>Select your team to generate the tactical cheat sheet</p>
+                    </div>
+                `;
+                return;
+            }
+
+            grid.innerHTML = team.map(member => {
+                const baseData = database[member.pokemonName];
+                const data = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
+                const strengths = getStrengths(data.damage_from);
+                const weaknesses = getWeaknesses(data.damage_from);
+                const fieldPartners = findBestFieldPartners(team, member);
+                const benchAnchor = findDefensiveBenchAnchor(team, member, data);
+
+                // Use sprite from database if available, fallback to constructed URL
+                const spriteUrl = baseData.sprite || `https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/${getPokemonId(member.pokemonName)}.png`;
+
+                return `
+                    <div class="pokemon-card">
+                        <div class="profile">
+                            <div class="sprite" style="background-image: url('${spriteUrl}')"></div>
+                            <div class="name-capsule">
+                                <div class="pokemon-name">${capitalize(member.pokemonName)}</div>
+                                <div class="ability-tag">${capitalize(member.ability)}</div>
+                            </div>
+                        </div>
+
+                        <div class="strengths">
+                            <h3>Strengths</h3>
+                            <div class="type-badges">
+                                ${strengths.length > 0
+                                    ? strengths.map(s => `
+                                        <div class="type-badge type-${s.type}">
+                                            ${s.type}
+                                            <span class="multiplier-label">${s.label}</span>
+                                        </div>
+                                    `).join('')
+                                    : '<span style="color: #999;">None</span>'}
+                            </div>
+                        </div>
+
+                        <div class="weaknesses">
+                            <h3>Weaknesses & Switch Partners</h3>
+                            ${weaknesses.length > 0
+                                ? weaknesses.map(w => {
+                                    const partners = findSwitchPartners(team, w.type);
+                                    const hasAnyCoverage = hasTeamCoverage(team, w.type);
+                                    return `
+                                        <div class="weakness-row">
+                                            <div class="type-badge type-${w.type} weakness-badge">
+                                                ${w.type}
+                                                <span class="multiplier-label">${w.label}</span>
+                                            </div>
+                                            <div class="partners">
+                                                ${partners.length > 0
+                                                    ? partners.map(p => `
+                                                        <img src="${database[p].sprite}" alt="${capitalize(p)}" title="${capitalize(p)}" style="width: 32px; height: 32px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); object-fit: cover;" />
+                                                    `).join('')
+                                                    : (hasAnyCoverage ? '' : '<span class="team-blindspot">Team Blindspot</span>')}
+                                            </div>
+                                        </div>
+                                    `;
+                                }).join('')
+                                : '<p style="color: #999;">None</p>'}
+                        </div>
+
+                        ${benchAnchor
+                            ? `
+                            <div class="bench-anchor">
+                                <h3>Top Defensive Bench Anchor</h3>
+                                <div class="anchor-info">
+                                    <span class="anchor-name">${capitalize(benchAnchor.name)}</span>
+                                    <span class="anchor-score">${benchAnchor.score === 0 ? 'No coverage' : `Covers ${benchAnchor.score}/${benchAnchor.totalWeaknesses} Weaknesses`}</span>
+                                </div>
+                                ${benchAnchor.coveredTypes.length > 0
+                                    ? `
+                                    <div class="anchor-covered-types">
+                                        ${benchAnchor.coveredTypes.map(t => `
+                                            <div class="anchor-type-badge type-${t}">${t}</div>
+                                        `).join('')}
+                                    </div>
+                                    `
+                                    : '<p style="color: #999; font-size: 0.8em;">No weaknesses covered</p>'}
+                            </div>
+                            `
+                            : ''}
+
+                        <div class="divider"></div>
+
+                        <div class="field-partners">
+                            <h3>Best Field Partners</h3>
+                            ${fieldPartners.length > 0
+                                ? fieldPartners.map((partner, idx) => `
+                                    <div class="partner-row">
+                                        <div class="partner-rank">#${idx + 1} ${idx === 0 ? 'Lead Partner' : 'Secondary Partner'}</div>
+                                        <div class="partner-info">
+                                            <img src="${database[partner.name].sprite}" alt="${capitalize(partner.name)}" title="${capitalize(partner.name)}" style="width: 48px; height: 48px; border-radius: 6px; border: 2px solid #ffd700; object-fit: cover;" />
+                                            <span class="coverage-score">Hits ${partner.score}/18 Types SE</span>
+                                        </div>
+                                        ${partner.newTypes.length > 0
+                                            ? `
+                                            <div style="width: 100%; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 8px;">
+                                                <span class="coverage-label">Unlocks:</span>
+                                                <div class="new-coverage-badges">
+                                                    ${partner.newTypes.map(t => `
+                                                        <div class="new-coverage-badge type-${t}">${t}</div>
+                                                    `).join('')}
+                                                </div>
+                                            </div>
+                                            `
+                                            : '<div style="width: 100%; margin-top: 8px; font-size: 0.8em; color: #999;">No new coverage types</div>'}
+                                    </div>
+                                `).join('')
+                                : '<p style="color: #999;">Need more teammates</p>'}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // Render Master Match Playbook with Dynamic Tabs
+            const squadSection = document.getElementById('squadSection');
+            const squadGrid = document.getElementById('squadGrid');
+
+            if (team.length >= 4) {
+                // Get all squad combinations
+                const allCombinations = getAllSquadCombinations(team);
+
+                // Calculate "Absolute Best" with top 4 compositions
+                const bestTop4 = allCombinations
+                    .map(combo => {
+                        const synergy = analyzeSquadSynergy(combo.squad, combo.front2, combo.back2);
+                        const defensiveRatio = synergy.coveredWeaknesses.length / Math.max(synergy.frontWeaknesses.length, 1);
+                        const bestScore = (combo.offensiveScore * 2) + (synergy.perfectCycles.length * 5) + (defensiveRatio * 15);
+                        return { ...combo, bestScore, synergy, defensiveRatio };
+                    })
+                    .sort((a, b) => b.bestScore - a.bestScore)
+                    .slice(0, 4);
+
+                squadSection.style.display = 'block';
+
+                // Function to render a single squad in 3-column layout
+                function renderPlaybook(squadData) {
+                    if (!squadData) return '<div style="color: #999;">No squad available</div>';
+
+                    const synergy = squadData.synergy || analyzeSquadSynergy(squadData.squad, squadData.front2, squadData.back2);
+
+                    // Generate Front 2 metadata tooltips
+                    const front2MetadataHtml = squadData.front2.map(member => {
+                        const baseData = database[member.pokemonName];
+                        const memberData = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
+                        const stabTypes = getStabTypes(member.pokemonName);
+                        const offensiveCoverage = Array.from(getOffensiveCoverage(stabTypes)).slice(0, 4);
+                        const weaknesses = getWeaknesses(memberData.damage_from);
+                        const weaknessTypes = weaknesses.slice(0, 4).map(w => w.type);
+
+                        const threatBadges = offensiveCoverage.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1.1em; padding: 6px 12px;">${t}</div>`
+                        ).join('');
+
+                        const weakBadges = weaknessTypes.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1.1em; padding: 6px 12px;">${t}</div>`
+                        ).join('');
+
+                        return `
+                            <div style="margin-top: 12px; padding: 10px; background: rgba(125,211,252,0.08); border-left: 2px solid #7dd3fc; border-radius: 4px;">
+                                <div style="font-size: 13px; font-weight: 700; color: #ffffff; margin-bottom: 8px;">⚔️ THREATENS ➔</div>
+                                <div style="display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 10px;">${threatBadges}</div>
+                                <div style="font-size: 13px; font-weight: 700; color: #ffffff; margin-bottom: 8px;">⚠️ WEAK TO ➔</div>
+                                <div style="display: flex; gap: 4px; flex-wrap: wrap;">${weakBadges}</div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    // Generate Back 2 metadata tooltips
+                    const back2MetadataHtml = squadData.back2.map(member => {
+                        const baseData = database[member.pokemonName];
+                        const memberData = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
+                        const strengths = getStrengths(memberData.damage_from);
+
+                        // Build lead-by-lead protection map with premium/soft distinction
+                        const protectionMap = [];
+                        squadData.front2.forEach(lead => {
+                            const leadBaseData = database[lead.pokemonName];
+                            const leadData = applyAbilityModifiers(lead.pokemonName, leadBaseData, lead.ability);
+                            const leadWeaknesses = getWeaknesses(leadData.damage_from);
+
+                            const premiumTypes = [];
+                            const softTypes = [];
+
+                            leadWeaknesses.forEach(weakness => {
+                                // Check for premium save
+                                if (strengths.some(s => s.type === weakness.type)) {
+                                    premiumTypes.push(weakness.type);
+                                } else if (memberData.damage_from['x1.0'] && memberData.damage_from['x1.0'].includes(weakness.type)) {
+                                    // Check for soft save (only if no premium)
+                                    softTypes.push(weakness.type);
+                                }
+                            });
+
+                            if (premiumTypes.length > 0 || softTypes.length > 0) {
+                                protectionMap.push({
+                                    leadName: lead.pokemonName,
+                                    premium: premiumTypes.slice(0, 3),
+                                    soft: softTypes.slice(0, 3)
+                                });
+                            }
+                        });
+
+                        // Build the protection bullets with premium/soft distinction
+                        const protectionListItems = protectionMap.map(entry => {
+                            let html = '';
+
+                            // Premium saves (filled bullet)
+                            if (entry.premium.length > 0) {
+                                const premiumBadges = entry.premium.map(t =>
+                                    `<div class="type-badge type-${t}" style="font-size: 1em; padding: 5px 10px;">${t}</div>`
+                                ).join('');
+                                html += `<li><span style="flex-shrink: 0;">•</span><div class="protection-text-wrap"><span style="color: #a8b8ff; font-weight: 700;">${capitalize(entry.leadName)}</span> from: <div class="protection-badges-container">${premiumBadges}</div></div></li>`;
+                            }
+
+                            // Soft saves (hollow bullet with Neutral label)
+                            if (entry.soft.length > 0) {
+                                const softBadges = entry.soft.map(t =>
+                                    `<div class="type-badge type-${t}" style="font-size: 0.9em; padding: 4px 8px; opacity: 0.7;">${t}</div>`
+                                ).join('');
+                                html += `<li><span style="flex-shrink: 0; color: #888;">◦</span><div class="protection-text-wrap"><span style="color: #999;">${capitalize(entry.leadName)}</span> from: <span style="color: #666; font-size: 11px;">(Neutral)</span> <div class="protection-badges-container">${softBadges}</div></div></li>`;
+                            }
+
+                            return html;
+                        }).join('');
+
+                        const protectionList = protectionListItems
+                            ? `<ul class="protection-list">${protectionListItems}</ul>`
+                            : '<div style="font-size: 12px; color: #666;">No direct coverage</div>';
+
+                        return `
+                            <div style="margin-top: 12px; padding: 10px; background: rgba(168,184,255,0.08); border-left: 2px solid #a8b8ff; border-radius: 4px;">
+                                <div style="font-size: 13px; font-weight: 700; color: #ffffff; margin-bottom: 10px;">🚫 PROTECTS AGAINST ➔</div>
+                                ${protectionList}
+                            </div>
+                        `;
+                    }).join('');
+
+                    // Column 1: Sprites with paired metadata in capsules
+                    const front2CapsuleHtml = squadData.front2.map(member => {
+                        const baseData = database[member.pokemonName];
+                        const spriteUrl = baseData.sprite || `https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/${getPokemonId(member.pokemonName)}.png`;
+                        const memberData = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
+                        const stabTypes = getStabTypes(member.pokemonName);
+                        const offensiveCoverage = Array.from(getOffensiveCoverage(stabTypes)).slice(0, 4);
+                        const weaknesses = getWeaknesses(memberData.damage_from);
+                        const weaknessTypes = weaknesses.slice(0, 4).map(w => w.type);
+                        const strengths = getStrengths(memberData.damage_from);
+                        const immuneTypes = strengths.filter(s => s.label === 'Immune').map(s => s.type);
+                        const resistTypes = strengths.filter(s => s.label !== 'Immune').map(s => s.type);
+
+                        const threatBadges = offensiveCoverage.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1.1em; padding: 6px 12px;">${t}</div>`
+                        ).join('');
+                        const weakBadges = weaknessTypes.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1.1em; padding: 6px 12px;">${t}</div>`
+                        ).join('');
+                        const resistBadges = resistTypes.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1em; padding: 5px 10px; opacity: 0.85;">${t}</div>`
+                        ).join('');
+                        const immuneBadges = immuneTypes.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1em; padding: 5px 10px; background: rgba(255,255,255,0.15);">${t}</div>`
+                        ).join('');
+
+                        return `
+                            <div style="flex: 1; display: flex; flex-direction: column; gap: 8px;">
+                                <div class="squad-sprite" style="background-image: url('${spriteUrl}')" title="${capitalize(member.pokemonName)}"></div>
+                                <div style="padding: 8px; background: rgba(125,211,252,0.08); border-left: 2px solid #7dd3fc; border-radius: 4px;">
+                                    <div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 6px;">⚔️ THREATENS</div>
+                                    <div style="display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 8px;">${threatBadges}</div>
+                                    <div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 6px;">⚠️ WEAK TO</div>
+                                    <div style="display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 8px;">${weakBadges}</div>
+                                    ${resistBadges ? '<div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 6px;">🛡️ RESISTS</div><div style="display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 8px;">' + resistBadges + '</div>' : ''}
+                                    ${immuneBadges ? '<div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 6px;">🔒 IMMUNE</div><div style="display: flex; gap: 3px; flex-wrap: wrap;">' + immuneBadges + '</div>' : ''}
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    const back2CapsuleHtml = squadData.back2.map(member => {
+                        const baseData = database[member.pokemonName];
+                        const spriteUrl = baseData.sprite || `https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/${getPokemonId(member.pokemonName)}.png`;
+                        const memberData = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
+
+                        // Get offensive data for Back 2
+                        const stabTypes = getStabTypes(member.pokemonName);
+                        const offensiveCoverage = Array.from(getOffensiveCoverage(stabTypes)).slice(0, 4);
+                        const weaknesses = getWeaknesses(memberData.damage_from);
+                        const weaknessTypes = weaknesses.slice(0, 4).map(w => w.type);
+                        const strengths = getStrengths(memberData.damage_from);
+                        const immuneTypes = strengths.filter(s => s.label === 'Immune').map(s => s.type);
+                        const resistTypes = strengths.filter(s => s.label !== 'Immune').map(s => s.type);
+
+                        const threatBadges = offensiveCoverage.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1.1em; padding: 6px 12px;">${t}</div>`
+                        ).join('');
+                        const weakBadges = weaknessTypes.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1.1em; padding: 6px 12px;">${t}</div>`
+                        ).join('');
+                        const resistBadges = resistTypes.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1em; padding: 5px 10px; opacity: 0.85;">${t}</div>`
+                        ).join('');
+                        const immuneBadges = immuneTypes.map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1em; padding: 5px 10px; background: rgba(255,255,255,0.15);">${t}</div>`
+                        ).join('');
+
+                        // Build protection list for this specific pivot
+                        const protectionMap = [];
+                        squadData.front2.forEach(lead => {
+                            const leadBaseData = database[lead.pokemonName];
+                            const leadData = applyAbilityModifiers(lead.pokemonName, leadBaseData, lead.ability);
+                            const leadWeaknesses = getWeaknesses(leadData.damage_from);
+
+                            const premiumTypes = [];
+                            const softTypes = [];
+
+                            leadWeaknesses.forEach(weakness => {
+                                const multiplier = getDamageMultiplier(memberData.damage_from, weakness.type);
+                                if (multiplier <= 0.5) {
+                                    premiumTypes.push(weakness.type);
+                                } else if (multiplier === 1.0) {
+                                    softTypes.push(weakness.type);
+                                }
+                            });
+
+                            if (premiumTypes.length > 0 || softTypes.length > 0) {
+                                protectionMap.push({
+                                    leadName: lead.pokemonName,
+                                    premium: premiumTypes.slice(0, 3),
+                                    soft: softTypes.slice(0, 3)
+                                });
+                            }
+                        });
+
+                        const protectionListItems = protectionMap.map(entry => {
+                            let html = '';
+                            if (entry.premium.length > 0) {
+                                const premiumBadges = entry.premium.map(t =>
+                                    `<div class="type-badge type-${t}" style="font-size: 1em; padding: 5px 10px;">${t}</div>`
+                                ).join('');
+                                html += `<li><span style="flex-shrink: 0;">•</span><div class="protection-text-wrap"><span style="color: #a8b8ff; font-weight: 700;">${capitalize(entry.leadName)}</span> from: <div class="protection-badges-container">${premiumBadges}</div></div></li>`;
+                            }
+                            if (entry.soft.length > 0) {
+                                const softBadges = entry.soft.map(t =>
+                                    `<div class="type-badge type-${t}" style="font-size: 0.85em; padding: 4px 8px; opacity: 0.7;">${t}</div>`
+                                ).join('');
+                                html += `<li><span style="flex-shrink: 0; color: #888;">◦</span><div class="protection-text-wrap"><span style="color: #999;">${capitalize(entry.leadName)}</span> from: <span style="color: #666; font-size: 11px;">(Neutral)</span> <div class="protection-badges-container">${softBadges}</div></div></li>`;
+                            }
+                            return html;
+                        }).join('');
+
+                        const protectionList = protectionListItems
+                            ? `<ul class="protection-list">${protectionListItems}</ul>`
+                            : '<div style="font-size: 12px; color: #666;">No direct coverage</div>';
+
+                        return `
+                            <div style="flex: 1; display: flex; flex-direction: column; gap: 8px;">
+                                <div class="squad-sprite" style="background-image: url('${spriteUrl}')" title="${capitalize(member.pokemonName)}"></div>
+                                <div style="padding: 8px; background: rgba(168,184,255,0.08); border-left: 2px solid #a8b8ff; border-radius: 4px;">
+                                    <div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 6px;">⚔️ THREATENS</div>
+                                    <div style="display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 8px;">${threatBadges}</div>
+                                    <div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 6px;">⚠️ WEAK TO</div>
+                                    <div style="display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 8px;">${weakBadges}</div>
+                                    ${resistBadges ? '<div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 6px;">🛡️ RESISTS</div><div style="display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 8px;">' + resistBadges + '</div>' : ''}
+                                    ${immuneBadges ? '<div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 8px;">🔒 IMMUNE</div><div style="display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 10px;">' + immuneBadges + '</div>' : ''}
+                                    <div style="font-size: 11px; font-weight: 700; color: #ffffff; margin-bottom: 8px;">🚫 PROTECTS AGAINST</div>
+                                    ${protectionList}
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    const col1 = `
+                        <div>
+                            <h3 style="color: #7dd3fc;">Front 2 (Lead)</h3>
+                            <div style="display: flex; gap: 16px; width: 100%;">
+                                ${front2CapsuleHtml}
+                            </div>
+
+                            <h3 style="color: #a8b8ff; margin-top: 20px;">Back 2 (Pivot)</h3>
+                            <div style="display: flex; gap: 16px; width: 100%;">
+                                ${back2CapsuleHtml}
+                            </div>
+                        </div>
+                    `;
+
+                    // Column 2: Active Pivot Wheels
+                    const cycleGroupMap = {};
+                    synergy.perfectCycles.forEach(cycle => {
+                        const key = [cycle.lead, cycle.bench].sort().join('|');
+                        if (!cycleGroupMap[key]) {
+                            cycleGroupMap[key] = {
+                                lead: cycle.lead,
+                                bench: cycle.bench,
+                                leadCovers: new Set(),
+                                benchCovers: new Set()
+                            };
+                        }
+                        cycle.leadCoversFor.forEach(t => cycleGroupMap[key].leadCovers.add(t));
+                        cycle.benchCoversFor.forEach(t => cycleGroupMap[key].benchCovers.add(t));
+                    });
+
+                    const perfectCyclesHtml = Object.values(cycleGroupMap).map(cycle => {
+                        const leadSprite = database[cycle.lead]?.sprite || '';
+                        const benchSprite = database[cycle.bench]?.sprite || '';
+                        const leadBadges = Array.from(cycle.leadCovers).map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1.1em; padding: 6px 12px;">${t}</div>`
+                        ).join('');
+                        const benchBadges = Array.from(cycle.benchCovers).map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 1.1em; padding: 6px 12px;">${t}</div>`
+                        ).join('');
+
+                        // Calculate combined offensive coverage (unique types hit SE by pair)
+                        const combinedOffensiveTypes = new Set([...cycle.leadCovers, ...cycle.benchCovers]);
+                        const combinedOffensiveBadges = Array.from(combinedOffensiveTypes).map(t =>
+                            `<div class="type-badge type-${t}" style="font-size: 0.9em; padding: 4px 8px;">${t}</div>`
+                        ).join('');
+
+                        return `
+                            <div class="playbook-cycle-box">
+                                <div class="playbook-cycle-header">
+                                    ${leadSprite ? '<img src="' + leadSprite + '" alt="' + capitalize(cycle.lead) + '" style="width: 48px; height: 48px; border-radius: 3px; border: 1px solid #7dd3fc;" title="' + capitalize(cycle.lead) + '" />' : '<span style="color: #7dd3fc; font-weight: 700;">' + capitalize(cycle.lead) + '</span>'}
+                                    <span style="color: #888;">⇄</span>
+                                    ${benchSprite ? '<img src="' + benchSprite + '" alt="' + capitalize(cycle.bench) + '" style="width: 48px; height: 48px; border-radius: 3px; border: 1px solid #a8b8ff;" title="' + capitalize(cycle.bench) + '" />' : '<span style="color: #a8b8ff; font-weight: 700;">' + capitalize(cycle.bench) + '</span>'}
+                                </div>
+                                <div class="playbook-cycle-details">
+                                    <div>↳ ${capitalize(cycle.bench)} shields ${capitalize(cycle.lead)} from: <span style="display: inline-flex; gap: 2px; flex-wrap: wrap;">${benchBadges}</span></div>
+                                    <div>↳ ${capitalize(cycle.lead)} shields ${capitalize(cycle.bench)} from: <span style="display: inline-flex; gap: 2px; flex-wrap: wrap;">${leadBadges}</span></div>
+                                </div>
+                                <div class="pivot-synergy-note">Hits SE: <span style="display: inline-flex; gap: 2px; flex-wrap: wrap;">${combinedOffensiveBadges}</span></div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    const col2 = `
+                        <div>
+                            <h3 style="color: #7dd3fc;">🔄 Pivot Wheels</h3>
+                            <div class="playbook-cycle-list">
+                                ${perfectCyclesHtml || '<span style="color: #999; font-size: 12px;">No perfect cycles</span>'}
+                            </div>
+                        </div>
+                    `;
+
+                    return `
+                        <div class="playbook-content">
+                            ${col1}
+                            ${col2}
+                        </div>
+                    `;
+                }
+
+                // Create composition selector with buttons
+                const compositionButtonsHtml = bestTop4.map((_, index) => {
+                    const scoreRounded = Math.round(bestTop4[index].bestScore * 10) / 10;
+                    const isActive = index === 0 ? 'true' : 'false';
+                    return `
+                        <button class="composition-selector" data-index="${index}" data-active="${isActive}" style="
+                            padding: 4px 8px;
+                            background: ${index === 0 ? 'rgba(251, 191, 36, 0.2)' : 'transparent'};
+                            border: 1px solid ${index === 0 ? '#fbbf24' : '#2d2a4a'};
+                            color: ${index === 0 ? '#fbbf24' : '#7dd3fc'};
+                            border-radius: 6px;
+                            font-weight: 700;
+                            cursor: pointer;
+                            font-size: 11px;
+                            transition: all 0.3s ease;
+                            white-space: nowrap;
+                        ">
+                            ${index + 1} (${scoreRounded})
+                        </button>
+                    `;
+                }).join('');
+
+                const compositionCardsHtml = bestTop4.map((squadData, index) => {
+                    const scoreRounded = Math.round(squadData.bestScore * 10) / 10;
+                    const content = renderPlaybook(squadData);
+                    return `
+                        <div class="squad-composition-card" data-index="${index}" style="
+                            display: ${index === 0 ? 'block' : 'none'};
+                            background: #191729;
+                            border: 1px solid #2d2a4a;
+                            border-radius: 12px;
+                            padding: 20px;
+                            position: relative;
+                            width: 100%;
+                            box-sizing: border-box;
+                        ">
+                            <div style="
+                                position: absolute;
+                                top: 12px;
+                                right: 12px;
+                                background: rgba(251, 191, 36, 0.15);
+                                border: 1px solid #fbbf24;
+                                color: #fbbf24;
+                                padding: 6px 12px;
+                                border-radius: 6px;
+                                font-weight: 700;
+                                font-size: 14px;
+                            ">
+                                ${scoreRounded}
+                            </div>
+                            ${content}
+                        </div>
+                    `;
+                }).join('');
+
+                // Render composition buttons into the HUD
+                const buttonContainer = document.getElementById('compositionButtonsContainer');
+                if (buttonContainer) {
+                    buttonContainer.innerHTML = compositionButtonsHtml;
+                }
+
+                // Render composition cards
+                squadGrid.innerHTML = compositionCardsHtml;
+
+                // Add button event listeners
+                setTimeout(() => {
+                    const buttons = document.querySelectorAll('.composition-selector');
+                    const cards = document.querySelectorAll('.squad-composition-card');
+
+                    buttons.forEach(button => {
+                        button.addEventListener('click', () => {
+                            const index = parseInt(button.dataset.index);
+
+                            // Update button styles
+                            buttons.forEach(b => {
+                                b.style.background = 'transparent';
+                                b.style.borderColor = '#2d2a4a';
+                                b.style.color = '#7dd3fc';
+                            });
+                            button.style.background = 'rgba(251, 191, 36, 0.2)';
+                            button.style.borderColor = '#fbbf24';
+                            button.style.color = '#fbbf24';
+
+                            // Show selected card, hide others
+                            cards.forEach(card => {
+                                card.style.display = parseInt(card.dataset.index) === index ? 'block' : 'none';
+                            });
+                        });
+                    });
+                }, 0);
+            } else {
+                squadSection.style.display = 'none';
+            }
+        }
+
+        function analyzeSquadSynergy(squad, front2, back2) {
+            // Get all offensive types covered by the squad
+            const allSquadTypes = [];
+            squad.forEach(member => {
+                allSquadTypes.push(...getStabTypes(member.pokemonName));
+            });
+            const uniqueSquadTypes = [...new Set(allSquadTypes)];
+            const offensiveCoverage = getOffensiveCoverage(uniqueSquadTypes);
+
+            // Build comprehensive threat-to-answer mapping
+            const threatAnswers = []; // Array of { threat: type, lead: name, answerer: name, saveType: 'premium'|'soft' }
+            const perfectCycles = []; // Array of { lead: name, bench: name, leadCovers: [types], benchCovers: [types] }
+
+            // For each front 2 lead
+            front2.forEach(frontMember => {
+                const baseData = database[frontMember.pokemonName];
+                const frontData = applyAbilityModifiers(frontMember.pokemonName, baseData, frontMember.ability);
+                const frontWeaknesses = getWeaknesses(frontData.damage_from);
+                const frontStrengths = getStrengths(frontData.damage_from);
+                const frontResistTypes = frontStrengths.map(s => s.type);
+
+                // For each weakness of this lead
+                frontWeaknesses.forEach(weakness => {
+                    // Find which back 2 member covers this (premium or soft)
+                    back2.forEach(backMember => {
+                        const backBaseData = database[backMember.pokemonName];
+                        const backData = applyAbilityModifiers(backMember.pokemonName, backBaseData, backMember.ability);
+                        const backStrengths = getStrengths(backData.damage_from);
+                        const backWeaknesses = getWeaknesses(backData.damage_from);
+                        const backWeakTypes = backWeaknesses.map(w => w.type);
+
+                        // Check for PREMIUM save: back member takes <= 0.5x (includes immunities)
+                        const multiplier = getDamageMultiplier(backData.damage_from, weakness.type);
+                        let saveType = null;
+                        if (multiplier <= 0.5) {
+                            saveType = 'premium';
+                        } else if (multiplier === 1.0) {
+                            saveType = 'soft';
+                        }
+
+                        if (saveType) {
+                            threatAnswers.push({
+                                threat: weakness.type,
+                                lead: frontMember.pokemonName,
+                                answerer: backMember.pokemonName,
+                                saveType: saveType
+                            });
+
+                            // NOW CHECK REVERSE PATH: Does the lead cover the bench's weaknesses?
+                            const benchtypeCovered = backWeakTypes.filter(bwType =>
+                                frontResistTypes.includes(bwType)
+                            );
+
+                            if (benchtypeCovered.length > 0) {
+                                // This is a perfect pivot cycle!
+                                perfectCycles.push({
+                                    lead: frontMember.pokemonName,
+                                    bench: backMember.pokemonName,
+                                    leadCoversFor: benchtypeCovered.sort(),
+                                    benchCoversFor: [weakness.type]
+                                });
+                            }
+                        }
+                    });
+                });
+            });
+
+            // Get all weaknesses of front 2
+            const frontWeaknesses = [];
+            front2.forEach(frontMember => {
+                const baseData = database[frontMember.pokemonName];
+                const data = applyAbilityModifiers(frontMember.pokemonName, baseData, frontMember.ability);
+                const weaknesses = getWeaknesses(data.damage_from);
+                weaknesses.forEach(w => {
+                    if (!frontWeaknesses.find(fw => fw.type === w.type)) {
+                        frontWeaknesses.push(w);
+                    }
+                });
+            });
+
+            // Identify which weaknesses are covered by back 2 (with two-tiered weighting)
+            const coveredWeaknesses = [];
+            const uncoveredWeaknesses = [];
+            let defensiveCoverageScore = 0; // Weighted score: 1.0 for premium, 0.3 for soft
+
+            frontWeaknesses.forEach(weakness => {
+                let coverage = null; // 'premium', 'soft', or null
+
+                back2.forEach(backMember => {
+                    const backBaseData = database[backMember.pokemonName];
+                    const backData = applyAbilityModifiers(backMember.pokemonName, backBaseData, backMember.ability);
+
+                    // Check multiplier for premium/soft save
+                    const multiplier = getDamageMultiplier(backData.damage_from, weakness.type);
+                    if (multiplier <= 0.5) {
+                        coverage = 'premium';
+                    } else if (!coverage && multiplier === 1.0) {
+                        coverage = 'soft';
+                    }
+                });
+
+                if (coverage) {
+                    coveredWeaknesses.push(weakness.type);
+                    defensiveCoverageScore += (coverage === 'premium' ? 1.0 : 0.3);
+                } else {
+                    uncoveredWeaknesses.push(weakness.type);
+                }
+            });
+
+            return {
+                offensiveTypes: Array.from(offensiveCoverage).sort(),
+                frontWeaknesses: frontWeaknesses.map(w => w.type),
+                coveredWeaknesses: coveredWeaknesses.sort(),
+                uncoveredWeaknesses: uncoveredWeaknesses.sort(),
+                defensiveCoverageScore: defensiveCoverageScore,
+                threatAnswers: threatAnswers,
+                perfectCycles: perfectCycles,
+                synergySBonus: perfectCycles.length * 5 // +5 per perfect cycle
+            };
+        }
+
+        function capitalize(str) {
+            return str
+                .split('-')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ');
+        }
+
+        // Simple Pokédex ID lookup (fallback to index)
+        function getPokemonId(name) {
+            const ids = {
+                'bulbasaur': 1, 'ivysaur': 2, 'venusaur': 3, 'charmander': 4, 'charmeleon': 5,
+                'charizard': 6, 'squirtle': 7, 'wartortle': 8, 'blastoise': 9, 'caterpie': 10,
+                'pidgeot': 18, 'pidgeotto': 17, 'pidgeey': 16
+            };
+            return ids[name] || 1;
+        }
+    </script>
+</body>
+</html>

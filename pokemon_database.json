@@ -1,0 +1,13118 @@
+{
+  "pidgey": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ]
+  },
+  "pidgeotto": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ]
+  },
+  "pidgeot": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ]
+  },
+  "rattata": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "guts",
+      "hustle"
+    ]
+  },
+  "raticate": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "guts",
+      "hustle"
+    ]
+  },
+  "spearow": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "sniper"
+    ]
+  },
+  "fearow": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "sniper"
+    ]
+  },
+  "jigglypuff": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "friend-guard"
+    ]
+  },
+  "wigglytuff": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "frisk"
+    ]
+  },
+  "meowth": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "pickup",
+      "technician",
+      "unnerve"
+    ]
+  },
+  "persian": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "limber",
+      "technician",
+      "unnerve"
+    ]
+  },
+  "farfetchd": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "inner-focus",
+      "defiant"
+    ]
+  },
+  "doduo": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "run-away",
+      "early-bird",
+      "tangled-feet"
+    ]
+  },
+  "dodrio": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "run-away",
+      "early-bird",
+      "tangled-feet"
+    ]
+  },
+  "lickitung": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "own-tempo",
+      "oblivious",
+      "cloud-nine"
+    ]
+  },
+  "chansey": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "natural-cure",
+      "serene-grace",
+      "healer"
+    ]
+  },
+  "kangaskhan": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "early-bird",
+      "scrappy",
+      "inner-focus"
+    ]
+  },
+  "tauros": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "intimidate",
+      "anger-point",
+      "sheer-force"
+    ]
+  },
+  "ditto": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "limber",
+      "imposter"
+    ]
+  },
+  "eevee": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "adaptability",
+      "anticipation"
+    ]
+  },
+  "porygon": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "trace",
+      "download",
+      "analytic"
+    ]
+  },
+  "snorlax": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "immunity",
+      "thick-fat",
+      "gluttony"
+    ]
+  },
+  "sentret": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "keen-eye",
+      "frisk"
+    ]
+  },
+  "furret": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "keen-eye",
+      "frisk"
+    ]
+  },
+  "hoothoot": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "insomnia",
+      "keen-eye",
+      "tinted-lens"
+    ]
+  },
+  "noctowl": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "insomnia",
+      "keen-eye",
+      "tinted-lens"
+    ]
+  },
+  "igglybuff": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "friend-guard"
+    ]
+  },
+  "aipom": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "pickup",
+      "skill-link"
+    ]
+  },
+  "girafarig": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      "inner-focus",
+      "early-bird",
+      "sap-sipper"
+    ]
+  },
+  "dunsparce": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "serene-grace",
+      "run-away",
+      "rattled"
+    ]
+  },
+  "teddiursa": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "pickup",
+      "quick-feet",
+      "honey-gather"
+    ]
+  },
+  "ursaring": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "guts",
+      "quick-feet",
+      "unnerve"
+    ]
+  },
+  "porygon2": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "trace",
+      "download",
+      "analytic"
+    ]
+  },
+  "stantler": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "intimidate",
+      "frisk",
+      "sap-sipper"
+    ]
+  },
+  "smeargle": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "own-tempo",
+      "technician",
+      "moody"
+    ]
+  },
+  "miltank": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "thick-fat",
+      "scrappy",
+      "sap-sipper"
+    ]
+  },
+  "blissey": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "natural-cure",
+      "serene-grace",
+      "healer"
+    ]
+  },
+  "zigzagoon": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "pickup",
+      "gluttony",
+      "quick-feet"
+    ]
+  },
+  "linoone": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "pickup",
+      "gluttony",
+      "quick-feet"
+    ]
+  },
+  "taillow": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "guts",
+      "scrappy"
+    ]
+  },
+  "swellow": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "guts",
+      "scrappy"
+    ]
+  },
+  "slakoth": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "truant"
+    ]
+  },
+  "vigoroth": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "vital-spirit"
+    ]
+  },
+  "slaking": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "truant"
+    ]
+  },
+  "whismur": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "soundproof",
+      "rattled"
+    ]
+  },
+  "loudred": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "soundproof",
+      "scrappy"
+    ]
+  },
+  "exploud": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "soundproof",
+      "scrappy"
+    ]
+  },
+  "azurill": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "abilities": [
+      "thick-fat",
+      "huge-power",
+      "sap-sipper"
+    ]
+  },
+  "skitty": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "cute-charm",
+      "normalize",
+      "wonder-skin"
+    ]
+  },
+  "delcatty": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "cute-charm",
+      "normalize",
+      "wonder-skin"
+    ]
+  },
+  "spinda": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "own-tempo",
+      "tangled-feet",
+      "contrary"
+    ]
+  },
+  "swablu": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "natural-cure",
+      "cloud-nine"
+    ]
+  },
+  "zangoose": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "immunity",
+      "toxic-boost"
+    ]
+  },
+  "castform": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "forecast"
+    ]
+  },
+  "kecleon": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "color-change",
+      "protean"
+    ]
+  },
+  "starly": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "reckless"
+    ]
+  },
+  "staravia": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "intimidate",
+      "reckless"
+    ]
+  },
+  "staraptor": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "intimidate",
+      "reckless"
+    ]
+  },
+  "bidoof": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "simple",
+      "unaware",
+      "moody"
+    ]
+  },
+  "bibarel": {
+    "types": [
+      "normal",
+      "water"
+    ],
+    "abilities": [
+      "simple",
+      "unaware",
+      "moody"
+    ]
+  },
+  "ambipom": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "technician",
+      "pickup",
+      "skill-link"
+    ]
+  },
+  "buneary": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "klutz",
+      "limber"
+    ]
+  },
+  "lopunny": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "cute-charm",
+      "klutz",
+      "limber"
+    ]
+  },
+  "glameow": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "limber",
+      "own-tempo",
+      "keen-eye"
+    ]
+  },
+  "purugly": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "thick-fat",
+      "own-tempo",
+      "defiant"
+    ]
+  },
+  "happiny": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "natural-cure",
+      "serene-grace",
+      "friend-guard"
+    ]
+  },
+  "chatot": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ]
+  },
+  "munchlax": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "pickup",
+      "thick-fat",
+      "gluttony"
+    ]
+  },
+  "lickilicky": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "own-tempo",
+      "oblivious",
+      "cloud-nine"
+    ]
+  },
+  "porygon-z": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "adaptability",
+      "download",
+      "analytic"
+    ]
+  },
+  "regigigas": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "slow-start"
+    ]
+  },
+  "arceus": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "multitype"
+    ]
+  },
+  "patrat": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "keen-eye",
+      "analytic"
+    ]
+  },
+  "watchog": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "illuminate",
+      "keen-eye",
+      "analytic"
+    ]
+  },
+  "lillipup": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "vital-spirit",
+      "pickup",
+      "run-away"
+    ]
+  },
+  "herdier": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "intimidate",
+      "sand-rush",
+      "scrappy"
+    ]
+  },
+  "stoutland": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "intimidate",
+      "sand-rush",
+      "scrappy"
+    ]
+  },
+  "pidove": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "big-pecks",
+      "super-luck",
+      "rivalry"
+    ]
+  },
+  "tranquill": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "big-pecks",
+      "super-luck",
+      "rivalry"
+    ]
+  },
+  "unfezant": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "big-pecks",
+      "super-luck",
+      "rivalry"
+    ]
+  },
+  "audino": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "healer",
+      "regenerator",
+      "klutz"
+    ]
+  },
+  "minccino": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "cute-charm",
+      "technician",
+      "skill-link"
+    ]
+  },
+  "cinccino": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "cute-charm",
+      "technician",
+      "skill-link"
+    ]
+  },
+  "deerling": {
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "sap-sipper",
+      "serene-grace"
+    ]
+  },
+  "sawsbuck": {
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "sap-sipper",
+      "serene-grace"
+    ]
+  },
+  "bouffalant": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "reckless",
+      "sap-sipper",
+      "soundproof"
+    ]
+  },
+  "rufflet": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "sheer-force",
+      "hustle"
+    ]
+  },
+  "braviary": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "sheer-force",
+      "defiant"
+    ]
+  },
+  "meloetta-aria": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      "serene-grace"
+    ]
+  },
+  "bunnelby": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "pickup",
+      "cheek-pouch",
+      "huge-power"
+    ]
+  },
+  "diggersby": {
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "abilities": [
+      "pickup",
+      "cheek-pouch",
+      "huge-power"
+    ]
+  },
+  "fletchling": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "big-pecks",
+      "gale-wings"
+    ]
+  },
+  "litleo": {
+    "types": [
+      "normal",
+      "fire"
+    ],
+    "abilities": [
+      "rivalry",
+      "unnerve",
+      "moxie"
+    ]
+  },
+  "pyroar-male": {
+    "types": [
+      "normal",
+      "fire"
+    ],
+    "abilities": [
+      "rivalry",
+      "unnerve",
+      "moxie"
+    ]
+  },
+  "furfrou": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "fur-coat"
+    ]
+  },
+  "helioptile": {
+    "types": [
+      "normal",
+      "electric"
+    ],
+    "abilities": [
+      "dry-skin",
+      "sand-veil",
+      "solar-power"
+    ]
+  },
+  "heliolisk": {
+    "types": [
+      "normal",
+      "electric"
+    ],
+    "abilities": [
+      "dry-skin",
+      "sand-veil",
+      "solar-power"
+    ]
+  },
+  "pikipek": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "skill-link",
+      "pickup"
+    ]
+  },
+  "trumbeak": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "skill-link",
+      "pickup"
+    ]
+  },
+  "toucannon": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "skill-link",
+      "sheer-force"
+    ]
+  },
+  "yungoos": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "stakeout",
+      "strong-jaw",
+      "adaptability"
+    ]
+  },
+  "gumshoos": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "stakeout",
+      "strong-jaw",
+      "adaptability"
+    ]
+  },
+  "stufful": {
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "abilities": [
+      "fluffy",
+      "klutz",
+      "cute-charm"
+    ]
+  },
+  "bewear": {
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "abilities": [
+      "fluffy",
+      "klutz",
+      "unnerve"
+    ]
+  },
+  "oranguru": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      "inner-focus",
+      "telepathy",
+      "symbiosis"
+    ]
+  },
+  "type-null": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "battle-armor"
+    ]
+  },
+  "silvally": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "rks-system"
+    ]
+  },
+  "komala": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "comatose"
+    ]
+  },
+  "drampa": {
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "abilities": [
+      "berserk",
+      "sap-sipper",
+      "cloud-nine"
+    ]
+  },
+  "skwovet": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "cheek-pouch",
+      "gluttony"
+    ]
+  },
+  "greedent": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "cheek-pouch",
+      "gluttony"
+    ]
+  },
+  "wooloo": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "fluffy",
+      "run-away",
+      "bulletproof"
+    ]
+  },
+  "dubwool": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "fluffy",
+      "steadfast",
+      "bulletproof"
+    ]
+  },
+  "obstagoon": {
+    "types": [
+      "normal",
+      "dark"
+    ],
+    "abilities": [
+      "reckless",
+      "guts",
+      "defiant"
+    ]
+  },
+  "indeedee-male": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      "inner-focus",
+      "synchronize",
+      "psychic-surge"
+    ]
+  },
+  "wyrdeer": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      "intimidate",
+      "frisk",
+      "sap-sipper"
+    ]
+  },
+  "ursaluna": {
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "abilities": [
+      "guts",
+      "bulletproof",
+      "unnerve"
+    ]
+  },
+  "lechonk": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "aroma-veil",
+      "gluttony",
+      "thick-fat"
+    ]
+  },
+  "oinkologne-male": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "lingering-aroma",
+      "gluttony",
+      "thick-fat"
+    ]
+  },
+  "tandemaus": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "pickup",
+      "own-tempo"
+    ]
+  },
+  "maushold-family-of-four": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "friend-guard",
+      "cheek-pouch",
+      "technician"
+    ]
+  },
+  "smoliv": {
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "abilities": [
+      "early-bird",
+      "harvest"
+    ]
+  },
+  "dolliv": {
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "abilities": [
+      "early-bird",
+      "harvest"
+    ]
+  },
+  "arboliva": {
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "abilities": [
+      "seed-sower",
+      "harvest"
+    ]
+  },
+  "squawkabilly-green-plumage": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "intimidate",
+      "hustle",
+      "guts"
+    ]
+  },
+  "shroodle": {
+    "types": [
+      "normal",
+      "poison"
+    ],
+    "abilities": [
+      "unburden",
+      "pickpocket",
+      "prankster"
+    ]
+  },
+  "grafaiai": {
+    "types": [
+      "normal",
+      "poison"
+    ],
+    "abilities": [
+      "unburden",
+      "poison-touch",
+      "prankster"
+    ]
+  },
+  "cyclizar": {
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "abilities": [
+      "shed-skin",
+      "regenerator"
+    ]
+  },
+  "farigiraf": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      "cud-chew",
+      "armor-tail",
+      "sap-sipper"
+    ]
+  },
+  "dudunsparce-two-segment": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "serene-grace",
+      "run-away",
+      "rattled"
+    ]
+  },
+  "terapagos": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "tera-shift"
+    ]
+  },
+  "meloetta-pirouette": {
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "abilities": [
+      "serene-grace"
+    ]
+  },
+  "kangaskhan-mega": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "parental-bond"
+    ]
+  },
+  "audino-mega": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "abilities": [
+      "healer"
+    ]
+  },
+  "pidgeot-mega": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "no-guard"
+    ]
+  },
+  "lopunny-mega": {
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "abilities": [
+      "scrappy"
+    ]
+  },
+  "rattata-alola": {
+    "types": [
+      "normal",
+      "dark"
+    ],
+    "abilities": [
+      "gluttony",
+      "hustle",
+      "thick-fat"
+    ]
+  },
+  "raticate-alola": {
+    "types": [
+      "normal",
+      "dark"
+    ],
+    "abilities": [
+      "gluttony",
+      "hustle",
+      "thick-fat"
+    ]
+  },
+  "raticate-totem-alola": {
+    "types": [
+      "normal",
+      "dark"
+    ],
+    "abilities": [
+      "gluttony",
+      "hustle",
+      "thick-fat"
+    ]
+  },
+  "gumshoos-totem": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "stakeout",
+      "strong-jaw",
+      "adaptability"
+    ]
+  },
+  "eevee-starter": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "adaptability",
+      "anticipation"
+    ]
+  },
+  "zigzagoon-galar": {
+    "types": [
+      "normal",
+      "dark"
+    ],
+    "abilities": [
+      "pickup",
+      "gluttony",
+      "quick-feet"
+    ]
+  },
+  "linoone-galar": {
+    "types": [
+      "normal",
+      "dark"
+    ],
+    "abilities": [
+      "pickup",
+      "gluttony",
+      "quick-feet"
+    ]
+  },
+  "indeedee-female": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "abilities": [
+      "own-tempo",
+      "synchronize",
+      "psychic-surge"
+    ]
+  },
+  "meowth-gmax": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "pickup",
+      "technician",
+      "unnerve"
+    ]
+  },
+  "eevee-gmax": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "run-away",
+      "adaptability",
+      "anticipation"
+    ]
+  },
+  "snorlax-gmax": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "immunity",
+      "thick-fat",
+      "gluttony"
+    ]
+  },
+  "zorua-hisui": {
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "abilities": [
+      "illusion"
+    ]
+  },
+  "zoroark-hisui": {
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "abilities": [
+      "illusion"
+    ]
+  },
+  "oinkologne-female": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "aroma-veil",
+      "gluttony",
+      "thick-fat"
+    ]
+  },
+  "dudunsparce-three-segment": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "serene-grace",
+      "run-away",
+      "rattled"
+    ]
+  },
+  "maushold-family-of-three": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "friend-guard",
+      "cheek-pouch",
+      "technician"
+    ]
+  },
+  "squawkabilly-blue-plumage": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "intimidate",
+      "hustle",
+      "guts"
+    ]
+  },
+  "squawkabilly-yellow-plumage": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "intimidate",
+      "hustle",
+      "sheer-force"
+    ]
+  },
+  "squawkabilly-white-plumage": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      "intimidate",
+      "hustle",
+      "sheer-force"
+    ]
+  },
+  "ursaluna-bloodmoon": {
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "abilities": [
+      "minds-eye"
+    ]
+  },
+  "terapagos-terastal": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "tera-shell"
+    ]
+  },
+  "terapagos-stellar": {
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      "teraform-zero"
+    ]
+  },
+  "pyroar-mega": {
+    "types": [
+      "normal",
+      "fire"
+    ],
+    "abilities": []
+  },
+  "drampa-mega": {
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "abilities": [
+      "berserk"
+    ]
+  },
+  "mankey": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "vital-spirit",
+      "anger-point",
+      "defiant"
+    ]
+  },
+  "primeape": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "vital-spirit",
+      "anger-point",
+      "defiant"
+    ]
+  },
+  "poliwrath": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ]
+  },
+  "machop": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ]
+  },
+  "machoke": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ]
+  },
+  "machamp": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ]
+  },
+  "hitmonlee": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "limber",
+      "reckless",
+      "unburden"
+    ]
+  },
+  "hitmonchan": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "keen-eye",
+      "iron-fist",
+      "inner-focus"
+    ]
+  },
+  "heracross": {
+    "types": [
+      "fighting",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "guts",
+      "moxie"
+    ]
+  },
+  "tyrogue": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "steadfast",
+      "vital-spirit"
+    ]
+  },
+  "hitmontop": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "intimidate",
+      "technician",
+      "steadfast"
+    ]
+  },
+  "combusken": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "speed-boost"
+    ]
+  },
+  "blaziken": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "speed-boost"
+    ]
+  },
+  "breloom": {
+    "types": [
+      "fighting",
+      "grass"
+    ],
+    "abilities": [
+      "effect-spore",
+      "poison-heal",
+      "technician"
+    ]
+  },
+  "makuhita": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "thick-fat",
+      "guts",
+      "sheer-force"
+    ]
+  },
+  "hariyama": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "thick-fat",
+      "guts",
+      "sheer-force"
+    ]
+  },
+  "meditite": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "abilities": [
+      "pure-power",
+      "telepathy"
+    ]
+  },
+  "medicham": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "abilities": [
+      "pure-power",
+      "telepathy"
+    ]
+  },
+  "monferno": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "iron-fist"
+    ]
+  },
+  "infernape": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "iron-fist"
+    ]
+  },
+  "riolu": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "steadfast",
+      "inner-focus",
+      "prankster"
+    ]
+  },
+  "lucario": {
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "abilities": [
+      "steadfast",
+      "inner-focus",
+      "justified"
+    ]
+  },
+  "croagunk": {
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "abilities": [
+      "anticipation",
+      "dry-skin",
+      "poison-touch"
+    ]
+  },
+  "toxicroak": {
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "abilities": [
+      "anticipation",
+      "dry-skin",
+      "poison-touch"
+    ]
+  },
+  "gallade": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "abilities": [
+      "steadfast",
+      "sharpness",
+      "justified"
+    ]
+  },
+  "pignite": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "thick-fat"
+    ]
+  },
+  "emboar": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "reckless"
+    ]
+  },
+  "timburr": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "sheer-force",
+      "iron-fist"
+    ]
+  },
+  "gurdurr": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "sheer-force",
+      "iron-fist"
+    ]
+  },
+  "conkeldurr": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "sheer-force",
+      "iron-fist"
+    ]
+  },
+  "throh": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "inner-focus",
+      "mold-breaker"
+    ]
+  },
+  "sawk": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "sturdy",
+      "inner-focus",
+      "mold-breaker"
+    ]
+  },
+  "scraggy": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "abilities": [
+      "shed-skin",
+      "moxie",
+      "intimidate"
+    ]
+  },
+  "scrafty": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "abilities": [
+      "shed-skin",
+      "moxie",
+      "intimidate"
+    ]
+  },
+  "mienfoo": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "inner-focus",
+      "regenerator",
+      "reckless"
+    ]
+  },
+  "mienshao": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "inner-focus",
+      "regenerator",
+      "reckless"
+    ]
+  },
+  "cobalion": {
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "abilities": [
+      "justified"
+    ]
+  },
+  "terrakion": {
+    "types": [
+      "fighting",
+      "rock"
+    ],
+    "abilities": [
+      "justified"
+    ]
+  },
+  "virizion": {
+    "types": [
+      "fighting",
+      "grass"
+    ],
+    "abilities": [
+      "justified"
+    ]
+  },
+  "keldeo-ordinary": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "abilities": [
+      "justified"
+    ]
+  },
+  "chesnaught": {
+    "types": [
+      "fighting",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "bulletproof"
+    ]
+  },
+  "pancham": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "iron-fist",
+      "mold-breaker",
+      "scrappy"
+    ]
+  },
+  "pangoro": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "abilities": [
+      "iron-fist",
+      "mold-breaker",
+      "scrappy"
+    ]
+  },
+  "hawlucha": {
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "abilities": [
+      "limber",
+      "unburden",
+      "mold-breaker"
+    ]
+  },
+  "crabrawler": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "iron-fist",
+      "anger-point"
+    ]
+  },
+  "crabominable": {
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "iron-fist",
+      "anger-point"
+    ]
+  },
+  "passimian": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "receiver",
+      "defiant"
+    ]
+  },
+  "hakamo-o": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "bulletproof",
+      "soundproof",
+      "overcoat"
+    ]
+  },
+  "kommo-o": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "bulletproof",
+      "soundproof",
+      "overcoat"
+    ]
+  },
+  "buzzwole": {
+    "types": [
+      "fighting",
+      "bug"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "pheromosa": {
+    "types": [
+      "fighting",
+      "bug"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "marshadow": {
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "abilities": [
+      "technician"
+    ]
+  },
+  "clobbopus": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "limber",
+      "technician"
+    ]
+  },
+  "grapploct": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "limber",
+      "technician"
+    ]
+  },
+  "sirfetchd": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "steadfast",
+      "scrappy"
+    ]
+  },
+  "falinks": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "battle-armor",
+      "defiant"
+    ]
+  },
+  "zamazenta": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "dauntless-shield"
+    ]
+  },
+  "kubfu": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "inner-focus"
+    ]
+  },
+  "urshifu-single-strike": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "abilities": [
+      "unseen-fist"
+    ]
+  },
+  "sneasler": {
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "abilities": [
+      "pressure",
+      "unburden",
+      "poison-touch"
+    ]
+  },
+  "quaquaval": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "moxie"
+    ]
+  },
+  "pawmo": {
+    "types": [
+      "fighting",
+      "electric"
+    ],
+    "abilities": [
+      "volt-absorb",
+      "natural-cure",
+      "iron-fist"
+    ]
+  },
+  "pawmot": {
+    "types": [
+      "fighting",
+      "electric"
+    ],
+    "abilities": [
+      "volt-absorb",
+      "natural-cure",
+      "iron-fist"
+    ]
+  },
+  "flamigo": {
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "abilities": [
+      "scrappy",
+      "tangled-feet",
+      "costar"
+    ]
+  },
+  "annihilape": {
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "abilities": [
+      "vital-spirit",
+      "inner-focus",
+      "defiant"
+    ]
+  },
+  "great-tusk": {
+    "types": [
+      "fighting",
+      "ground"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "slither-wing": {
+    "types": [
+      "fighting",
+      "bug"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "iron-hands": {
+    "types": [
+      "fighting",
+      "electric"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "iron-valiant": {
+    "types": [
+      "fighting",
+      "fairy"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "koraidon": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "orichalcum-pulse"
+    ]
+  },
+  "okidogi": {
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "abilities": [
+      "toxic-chain",
+      "guard-dog"
+    ]
+  },
+  "keldeo-resolute": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "abilities": [
+      "justified"
+    ]
+  },
+  "mewtwo-mega-x": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "abilities": [
+      "steadfast"
+    ]
+  },
+  "heracross-mega": {
+    "types": [
+      "fighting",
+      "bug"
+    ],
+    "abilities": [
+      "skill-link"
+    ]
+  },
+  "blaziken-mega": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "speed-boost"
+    ]
+  },
+  "medicham-mega": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "abilities": [
+      "pure-power"
+    ]
+  },
+  "lucario-mega": {
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "abilities": [
+      "adaptability"
+    ]
+  },
+  "gallade-mega": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "abilities": [
+      "inner-focus"
+    ]
+  },
+  "kommo-o-totem": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "bulletproof",
+      "soundproof",
+      "overcoat"
+    ]
+  },
+  "farfetchd-galar": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "steadfast",
+      "scrappy"
+    ]
+  },
+  "zapdos-galar": {
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "abilities": [
+      "defiant"
+    ]
+  },
+  "zamazenta-crowned": {
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "abilities": [
+      "dauntless-shield"
+    ]
+  },
+  "urshifu-rapid-strike": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "abilities": [
+      "unseen-fist"
+    ]
+  },
+  "machamp-gmax": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ]
+  },
+  "urshifu-single-strike-gmax": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "abilities": [
+      "unseen-fist"
+    ]
+  },
+  "urshifu-rapid-strike-gmax": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "abilities": [
+      "unseen-fist"
+    ]
+  },
+  "sneasel-hisui": {
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "abilities": [
+      "inner-focus",
+      "keen-eye",
+      "pickpocket"
+    ]
+  },
+  "lilligant-hisui": {
+    "types": [
+      "fighting",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "hustle",
+      "leaf-guard"
+    ]
+  },
+  "decidueye-hisui": {
+    "types": [
+      "fighting",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "scrappy"
+    ]
+  },
+  "tauros-paldea-combat-breed": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      "intimidate",
+      "anger-point",
+      "cud-chew"
+    ]
+  },
+  "tauros-paldea-blaze-breed": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "intimidate",
+      "anger-point",
+      "cud-chew"
+    ]
+  },
+  "tauros-paldea-aqua-breed": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "abilities": [
+      "intimidate",
+      "anger-point",
+      "cud-chew"
+    ]
+  },
+  "koraidon-limited-build": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "orichalcum-pulse"
+    ]
+  },
+  "koraidon-sprinting-build": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "orichalcum-pulse"
+    ]
+  },
+  "koraidon-swimming-build": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "orichalcum-pulse"
+    ]
+  },
+  "koraidon-gliding-build": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "abilities": [
+      "orichalcum-pulse"
+    ]
+  },
+  "emboar-mega": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "abilities": [
+      "mold-breaker"
+    ]
+  },
+  "scrafty-mega": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "abilities": []
+  },
+  "chesnaught-mega": {
+    "types": [
+      "fighting",
+      "grass"
+    ],
+    "abilities": [
+      "bulletproof"
+    ]
+  },
+  "barbaracle-mega": {
+    "types": [
+      "fighting",
+      "rock"
+    ],
+    "abilities": []
+  },
+  "hawlucha-mega": {
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "abilities": [
+      "no-guard"
+    ]
+  },
+  "falinks-mega": {
+    "types": [
+      "fighting"
+    ],
+    "abilities": []
+  },
+  "staraptor-mega": {
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "abilities": []
+  },
+  "lucario-mega-z": {
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "abilities": []
+  },
+  "crabominable-mega": {
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "abilities": [
+      "iron-fist"
+    ]
+  },
+  "charizard": {
+    "types": [
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ]
+  },
+  "butterfree": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "compound-eyes",
+      "tinted-lens"
+    ]
+  },
+  "zubat": {
+    "types": [
+      "flying",
+      "poison"
+    ],
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ]
+  },
+  "golbat": {
+    "types": [
+      "flying",
+      "poison"
+    ],
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ]
+  },
+  "scyther": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "technician",
+      "steadfast"
+    ]
+  },
+  "gyarados": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "intimidate",
+      "moxie"
+    ]
+  },
+  "aerodactyl": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "rock-head",
+      "pressure",
+      "unnerve"
+    ]
+  },
+  "articuno": {
+    "types": [
+      "flying",
+      "ice"
+    ],
+    "abilities": [
+      "pressure",
+      "snow-cloak"
+    ]
+  },
+  "zapdos": {
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "abilities": [
+      "pressure",
+      "static"
+    ]
+  },
+  "moltres": {
+    "types": [
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "pressure",
+      "flame-body"
+    ]
+  },
+  "dragonite": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "inner-focus",
+      "multiscale"
+    ]
+  },
+  "ledyba": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "early-bird",
+      "rattled"
+    ]
+  },
+  "ledian": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "early-bird",
+      "iron-fist"
+    ]
+  },
+  "crobat": {
+    "types": [
+      "flying",
+      "poison"
+    ],
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ]
+  },
+  "togetic": {
+    "types": [
+      "flying",
+      "fairy"
+    ],
+    "abilities": [
+      "hustle",
+      "serene-grace",
+      "super-luck"
+    ]
+  },
+  "natu": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "synchronize",
+      "early-bird",
+      "magic-bounce"
+    ]
+  },
+  "xatu": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "synchronize",
+      "early-bird",
+      "magic-bounce"
+    ]
+  },
+  "hoppip": {
+    "types": [
+      "flying",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ]
+  },
+  "skiploom": {
+    "types": [
+      "flying",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ]
+  },
+  "jumpluff": {
+    "types": [
+      "flying",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ]
+  },
+  "yanma": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "speed-boost",
+      "compound-eyes",
+      "frisk"
+    ]
+  },
+  "murkrow": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "insomnia",
+      "super-luck",
+      "prankster"
+    ]
+  },
+  "gligar": {
+    "types": [
+      "flying",
+      "ground"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "sand-veil",
+      "immunity"
+    ]
+  },
+  "delibird": {
+    "types": [
+      "flying",
+      "ice"
+    ],
+    "abilities": [
+      "vital-spirit",
+      "hustle",
+      "insomnia"
+    ]
+  },
+  "mantine": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "water-absorb",
+      "water-veil"
+    ]
+  },
+  "skarmory": {
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "abilities": [
+      "keen-eye",
+      "sturdy",
+      "weak-armor"
+    ]
+  },
+  "lugia": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "pressure",
+      "multiscale"
+    ]
+  },
+  "ho-oh": {
+    "types": [
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "pressure",
+      "regenerator"
+    ]
+  },
+  "beautifly": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "rivalry"
+    ]
+  },
+  "wingull": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "keen-eye",
+      "hydration",
+      "rain-dish"
+    ]
+  },
+  "pelipper": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "keen-eye",
+      "drizzle",
+      "rain-dish"
+    ]
+  },
+  "masquerain": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "intimidate",
+      "unnerve"
+    ]
+  },
+  "ninjask": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "speed-boost",
+      "infiltrator"
+    ]
+  },
+  "altaria": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "natural-cure",
+      "cloud-nine"
+    ]
+  },
+  "tropius": {
+    "types": [
+      "flying",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "solar-power",
+      "harvest"
+    ]
+  },
+  "salamence": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "intimidate",
+      "moxie"
+    ]
+  },
+  "rayquaza": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "air-lock"
+    ]
+  },
+  "mothim": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "tinted-lens"
+    ]
+  },
+  "combee": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "honey-gather",
+      "hustle"
+    ]
+  },
+  "vespiquen": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "pressure",
+      "unnerve"
+    ]
+  },
+  "drifloon": {
+    "types": [
+      "flying",
+      "ghost"
+    ],
+    "abilities": [
+      "aftermath",
+      "unburden",
+      "flare-boost"
+    ]
+  },
+  "drifblim": {
+    "types": [
+      "flying",
+      "ghost"
+    ],
+    "abilities": [
+      "aftermath",
+      "unburden",
+      "flare-boost"
+    ]
+  },
+  "honchkrow": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "insomnia",
+      "super-luck",
+      "moxie"
+    ]
+  },
+  "mantyke": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "water-absorb",
+      "water-veil"
+    ]
+  },
+  "togekiss": {
+    "types": [
+      "flying",
+      "fairy"
+    ],
+    "abilities": [
+      "hustle",
+      "serene-grace",
+      "super-luck"
+    ]
+  },
+  "yanmega": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "speed-boost",
+      "tinted-lens",
+      "frisk"
+    ]
+  },
+  "gliscor": {
+    "types": [
+      "flying",
+      "ground"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "sand-veil",
+      "poison-heal"
+    ]
+  },
+  "woobat": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "unaware",
+      "klutz",
+      "simple"
+    ]
+  },
+  "swoobat": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "unaware",
+      "klutz",
+      "simple"
+    ]
+  },
+  "sigilyph": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "wonder-skin",
+      "magic-guard",
+      "tinted-lens"
+    ]
+  },
+  "archen": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "defeatist"
+    ]
+  },
+  "archeops": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "defeatist"
+    ]
+  },
+  "ducklett": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "keen-eye",
+      "big-pecks",
+      "hydration"
+    ]
+  },
+  "swanna": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "keen-eye",
+      "big-pecks",
+      "hydration"
+    ]
+  },
+  "emolga": {
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "motor-drive"
+    ]
+  },
+  "vullaby": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "big-pecks",
+      "overcoat",
+      "weak-armor"
+    ]
+  },
+  "mandibuzz": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "big-pecks",
+      "overcoat",
+      "weak-armor"
+    ]
+  },
+  "tornadus-incarnate": {
+    "types": [
+      "flying"
+    ],
+    "abilities": [
+      "prankster",
+      "defiant"
+    ]
+  },
+  "thundurus-incarnate": {
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "abilities": [
+      "prankster",
+      "defiant"
+    ]
+  },
+  "landorus-incarnate": {
+    "types": [
+      "flying",
+      "ground"
+    ],
+    "abilities": [
+      "sand-force",
+      "sheer-force"
+    ]
+  },
+  "fletchinder": {
+    "types": [
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "flame-body",
+      "gale-wings"
+    ]
+  },
+  "talonflame": {
+    "types": [
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "flame-body",
+      "gale-wings"
+    ]
+  },
+  "vivillon": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "shield-dust",
+      "compound-eyes",
+      "friend-guard"
+    ]
+  },
+  "noibat": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "frisk",
+      "infiltrator",
+      "telepathy"
+    ]
+  },
+  "noivern": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "frisk",
+      "infiltrator",
+      "telepathy"
+    ]
+  },
+  "yveltal": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "dark-aura"
+    ]
+  },
+  "rowlet": {
+    "types": [
+      "flying",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "long-reach"
+    ]
+  },
+  "dartrix": {
+    "types": [
+      "flying",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "long-reach"
+    ]
+  },
+  "oricorio-baile": {
+    "types": [
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "dancer"
+    ]
+  },
+  "minior-red-meteor": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "celesteela": {
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "rookidee": {
+    "types": [
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "unnerve",
+      "big-pecks"
+    ]
+  },
+  "corvisquire": {
+    "types": [
+      "flying"
+    ],
+    "abilities": [
+      "keen-eye",
+      "unnerve",
+      "big-pecks"
+    ]
+  },
+  "corviknight": {
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "abilities": [
+      "pressure",
+      "unnerve",
+      "mirror-armor"
+    ]
+  },
+  "cramorant": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "gulp-missile"
+    ]
+  },
+  "enamorus-incarnate": {
+    "types": [
+      "flying",
+      "fairy"
+    ],
+    "abilities": [
+      "cute-charm",
+      "contrary"
+    ]
+  },
+  "wattrel": {
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "abilities": [
+      "wind-power",
+      "volt-absorb",
+      "competitive"
+    ]
+  },
+  "kilowattrel": {
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "abilities": [
+      "wind-power",
+      "volt-absorb",
+      "competitive"
+    ]
+  },
+  "bombirdier": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "big-pecks",
+      "keen-eye",
+      "rocky-payload"
+    ]
+  },
+  "iron-jugulis": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "shaymin-sky": {
+    "types": [
+      "flying",
+      "grass"
+    ],
+    "abilities": [
+      "serene-grace"
+    ]
+  },
+  "rotom-fan": {
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "tornadus-therian": {
+    "types": [
+      "flying"
+    ],
+    "abilities": [
+      "regenerator"
+    ]
+  },
+  "thundurus-therian": {
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "abilities": [
+      "volt-absorb"
+    ]
+  },
+  "landorus-therian": {
+    "types": [
+      "flying",
+      "ground"
+    ],
+    "abilities": [
+      "intimidate"
+    ]
+  },
+  "charizard-mega-y": {
+    "types": [
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "drought"
+    ]
+  },
+  "pinsir-mega": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "aerilate"
+    ]
+  },
+  "aerodactyl-mega": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "tough-claws"
+    ]
+  },
+  "rayquaza-mega": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "delta-stream"
+    ]
+  },
+  "salamence-mega": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "aerilate"
+    ]
+  },
+  "oricorio-pom-pom": {
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "abilities": [
+      "dancer"
+    ]
+  },
+  "oricorio-pau": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "dancer"
+    ]
+  },
+  "oricorio-sensu": {
+    "types": [
+      "flying",
+      "ghost"
+    ],
+    "abilities": [
+      "dancer"
+    ]
+  },
+  "minior-orange-meteor": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-yellow-meteor": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-green-meteor": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-blue-meteor": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-indigo-meteor": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-violet-meteor": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-red": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-orange": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-yellow": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-green": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-blue": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-indigo": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "minior-violet": {
+    "types": [
+      "flying",
+      "rock"
+    ],
+    "abilities": [
+      "shields-down"
+    ]
+  },
+  "articuno-galar": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "competitive"
+    ]
+  },
+  "moltres-galar": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "abilities": [
+      "berserk"
+    ]
+  },
+  "cramorant-gulping": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "gulp-missile"
+    ]
+  },
+  "cramorant-gorging": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "abilities": [
+      "gulp-missile"
+    ]
+  },
+  "charizard-gmax": {
+    "types": [
+      "flying",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ]
+  },
+  "butterfree-gmax": {
+    "types": [
+      "flying",
+      "bug"
+    ],
+    "abilities": [
+      "compound-eyes",
+      "tinted-lens"
+    ]
+  },
+  "corviknight-gmax": {
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "abilities": [
+      "pressure",
+      "unnerve",
+      "mirror-armor"
+    ]
+  },
+  "braviary-hisui": {
+    "types": [
+      "flying",
+      "psychic"
+    ],
+    "abilities": [
+      "keen-eye",
+      "sheer-force",
+      "tinted-lens"
+    ]
+  },
+  "enamorus-therian": {
+    "types": [
+      "flying",
+      "fairy"
+    ],
+    "abilities": [
+      "overcoat"
+    ]
+  },
+  "clefable-mega": {
+    "types": [
+      "flying",
+      "fairy"
+    ],
+    "abilities": [
+      "magic-bounce"
+    ]
+  },
+  "dragonite-mega": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "abilities": [
+      "multiscale"
+    ]
+  },
+  "skarmory-mega": {
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "abilities": [
+      "stalwart"
+    ]
+  },
+  "bulbasaur": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ]
+  },
+  "ivysaur": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ]
+  },
+  "venusaur": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ]
+  },
+  "weedle": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "shield-dust",
+      "run-away"
+    ]
+  },
+  "kakuna": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "shed-skin"
+    ]
+  },
+  "beedrill": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "sniper"
+    ]
+  },
+  "ekans": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "intimidate",
+      "shed-skin",
+      "unnerve"
+    ]
+  },
+  "arbok": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "intimidate",
+      "shed-skin",
+      "unnerve"
+    ]
+  },
+  "nidoran-f": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ]
+  },
+  "nidorina": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ]
+  },
+  "nidoqueen": {
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "sheer-force"
+    ]
+  },
+  "nidoran-m": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ]
+  },
+  "nidorino": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ]
+  },
+  "nidoking": {
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "sheer-force"
+    ]
+  },
+  "oddish": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "run-away"
+    ]
+  },
+  "gloom": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "stench"
+    ]
+  },
+  "vileplume": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "effect-spore"
+    ]
+  },
+  "venonat": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "compound-eyes",
+      "tinted-lens",
+      "run-away"
+    ]
+  },
+  "venomoth": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "shield-dust",
+      "tinted-lens",
+      "wonder-skin"
+    ]
+  },
+  "bellsprout": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ]
+  },
+  "weepinbell": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ]
+  },
+  "victreebel": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ]
+  },
+  "tentacool": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "abilities": [
+      "clear-body",
+      "liquid-ooze",
+      "rain-dish"
+    ]
+  },
+  "tentacruel": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "abilities": [
+      "clear-body",
+      "liquid-ooze",
+      "rain-dish"
+    ]
+  },
+  "grimer": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "stench",
+      "sticky-hold",
+      "poison-touch"
+    ]
+  },
+  "muk": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "stench",
+      "sticky-hold",
+      "poison-touch"
+    ]
+  },
+  "gastly": {
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "haunter": {
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "gengar": {
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "abilities": [
+      "cursed-body"
+    ]
+  },
+  "koffing": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "levitate",
+      "neutralizing-gas",
+      "stench"
+    ]
+  },
+  "weezing": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "levitate",
+      "neutralizing-gas",
+      "stench"
+    ]
+  },
+  "spinarak": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "insomnia",
+      "sniper"
+    ]
+  },
+  "ariados": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "insomnia",
+      "sniper"
+    ]
+  },
+  "qwilfish": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "abilities": [
+      "poison-point",
+      "swift-swim",
+      "intimidate"
+    ]
+  },
+  "dustox": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "shield-dust",
+      "compound-eyes"
+    ]
+  },
+  "roselia": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "natural-cure",
+      "poison-point",
+      "leaf-guard"
+    ]
+  },
+  "gulpin": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "liquid-ooze",
+      "sticky-hold",
+      "gluttony"
+    ]
+  },
+  "swalot": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "liquid-ooze",
+      "sticky-hold",
+      "gluttony"
+    ]
+  },
+  "seviper": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "shed-skin",
+      "infiltrator"
+    ]
+  },
+  "budew": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "natural-cure",
+      "poison-point",
+      "leaf-guard"
+    ]
+  },
+  "roserade": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "natural-cure",
+      "poison-point",
+      "technician"
+    ]
+  },
+  "stunky": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "abilities": [
+      "stench",
+      "aftermath",
+      "keen-eye"
+    ]
+  },
+  "skuntank": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "abilities": [
+      "stench",
+      "aftermath",
+      "keen-eye"
+    ]
+  },
+  "skorupi": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "battle-armor",
+      "sniper",
+      "keen-eye"
+    ]
+  },
+  "drapion": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "abilities": [
+      "battle-armor",
+      "sniper",
+      "keen-eye"
+    ]
+  },
+  "venipede": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "poison-point",
+      "swarm",
+      "speed-boost"
+    ]
+  },
+  "whirlipede": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "poison-point",
+      "swarm",
+      "speed-boost"
+    ]
+  },
+  "scolipede": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "poison-point",
+      "swarm",
+      "speed-boost"
+    ]
+  },
+  "trubbish": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "stench",
+      "sticky-hold",
+      "aftermath"
+    ]
+  },
+  "garbodor": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "stench",
+      "weak-armor",
+      "aftermath"
+    ]
+  },
+  "foongus": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "effect-spore",
+      "regenerator"
+    ]
+  },
+  "amoonguss": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "effect-spore",
+      "regenerator"
+    ]
+  },
+  "skrelp": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "abilities": [
+      "poison-point",
+      "poison-touch",
+      "adaptability"
+    ]
+  },
+  "dragalge": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "abilities": [
+      "poison-point",
+      "poison-touch",
+      "adaptability"
+    ]
+  },
+  "mareanie": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "abilities": [
+      "merciless",
+      "limber",
+      "regenerator"
+    ]
+  },
+  "toxapex": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "abilities": [
+      "merciless",
+      "limber",
+      "regenerator"
+    ]
+  },
+  "salandit": {
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "abilities": [
+      "corrosion",
+      "oblivious"
+    ]
+  },
+  "salazzle": {
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "abilities": [
+      "corrosion",
+      "oblivious"
+    ]
+  },
+  "nihilego": {
+    "types": [
+      "poison",
+      "rock"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "poipole": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "naganadel": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "toxel": {
+    "types": [
+      "poison",
+      "electric"
+    ],
+    "abilities": [
+      "rattled",
+      "static",
+      "klutz"
+    ]
+  },
+  "toxtricity-amped": {
+    "types": [
+      "poison",
+      "electric"
+    ],
+    "abilities": [
+      "punk-rock",
+      "plus",
+      "technician"
+    ]
+  },
+  "eternatus": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "abilities": [
+      "pressure"
+    ]
+  },
+  "overqwil": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "abilities": [
+      "poison-point",
+      "swift-swim",
+      "intimidate"
+    ]
+  },
+  "varoom": {
+    "types": [
+      "poison",
+      "steel"
+    ],
+    "abilities": [
+      "overcoat",
+      "slow-start"
+    ]
+  },
+  "revavroom": {
+    "types": [
+      "poison",
+      "steel"
+    ],
+    "abilities": [
+      "overcoat",
+      "filter"
+    ]
+  },
+  "glimmet": {
+    "types": [
+      "poison",
+      "rock"
+    ],
+    "abilities": [
+      "toxic-debris",
+      "corrosion"
+    ]
+  },
+  "glimmora": {
+    "types": [
+      "poison",
+      "rock"
+    ],
+    "abilities": [
+      "toxic-debris",
+      "corrosion"
+    ]
+  },
+  "clodsire": {
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "abilities": [
+      "poison-point",
+      "water-absorb",
+      "unaware"
+    ]
+  },
+  "iron-moth": {
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "munkidori": {
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "abilities": [
+      "toxic-chain",
+      "frisk"
+    ]
+  },
+  "fezandipiti": {
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "abilities": [
+      "toxic-chain",
+      "technician"
+    ]
+  },
+  "pecharunt": {
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "abilities": [
+      "poison-puppeteer"
+    ]
+  },
+  "venusaur-mega": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "thick-fat"
+    ]
+  },
+  "gengar-mega": {
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "abilities": [
+      "shadow-tag"
+    ]
+  },
+  "beedrill-mega": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": [
+      "adaptability"
+    ]
+  },
+  "grimer-alola": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "abilities": [
+      "poison-touch",
+      "gluttony",
+      "power-of-alchemy"
+    ]
+  },
+  "muk-alola": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "abilities": [
+      "poison-touch",
+      "gluttony",
+      "power-of-alchemy"
+    ]
+  },
+  "salazzle-totem": {
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "abilities": [
+      "corrosion",
+      "oblivious"
+    ]
+  },
+  "slowbro-galar": {
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "abilities": [
+      "quick-draw",
+      "own-tempo",
+      "regenerator"
+    ]
+  },
+  "weezing-galar": {
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "abilities": [
+      "levitate",
+      "neutralizing-gas",
+      "misty-surge"
+    ]
+  },
+  "slowking-galar": {
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "abilities": [
+      "curious-medicine",
+      "own-tempo",
+      "regenerator"
+    ]
+  },
+  "toxtricity-low-key": {
+    "types": [
+      "poison",
+      "electric"
+    ],
+    "abilities": [
+      "punk-rock",
+      "minus",
+      "technician"
+    ]
+  },
+  "eternatus-eternamax": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "abilities": [
+      "pressure"
+    ]
+  },
+  "venusaur-gmax": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ]
+  },
+  "gengar-gmax": {
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "abilities": [
+      "cursed-body"
+    ]
+  },
+  "garbodor-gmax": {
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      "stench",
+      "weak-armor",
+      "aftermath"
+    ]
+  },
+  "toxtricity-amped-gmax": {
+    "types": [
+      "poison",
+      "electric"
+    ],
+    "abilities": [
+      "punk-rock",
+      "plus",
+      "technician"
+    ]
+  },
+  "toxtricity-low-key-gmax": {
+    "types": [
+      "poison",
+      "electric"
+    ],
+    "abilities": [
+      "punk-rock",
+      "minus",
+      "technician"
+    ]
+  },
+  "qwilfish-hisui": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "abilities": [
+      "poison-point",
+      "swift-swim",
+      "intimidate"
+    ]
+  },
+  "wooper-paldea": {
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "abilities": [
+      "poison-point",
+      "water-absorb",
+      "unaware"
+    ]
+  },
+  "victreebel-mega": {
+    "types": [
+      "poison",
+      "grass"
+    ],
+    "abilities": [
+      "innards-out"
+    ]
+  },
+  "scolipede-mega": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "abilities": []
+  },
+  "dragalge-mega": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "abilities": []
+  },
+  "glimmora-mega": {
+    "types": [
+      "poison",
+      "rock"
+    ],
+    "abilities": [
+      "adaptability"
+    ]
+  },
+  "sandshrew": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-veil",
+      "sand-rush"
+    ]
+  },
+  "sandslash": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-veil",
+      "sand-rush"
+    ]
+  },
+  "diglett": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-veil",
+      "arena-trap",
+      "sand-force"
+    ]
+  },
+  "dugtrio": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-veil",
+      "arena-trap",
+      "sand-force"
+    ]
+  },
+  "geodude": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ]
+  },
+  "graveler": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ]
+  },
+  "golem": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ]
+  },
+  "onix": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "weak-armor"
+    ]
+  },
+  "cubone": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "rock-head",
+      "lightning-rod",
+      "battle-armor"
+    ]
+  },
+  "marowak": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "rock-head",
+      "lightning-rod",
+      "battle-armor"
+    ]
+  },
+  "rhyhorn": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "lightning-rod",
+      "rock-head",
+      "reckless"
+    ]
+  },
+  "rhydon": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "lightning-rod",
+      "rock-head",
+      "reckless"
+    ]
+  },
+  "wooper": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "damp",
+      "water-absorb",
+      "unaware"
+    ]
+  },
+  "quagsire": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "damp",
+      "water-absorb",
+      "unaware"
+    ]
+  },
+  "steelix": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sheer-force"
+    ]
+  },
+  "swinub": {
+    "types": [
+      "ground",
+      "ice"
+    ],
+    "abilities": [
+      "oblivious",
+      "snow-cloak",
+      "thick-fat"
+    ]
+  },
+  "piloswine": {
+    "types": [
+      "ground",
+      "ice"
+    ],
+    "abilities": [
+      "oblivious",
+      "snow-cloak",
+      "thick-fat"
+    ]
+  },
+  "phanpy": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "pickup",
+      "sand-veil"
+    ]
+  },
+  "donphan": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sturdy",
+      "sand-veil"
+    ]
+  },
+  "larvitar": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "guts",
+      "sand-veil"
+    ]
+  },
+  "pupitar": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "shed-skin"
+    ]
+  },
+  "marshtomp": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "damp"
+    ]
+  },
+  "swampert": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "damp"
+    ]
+  },
+  "nincada": {
+    "types": [
+      "ground",
+      "bug"
+    ],
+    "abilities": [
+      "compound-eyes",
+      "run-away"
+    ]
+  },
+  "numel": {
+    "types": [
+      "ground",
+      "fire"
+    ],
+    "abilities": [
+      "oblivious",
+      "simple",
+      "own-tempo"
+    ]
+  },
+  "camerupt": {
+    "types": [
+      "ground",
+      "fire"
+    ],
+    "abilities": [
+      "magma-armor",
+      "solid-rock",
+      "anger-point"
+    ]
+  },
+  "trapinch": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "arena-trap",
+      "sheer-force"
+    ]
+  },
+  "vibrava": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "flygon": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "barboach": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "oblivious",
+      "anticipation",
+      "hydration"
+    ]
+  },
+  "whiscash": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "oblivious",
+      "anticipation",
+      "hydration"
+    ]
+  },
+  "baltoy": {
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "claydol": {
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "groudon": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "drought"
+    ]
+  },
+  "torterra": {
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "shell-armor"
+    ]
+  },
+  "gastrodon": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "sticky-hold",
+      "storm-drain",
+      "sand-force"
+    ]
+  },
+  "gible": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "sand-veil",
+      "rough-skin"
+    ]
+  },
+  "gabite": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "sand-veil",
+      "rough-skin"
+    ]
+  },
+  "garchomp": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "sand-veil",
+      "rough-skin"
+    ]
+  },
+  "hippopotas": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-stream",
+      "sand-force"
+    ]
+  },
+  "hippowdon": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-stream",
+      "sand-force"
+    ]
+  },
+  "rhyperior": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      "lightning-rod",
+      "solid-rock",
+      "reckless"
+    ]
+  },
+  "mamoswine": {
+    "types": [
+      "ground",
+      "ice"
+    ],
+    "abilities": [
+      "oblivious",
+      "snow-cloak",
+      "thick-fat"
+    ]
+  },
+  "drilbur": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-rush",
+      "sand-force",
+      "mold-breaker"
+    ]
+  },
+  "excadrill": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      "sand-rush",
+      "sand-force",
+      "mold-breaker"
+    ]
+  },
+  "palpitoad": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "hydration",
+      "water-absorb"
+    ]
+  },
+  "seismitoad": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "poison-touch",
+      "water-absorb"
+    ]
+  },
+  "sandile": {
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "abilities": [
+      "intimidate",
+      "moxie",
+      "anger-point"
+    ]
+  },
+  "krokorok": {
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "abilities": [
+      "intimidate",
+      "moxie",
+      "anger-point"
+    ]
+  },
+  "krookodile": {
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "abilities": [
+      "intimidate",
+      "moxie",
+      "anger-point"
+    ]
+  },
+  "stunfisk": {
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "limber",
+      "sand-veil"
+    ]
+  },
+  "golett": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      "iron-fist",
+      "klutz",
+      "no-guard"
+    ]
+  },
+  "golurk": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      "iron-fist",
+      "klutz",
+      "no-guard"
+    ]
+  },
+  "zygarde-50": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "aura-break"
+    ]
+  },
+  "mudbray": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "own-tempo",
+      "stamina",
+      "inner-focus"
+    ]
+  },
+  "mudsdale": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "own-tempo",
+      "stamina",
+      "inner-focus"
+    ]
+  },
+  "sandygast": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      "water-compaction",
+      "sand-veil"
+    ]
+  },
+  "palossand": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      "water-compaction",
+      "sand-veil"
+    ]
+  },
+  "silicobra": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-spit",
+      "shed-skin",
+      "sand-veil"
+    ]
+  },
+  "sandaconda": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-spit",
+      "shed-skin",
+      "sand-veil"
+    ]
+  },
+  "runerigus": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      "wandering-spirit"
+    ]
+  },
+  "toedscool": {
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "abilities": [
+      "mycelium-might"
+    ]
+  },
+  "toedscruel": {
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "abilities": [
+      "mycelium-might"
+    ]
+  },
+  "sandy-shocks": {
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "iron-treads": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "ting-lu": {
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "abilities": [
+      "vessel-of-ruin"
+    ]
+  },
+  "wormadam-sandy": {
+    "types": [
+      "ground",
+      "bug"
+    ],
+    "abilities": [
+      "anticipation",
+      "overcoat"
+    ]
+  },
+  "garchomp-mega": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "sand-force"
+    ]
+  },
+  "swampert-mega": {
+    "types": [
+      "ground",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim"
+    ]
+  },
+  "steelix-mega": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      "sand-force"
+    ]
+  },
+  "groudon-primal": {
+    "types": [
+      "ground",
+      "fire"
+    ],
+    "abilities": [
+      "desolate-land"
+    ]
+  },
+  "camerupt-mega": {
+    "types": [
+      "ground",
+      "fire"
+    ],
+    "abilities": [
+      "sheer-force"
+    ]
+  },
+  "diglett-alola": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      "sand-veil",
+      "tangling-hair",
+      "sand-force"
+    ]
+  },
+  "dugtrio-alola": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      "sand-veil",
+      "tangling-hair",
+      "sand-force"
+    ]
+  },
+  "zygarde-10-power-construct": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "power-construct"
+    ]
+  },
+  "zygarde-50-power-construct": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "power-construct"
+    ]
+  },
+  "zygarde-complete": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "power-construct"
+    ]
+  },
+  "yamask-galar": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      "wandering-spirit"
+    ]
+  },
+  "stunfisk-galar": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      "mimicry"
+    ]
+  },
+  "zygarde-10": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": [
+      "aura-break"
+    ]
+  },
+  "sandaconda-gmax": {
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      "sand-spit",
+      "shed-skin",
+      "sand-veil"
+    ]
+  },
+  "excadrill-mega": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "abilities": [
+      "piercing-drill"
+    ]
+  },
+  "zygarde-mega": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "abilities": []
+  },
+  "golurk-mega": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "abilities": [
+      "unseen-fist"
+    ]
+  },
+  "omanyte": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "shell-armor",
+      "weak-armor"
+    ]
+  },
+  "omastar": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "shell-armor",
+      "weak-armor"
+    ]
+  },
+  "kabuto": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "battle-armor",
+      "weak-armor"
+    ]
+  },
+  "kabutops": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "battle-armor",
+      "weak-armor"
+    ]
+  },
+  "sudowoodo": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "rattled"
+    ]
+  },
+  "shuckle": {
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "abilities": [
+      "sturdy",
+      "gluttony",
+      "contrary"
+    ]
+  },
+  "magcargo": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "abilities": [
+      "magma-armor",
+      "flame-body",
+      "weak-armor"
+    ]
+  },
+  "corsola": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "hustle",
+      "natural-cure",
+      "regenerator"
+    ]
+  },
+  "tyranitar": {
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "abilities": [
+      "sand-stream",
+      "unnerve"
+    ]
+  },
+  "nosepass": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "sturdy",
+      "magnet-pull",
+      "sand-force"
+    ]
+  },
+  "aron": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "heavy-metal"
+    ]
+  },
+  "lairon": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "heavy-metal"
+    ]
+  },
+  "aggron": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "heavy-metal"
+    ]
+  },
+  "lunatone": {
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "solrock": {
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "lileep": {
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "abilities": [
+      "suction-cups",
+      "storm-drain"
+    ]
+  },
+  "cradily": {
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "abilities": [
+      "suction-cups",
+      "storm-drain"
+    ]
+  },
+  "anorith": {
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "abilities": [
+      "battle-armor",
+      "swift-swim"
+    ]
+  },
+  "armaldo": {
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "abilities": [
+      "battle-armor",
+      "swift-swim"
+    ]
+  },
+  "relicanth": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "rock-head",
+      "sturdy"
+    ]
+  },
+  "regirock": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "clear-body",
+      "sturdy"
+    ]
+  },
+  "cranidos": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "mold-breaker",
+      "sheer-force"
+    ]
+  },
+  "rampardos": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "mold-breaker",
+      "sheer-force"
+    ]
+  },
+  "shieldon": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "abilities": [
+      "sturdy",
+      "soundproof"
+    ]
+  },
+  "bastiodon": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "abilities": [
+      "sturdy",
+      "soundproof"
+    ]
+  },
+  "bonsly": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "rattled"
+    ]
+  },
+  "probopass": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "abilities": [
+      "sturdy",
+      "magnet-pull",
+      "sand-force"
+    ]
+  },
+  "roggenrola": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "sturdy",
+      "weak-armor",
+      "sand-force"
+    ]
+  },
+  "boldore": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "sturdy",
+      "weak-armor",
+      "sand-force"
+    ]
+  },
+  "gigalith": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "sturdy",
+      "sand-stream",
+      "sand-force"
+    ]
+  },
+  "dwebble": {
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "abilities": [
+      "sturdy",
+      "shell-armor",
+      "weak-armor"
+    ]
+  },
+  "crustle": {
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "abilities": [
+      "sturdy",
+      "shell-armor",
+      "weak-armor"
+    ]
+  },
+  "tirtouga": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "solid-rock",
+      "sturdy",
+      "swift-swim"
+    ]
+  },
+  "carracosta": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "solid-rock",
+      "sturdy",
+      "swift-swim"
+    ]
+  },
+  "binacle": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "tough-claws",
+      "sniper",
+      "pickpocket"
+    ]
+  },
+  "barbaracle": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "tough-claws",
+      "sniper",
+      "pickpocket"
+    ]
+  },
+  "tyrunt": {
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "abilities": [
+      "strong-jaw",
+      "sturdy"
+    ]
+  },
+  "tyrantrum": {
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "abilities": [
+      "strong-jaw",
+      "rock-head"
+    ]
+  },
+  "amaura": {
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "abilities": [
+      "refrigerate",
+      "snow-warning"
+    ]
+  },
+  "aurorus": {
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "abilities": [
+      "refrigerate",
+      "snow-warning"
+    ]
+  },
+  "carbink": {
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "abilities": [
+      "clear-body",
+      "sturdy"
+    ]
+  },
+  "diancie": {
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "abilities": [
+      "clear-body"
+    ]
+  },
+  "rockruff": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "keen-eye",
+      "vital-spirit",
+      "steadfast"
+    ]
+  },
+  "lycanroc-midday": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "keen-eye",
+      "sand-rush",
+      "steadfast"
+    ]
+  },
+  "stakataka": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "drednaw": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "strong-jaw",
+      "shell-armor",
+      "swift-swim"
+    ]
+  },
+  "rolycoly": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "steam-engine",
+      "heatproof",
+      "flash-fire"
+    ]
+  },
+  "carkol": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "abilities": [
+      "steam-engine",
+      "flame-body",
+      "flash-fire"
+    ]
+  },
+  "coalossal": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "abilities": [
+      "steam-engine",
+      "flame-body",
+      "flash-fire"
+    ]
+  },
+  "stonjourner": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "power-spot"
+    ]
+  },
+  "kleavor": {
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "sheer-force",
+      "sharpness"
+    ]
+  },
+  "nacli": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "purifying-salt",
+      "sturdy",
+      "clear-body"
+    ]
+  },
+  "naclstack": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "purifying-salt",
+      "sturdy",
+      "clear-body"
+    ]
+  },
+  "garganacl": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "purifying-salt",
+      "sturdy",
+      "clear-body"
+    ]
+  },
+  "klawf": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "anger-shell",
+      "shell-armor",
+      "regenerator"
+    ]
+  },
+  "iron-thorns": {
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "iron-boulder": {
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "tyranitar-mega": {
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "abilities": [
+      "sand-stream"
+    ]
+  },
+  "diancie-mega": {
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "abilities": [
+      "magic-bounce"
+    ]
+  },
+  "geodude-alola": {
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "galvanize"
+    ]
+  },
+  "graveler-alola": {
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "galvanize"
+    ]
+  },
+  "golem-alola": {
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "galvanize"
+    ]
+  },
+  "lycanroc-midnight": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "keen-eye",
+      "vital-spirit",
+      "no-guard"
+    ]
+  },
+  "rockruff-own-tempo": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "own-tempo"
+    ]
+  },
+  "lycanroc-dusk": {
+    "types": [
+      "rock"
+    ],
+    "abilities": [
+      "tough-claws"
+    ]
+  },
+  "drednaw-gmax": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      "strong-jaw",
+      "shell-armor",
+      "swift-swim"
+    ]
+  },
+  "coalossal-gmax": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "abilities": [
+      "steam-engine",
+      "flame-body",
+      "flash-fire"
+    ]
+  },
+  "growlithe-hisui": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "abilities": [
+      "intimidate",
+      "flash-fire",
+      "rock-head"
+    ]
+  },
+  "arcanine-hisui": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "abilities": [
+      "intimidate",
+      "flash-fire",
+      "rock-head"
+    ]
+  },
+  "avalugg-hisui": {
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "abilities": [
+      "strong-jaw",
+      "ice-body",
+      "sturdy"
+    ]
+  },
+  "ogerpon-cornerstone-mask": {
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "abilities": [
+      "sturdy"
+    ]
+  },
+  "caterpie": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shield-dust",
+      "run-away"
+    ]
+  },
+  "metapod": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shed-skin"
+    ]
+  },
+  "paras": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "abilities": [
+      "effect-spore",
+      "dry-skin",
+      "damp"
+    ]
+  },
+  "parasect": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "abilities": [
+      "effect-spore",
+      "dry-skin",
+      "damp"
+    ]
+  },
+  "pinsir": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "mold-breaker",
+      "moxie"
+    ]
+  },
+  "pineco": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "sturdy",
+      "overcoat"
+    ]
+  },
+  "forretress": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      "sturdy",
+      "overcoat"
+    ]
+  },
+  "scizor": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      "swarm",
+      "technician",
+      "light-metal"
+    ]
+  },
+  "wurmple": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shield-dust",
+      "run-away"
+    ]
+  },
+  "silcoon": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shed-skin"
+    ]
+  },
+  "cascoon": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shed-skin"
+    ]
+  },
+  "surskit": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "rain-dish"
+    ]
+  },
+  "shedinja": {
+    "types": [
+      "bug",
+      "ghost"
+    ],
+    "abilities": [
+      "wonder-guard"
+    ]
+  },
+  "volbeat": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "illuminate",
+      "swarm",
+      "prankster"
+    ]
+  },
+  "illumise": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "oblivious",
+      "tinted-lens",
+      "prankster"
+    ]
+  },
+  "kricketot": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shed-skin",
+      "run-away"
+    ]
+  },
+  "kricketune": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "technician"
+    ]
+  },
+  "burmy": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shed-skin",
+      "overcoat"
+    ]
+  },
+  "wormadam-plant": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "abilities": [
+      "anticipation",
+      "overcoat"
+    ]
+  },
+  "sewaddle": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "abilities": [
+      "swarm",
+      "chlorophyll",
+      "overcoat"
+    ]
+  },
+  "swadloon": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "abilities": [
+      "leaf-guard",
+      "chlorophyll",
+      "overcoat"
+    ]
+  },
+  "leavanny": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "abilities": [
+      "swarm",
+      "chlorophyll",
+      "overcoat"
+    ]
+  },
+  "karrablast": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "shed-skin",
+      "no-guard"
+    ]
+  },
+  "escavalier": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      "swarm",
+      "shell-armor",
+      "overcoat"
+    ]
+  },
+  "joltik": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "abilities": [
+      "compound-eyes",
+      "unnerve",
+      "swarm"
+    ]
+  },
+  "galvantula": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "abilities": [
+      "compound-eyes",
+      "unnerve",
+      "swarm"
+    ]
+  },
+  "shelmet": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "hydration",
+      "shell-armor",
+      "overcoat"
+    ]
+  },
+  "accelgor": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "hydration",
+      "sticky-hold",
+      "unburden"
+    ]
+  },
+  "durant": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      "swarm",
+      "hustle",
+      "truant"
+    ]
+  },
+  "larvesta": {
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "abilities": [
+      "flame-body",
+      "swarm"
+    ]
+  },
+  "volcarona": {
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "abilities": [
+      "flame-body",
+      "swarm"
+    ]
+  },
+  "genesect": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      "download"
+    ]
+  },
+  "scatterbug": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shield-dust",
+      "compound-eyes",
+      "friend-guard"
+    ]
+  },
+  "spewpa": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "shed-skin",
+      "friend-guard"
+    ]
+  },
+  "grubbin": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "swarm"
+    ]
+  },
+  "charjabug": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "abilities": [
+      "battery"
+    ]
+  },
+  "vikavolt": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "cutiefly": {
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "abilities": [
+      "honey-gather",
+      "shield-dust",
+      "sweet-veil"
+    ]
+  },
+  "ribombee": {
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "abilities": [
+      "honey-gather",
+      "shield-dust",
+      "sweet-veil"
+    ]
+  },
+  "dewpider": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "abilities": [
+      "water-bubble",
+      "water-absorb"
+    ]
+  },
+  "araquanid": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "abilities": [
+      "water-bubble",
+      "water-absorb"
+    ]
+  },
+  "wimpod": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "abilities": [
+      "wimp-out"
+    ]
+  },
+  "golisopod": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "abilities": [
+      "emergency-exit"
+    ]
+  },
+  "blipbug": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "compound-eyes",
+      "telepathy"
+    ]
+  },
+  "dottler": {
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "abilities": [
+      "swarm",
+      "compound-eyes",
+      "telepathy"
+    ]
+  },
+  "orbeetle": {
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "abilities": [
+      "swarm",
+      "frisk",
+      "telepathy"
+    ]
+  },
+  "sizzlipede": {
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "white-smoke",
+      "flame-body"
+    ]
+  },
+  "centiskorch": {
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "white-smoke",
+      "flame-body"
+    ]
+  },
+  "snom": {
+    "types": [
+      "bug",
+      "ice"
+    ],
+    "abilities": [
+      "shield-dust",
+      "ice-scales"
+    ]
+  },
+  "frosmoth": {
+    "types": [
+      "bug",
+      "ice"
+    ],
+    "abilities": [
+      "shield-dust",
+      "ice-scales"
+    ]
+  },
+  "tarountula": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "insomnia",
+      "stakeout"
+    ]
+  },
+  "spidops": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "insomnia",
+      "stakeout"
+    ]
+  },
+  "nymble": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "swarm",
+      "tinted-lens"
+    ]
+  },
+  "lokix": {
+    "types": [
+      "bug",
+      "dark"
+    ],
+    "abilities": [
+      "swarm",
+      "tinted-lens"
+    ]
+  },
+  "rellor": {
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      "compound-eyes",
+      "shed-skin"
+    ]
+  },
+  "rabsca": {
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "abilities": [
+      "synchronize",
+      "telepathy"
+    ]
+  },
+  "wormadam-trash": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      "anticipation",
+      "overcoat"
+    ]
+  },
+  "scizor-mega": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": [
+      "technician"
+    ]
+  },
+  "vikavolt-totem": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "ribombee-totem": {
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "abilities": [
+      "honey-gather",
+      "shield-dust",
+      "sweet-veil"
+    ]
+  },
+  "araquanid-totem": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "abilities": [
+      "water-bubble",
+      "water-absorb"
+    ]
+  },
+  "orbeetle-gmax": {
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "abilities": [
+      "swarm",
+      "frisk",
+      "telepathy"
+    ]
+  },
+  "centiskorch-gmax": {
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "white-smoke",
+      "flame-body"
+    ]
+  },
+  "golisopod-mega": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "abilities": []
+  },
+  "misdreavus": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "sableye": {
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "abilities": [
+      "keen-eye",
+      "stall",
+      "prankster"
+    ]
+  },
+  "shuppet": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "insomnia",
+      "frisk",
+      "cursed-body"
+    ]
+  },
+  "banette": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "insomnia",
+      "frisk",
+      "cursed-body"
+    ]
+  },
+  "duskull": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "levitate",
+      "frisk"
+    ]
+  },
+  "dusclops": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "pressure",
+      "frisk"
+    ]
+  },
+  "mismagius": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "spiritomb": {
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "abilities": [
+      "pressure",
+      "infiltrator"
+    ]
+  },
+  "dusknoir": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "pressure",
+      "frisk"
+    ]
+  },
+  "froslass": {
+    "types": [
+      "ghost",
+      "ice"
+    ],
+    "abilities": [
+      "snow-cloak",
+      "cursed-body"
+    ]
+  },
+  "rotom": {
+    "types": [
+      "ghost",
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "giratina-altered": {
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "abilities": [
+      "pressure",
+      "telepathy"
+    ]
+  },
+  "yamask": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "mummy"
+    ]
+  },
+  "cofagrigus": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "mummy"
+    ]
+  },
+  "frillish-male": {
+    "types": [
+      "ghost",
+      "water"
+    ],
+    "abilities": [
+      "water-absorb",
+      "cursed-body",
+      "damp"
+    ]
+  },
+  "jellicent-male": {
+    "types": [
+      "ghost",
+      "water"
+    ],
+    "abilities": [
+      "water-absorb",
+      "cursed-body",
+      "damp"
+    ]
+  },
+  "litwick": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "flame-body",
+      "infiltrator"
+    ]
+  },
+  "lampent": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "flame-body",
+      "infiltrator"
+    ]
+  },
+  "chandelure": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "flame-body",
+      "infiltrator"
+    ]
+  },
+  "honedge": {
+    "types": [
+      "ghost",
+      "steel"
+    ],
+    "abilities": [
+      "no-guard"
+    ]
+  },
+  "doublade": {
+    "types": [
+      "ghost",
+      "steel"
+    ],
+    "abilities": [
+      "no-guard"
+    ]
+  },
+  "aegislash-shield": {
+    "types": [
+      "ghost",
+      "steel"
+    ],
+    "abilities": [
+      "stance-change"
+    ]
+  },
+  "phantump": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "natural-cure",
+      "frisk",
+      "harvest"
+    ]
+  },
+  "trevenant": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "natural-cure",
+      "frisk",
+      "harvest"
+    ]
+  },
+  "pumpkaboo-average": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
+  },
+  "gourgeist-average": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
+  },
+  "hoopa": {
+    "types": [
+      "ghost",
+      "psychic"
+    ],
+    "abilities": [
+      "magician"
+    ]
+  },
+  "decidueye": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "long-reach"
+    ]
+  },
+  "mimikyu-disguised": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "abilities": [
+      "disguise"
+    ]
+  },
+  "dhelmise": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "steelworker"
+    ]
+  },
+  "lunala": {
+    "types": [
+      "ghost",
+      "psychic"
+    ],
+    "abilities": [
+      "shadow-shield"
+    ]
+  },
+  "blacephalon": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "sinistea": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "weak-armor",
+      "cursed-body"
+    ]
+  },
+  "polteageist": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "weak-armor",
+      "cursed-body"
+    ]
+  },
+  "cursola": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "weak-armor",
+      "perish-body"
+    ]
+  },
+  "dreepy": {
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "abilities": [
+      "clear-body",
+      "infiltrator",
+      "cursed-body"
+    ]
+  },
+  "drakloak": {
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "abilities": [
+      "clear-body",
+      "infiltrator",
+      "cursed-body"
+    ]
+  },
+  "dragapult": {
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "abilities": [
+      "clear-body",
+      "infiltrator",
+      "cursed-body"
+    ]
+  },
+  "spectrier": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "grim-neigh"
+    ]
+  },
+  "basculegion-male": {
+    "types": [
+      "ghost",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "adaptability",
+      "mold-breaker"
+    ]
+  },
+  "skeledirge": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "unaware"
+    ]
+  },
+  "ceruledge": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "weak-armor"
+    ]
+  },
+  "bramblin": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "wind-rider",
+      "infiltrator"
+    ]
+  },
+  "brambleghast": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "wind-rider",
+      "infiltrator"
+    ]
+  },
+  "greavard": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "pickup",
+      "fluffy"
+    ]
+  },
+  "houndstone": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "sand-rush",
+      "fluffy"
+    ]
+  },
+  "flutter-mane": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "gimmighoul": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "rattled"
+    ]
+  },
+  "gholdengo": {
+    "types": [
+      "ghost",
+      "steel"
+    ],
+    "abilities": [
+      "good-as-gold"
+    ]
+  },
+  "poltchageist": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "hospitality",
+      "heatproof"
+    ]
+  },
+  "sinistcha": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "hospitality",
+      "heatproof"
+    ]
+  },
+  "giratina-origin": {
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "aegislash-blade": {
+    "types": [
+      "ghost",
+      "steel"
+    ],
+    "abilities": [
+      "stance-change"
+    ]
+  },
+  "pumpkaboo-small": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
+  },
+  "pumpkaboo-large": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
+  },
+  "pumpkaboo-super": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
+  },
+  "gourgeist-small": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
+  },
+  "gourgeist-large": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
+  },
+  "gourgeist-super": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
+  },
+  "banette-mega": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "prankster"
+    ]
+  },
+  "sableye-mega": {
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "abilities": [
+      "magic-bounce"
+    ]
+  },
+  "marowak-alola": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "cursed-body",
+      "lightning-rod",
+      "rock-head"
+    ]
+  },
+  "mimikyu-busted": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "abilities": [
+      "disguise"
+    ]
+  },
+  "mimikyu-totem-disguised": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "abilities": [
+      "disguise"
+    ]
+  },
+  "mimikyu-totem-busted": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "abilities": [
+      "disguise"
+    ]
+  },
+  "marowak-totem": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "cursed-body",
+      "lightning-rod",
+      "rock-head"
+    ]
+  },
+  "necrozma-dawn": {
+    "types": [
+      "ghost",
+      "psychic"
+    ],
+    "abilities": [
+      "prism-armor"
+    ]
+  },
+  "corsola-galar": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "weak-armor",
+      "cursed-body"
+    ]
+  },
+  "calyrex-shadow": {
+    "types": [
+      "ghost",
+      "psychic"
+    ],
+    "abilities": [
+      "as-one-spectrier"
+    ]
+  },
+  "typhlosion-hisui": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "frisk"
+    ]
+  },
+  "basculegion-female": {
+    "types": [
+      "ghost",
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "adaptability",
+      "mold-breaker"
+    ]
+  },
+  "gimmighoul-roaming": {
+    "types": [
+      "ghost"
+    ],
+    "abilities": [
+      "run-away"
+    ]
+  },
+  "froslass-mega": {
+    "types": [
+      "ghost",
+      "ice"
+    ],
+    "abilities": [
+      "snow-warning"
+    ]
+  },
+  "chandelure-mega": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "abilities": [
+      "infiltrator"
+    ]
+  },
+  "absol-mega-z": {
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "abilities": []
+  },
+  "magnemite": {
+    "types": [
+      "steel",
+      "electric"
+    ],
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "analytic"
+    ]
+  },
+  "magneton": {
+    "types": [
+      "steel",
+      "electric"
+    ],
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "analytic"
+    ]
+  },
+  "mawile": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "intimidate",
+      "sheer-force"
+    ]
+  },
+  "beldum": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "clear-body",
+      "light-metal"
+    ]
+  },
+  "metang": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "clear-body",
+      "light-metal"
+    ]
+  },
+  "metagross": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "clear-body",
+      "light-metal"
+    ]
+  },
+  "registeel": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "clear-body",
+      "light-metal"
+    ]
+  },
+  "jirachi": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "serene-grace"
+    ]
+  },
+  "empoleon": {
+    "types": [
+      "steel",
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "competitive"
+    ]
+  },
+  "bronzor": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "levitate",
+      "heatproof",
+      "heavy-metal"
+    ]
+  },
+  "bronzong": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "levitate",
+      "heatproof",
+      "heavy-metal"
+    ]
+  },
+  "magnezone": {
+    "types": [
+      "steel",
+      "electric"
+    ],
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "analytic"
+    ]
+  },
+  "dialga": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "abilities": [
+      "pressure",
+      "telepathy"
+    ]
+  },
+  "heatran": {
+    "types": [
+      "steel",
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "flame-body"
+    ]
+  },
+  "ferroseed": {
+    "types": [
+      "steel",
+      "grass"
+    ],
+    "abilities": [
+      "iron-barbs"
+    ]
+  },
+  "ferrothorn": {
+    "types": [
+      "steel",
+      "grass"
+    ],
+    "abilities": [
+      "iron-barbs",
+      "anticipation"
+    ]
+  },
+  "klink": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "plus",
+      "minus",
+      "clear-body"
+    ]
+  },
+  "klang": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "plus",
+      "minus",
+      "clear-body"
+    ]
+  },
+  "klinklang": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "plus",
+      "minus",
+      "clear-body"
+    ]
+  },
+  "pawniard": {
+    "types": [
+      "steel",
+      "dark"
+    ],
+    "abilities": [
+      "defiant",
+      "inner-focus",
+      "pressure"
+    ]
+  },
+  "bisharp": {
+    "types": [
+      "steel",
+      "dark"
+    ],
+    "abilities": [
+      "defiant",
+      "inner-focus",
+      "pressure"
+    ]
+  },
+  "klefki": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "prankster",
+      "magician"
+    ]
+  },
+  "togedemaru": {
+    "types": [
+      "steel",
+      "electric"
+    ],
+    "abilities": [
+      "iron-barbs",
+      "lightning-rod",
+      "sturdy"
+    ]
+  },
+  "solgaleo": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "full-metal-body"
+    ]
+  },
+  "kartana": {
+    "types": [
+      "steel",
+      "grass"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "magearna": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "soul-heart"
+    ]
+  },
+  "meltan": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "magnet-pull"
+    ]
+  },
+  "melmetal": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "iron-fist"
+    ]
+  },
+  "perrserker": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "battle-armor",
+      "tough-claws",
+      "steely-spirit"
+    ]
+  },
+  "cufant": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "sheer-force",
+      "heavy-metal"
+    ]
+  },
+  "copperajah": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "sheer-force",
+      "heavy-metal"
+    ]
+  },
+  "duraludon": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "abilities": [
+      "light-metal",
+      "heavy-metal",
+      "stalwart"
+    ]
+  },
+  "tinkatink": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "mold-breaker",
+      "own-tempo",
+      "pickpocket"
+    ]
+  },
+  "tinkatuff": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "mold-breaker",
+      "own-tempo",
+      "pickpocket"
+    ]
+  },
+  "tinkaton": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "mold-breaker",
+      "own-tempo",
+      "pickpocket"
+    ]
+  },
+  "orthworm": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "earth-eater",
+      "sand-veil"
+    ]
+  },
+  "kingambit": {
+    "types": [
+      "steel",
+      "dark"
+    ],
+    "abilities": [
+      "defiant",
+      "supreme-overlord",
+      "pressure"
+    ]
+  },
+  "archaludon": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "abilities": [
+      "stamina",
+      "sturdy",
+      "stalwart"
+    ]
+  },
+  "iron-crown": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "mawile-mega": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "huge-power"
+    ]
+  },
+  "aggron-mega": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "filter"
+    ]
+  },
+  "metagross-mega": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "tough-claws"
+    ]
+  },
+  "sandshrew-alola": {
+    "types": [
+      "steel",
+      "ice"
+    ],
+    "abilities": [
+      "snow-cloak",
+      "slush-rush"
+    ]
+  },
+  "sandslash-alola": {
+    "types": [
+      "steel",
+      "ice"
+    ],
+    "abilities": [
+      "snow-cloak",
+      "slush-rush"
+    ]
+  },
+  "magearna-original": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "soul-heart"
+    ]
+  },
+  "togedemaru-totem": {
+    "types": [
+      "steel",
+      "electric"
+    ],
+    "abilities": [
+      "iron-barbs",
+      "lightning-rod",
+      "sturdy"
+    ]
+  },
+  "necrozma-dusk": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "prism-armor"
+    ]
+  },
+  "meowth-galar": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "pickup",
+      "tough-claws",
+      "unnerve"
+    ]
+  },
+  "zacian-crowned": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": [
+      "intrepid-sword"
+    ]
+  },
+  "melmetal-gmax": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "iron-fist"
+    ]
+  },
+  "copperajah-gmax": {
+    "types": [
+      "steel"
+    ],
+    "abilities": [
+      "sheer-force",
+      "heavy-metal"
+    ]
+  },
+  "duraludon-gmax": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "abilities": [
+      "light-metal",
+      "heavy-metal",
+      "stalwart"
+    ]
+  },
+  "sliggoo-hisui": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "abilities": [
+      "sap-sipper",
+      "shell-armor",
+      "gooey"
+    ]
+  },
+  "goodra-hisui": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "abilities": [
+      "sap-sipper",
+      "shell-armor",
+      "gooey"
+    ]
+  },
+  "dialga-origin": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "abilities": [
+      "pressure",
+      "telepathy"
+    ]
+  },
+  "chimecho-mega": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "heatran-mega": {
+    "types": [
+      "steel",
+      "fire"
+    ],
+    "abilities": []
+  },
+  "magearna-mega": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": []
+  },
+  "magearna-original-mega": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "abilities": []
+  },
+  "charmander": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ]
+  },
+  "charmeleon": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ]
+  },
+  "vulpix": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "drought"
+    ]
+  },
+  "ninetales": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "drought"
+    ]
+  },
+  "growlithe": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "intimidate",
+      "flash-fire",
+      "justified"
+    ]
+  },
+  "arcanine": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "intimidate",
+      "flash-fire",
+      "justified"
+    ]
+  },
+  "ponyta": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "run-away",
+      "flash-fire",
+      "flame-body"
+    ]
+  },
+  "rapidash": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "run-away",
+      "flash-fire",
+      "flame-body"
+    ]
+  },
+  "magmar": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "flame-body",
+      "vital-spirit"
+    ]
+  },
+  "flareon": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "guts"
+    ]
+  },
+  "cyndaquil": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ]
+  },
+  "quilava": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ]
+  },
+  "typhlosion": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ]
+  },
+  "slugma": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "magma-armor",
+      "flame-body",
+      "weak-armor"
+    ]
+  },
+  "houndour": {
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "abilities": [
+      "early-bird",
+      "flash-fire",
+      "unnerve"
+    ]
+  },
+  "houndoom": {
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "abilities": [
+      "early-bird",
+      "flash-fire",
+      "unnerve"
+    ]
+  },
+  "magby": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "flame-body",
+      "vital-spirit"
+    ]
+  },
+  "entei": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "pressure",
+      "inner-focus"
+    ]
+  },
+  "torchic": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "speed-boost"
+    ]
+  },
+  "torkoal": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "white-smoke",
+      "drought",
+      "shell-armor"
+    ]
+  },
+  "chimchar": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "iron-fist"
+    ]
+  },
+  "magmortar": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "flame-body",
+      "vital-spirit"
+    ]
+  },
+  "victini": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "abilities": [
+      "victory-star"
+    ]
+  },
+  "tepig": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "thick-fat"
+    ]
+  },
+  "pansear": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "gluttony",
+      "blaze"
+    ]
+  },
+  "simisear": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "gluttony",
+      "blaze"
+    ]
+  },
+  "darumaka": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "hustle",
+      "inner-focus"
+    ]
+  },
+  "darmanitan-standard": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "sheer-force",
+      "zen-mode"
+    ]
+  },
+  "heatmor": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "gluttony",
+      "flash-fire",
+      "white-smoke"
+    ]
+  },
+  "reshiram": {
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "abilities": [
+      "turboblaze"
+    ]
+  },
+  "fennekin": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "magician"
+    ]
+  },
+  "braixen": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "magician"
+    ]
+  },
+  "delphox": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "abilities": [
+      "blaze",
+      "magician"
+    ]
+  },
+  "volcanion": {
+    "types": [
+      "fire",
+      "water"
+    ],
+    "abilities": [
+      "water-absorb"
+    ]
+  },
+  "litten": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "intimidate"
+    ]
+  },
+  "torracat": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "intimidate"
+    ]
+  },
+  "incineroar": {
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "abilities": [
+      "blaze",
+      "intimidate"
+    ]
+  },
+  "turtonator": {
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "abilities": [
+      "shell-armor"
+    ]
+  },
+  "scorbunny": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "libero"
+    ]
+  },
+  "raboot": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "libero"
+    ]
+  },
+  "cinderace": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "libero"
+    ]
+  },
+  "fuecoco": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "unaware"
+    ]
+  },
+  "crocalor": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "unaware"
+    ]
+  },
+  "charcadet": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "flash-fire",
+      "flame-body"
+    ]
+  },
+  "armarouge": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "abilities": [
+      "flash-fire",
+      "weak-armor"
+    ]
+  },
+  "scovillain": {
+    "types": [
+      "fire",
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "insomnia",
+      "moody"
+    ]
+  },
+  "chi-yu": {
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "abilities": [
+      "beads-of-ruin"
+    ]
+  },
+  "gouging-fire": {
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "rotom-heat": {
+    "types": [
+      "fire",
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "castform-sunny": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "forecast"
+    ]
+  },
+  "darmanitan-zen": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "abilities": [
+      "sheer-force",
+      "zen-mode"
+    ]
+  },
+  "charizard-mega-x": {
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "abilities": [
+      "tough-claws"
+    ]
+  },
+  "houndoom-mega": {
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "abilities": [
+      "solar-power"
+    ]
+  },
+  "darmanitan-galar-zen": {
+    "types": [
+      "fire",
+      "ice"
+    ],
+    "abilities": [
+      "gorilla-tactics",
+      "zen-mode"
+    ]
+  },
+  "cinderace-gmax": {
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      "blaze",
+      "libero"
+    ]
+  },
+  "ogerpon-hearthflame-mask": {
+    "types": [
+      "fire",
+      "grass"
+    ],
+    "abilities": [
+      "mold-breaker"
+    ]
+  },
+  "delphox-mega": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "scovillain-mega": {
+    "types": [
+      "fire",
+      "grass"
+    ],
+    "abilities": [
+      "spicy-spray"
+    ]
+  },
+  "squirtle": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ]
+  },
+  "wartortle": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ]
+  },
+  "blastoise": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ]
+  },
+  "psyduck": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "damp",
+      "cloud-nine",
+      "swift-swim"
+    ]
+  },
+  "golduck": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "damp",
+      "cloud-nine",
+      "swift-swim"
+    ]
+  },
+  "poliwag": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ]
+  },
+  "poliwhirl": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ]
+  },
+  "slowpoke": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ]
+  },
+  "slowbro": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ]
+  },
+  "seel": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "thick-fat",
+      "hydration",
+      "ice-body"
+    ]
+  },
+  "dewgong": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "thick-fat",
+      "hydration",
+      "ice-body"
+    ]
+  },
+  "shellder": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "shell-armor",
+      "skill-link",
+      "overcoat"
+    ]
+  },
+  "cloyster": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "shell-armor",
+      "skill-link",
+      "overcoat"
+    ]
+  },
+  "krabby": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "sheer-force"
+    ]
+  },
+  "kingler": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "sheer-force"
+    ]
+  },
+  "horsea": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "sniper",
+      "damp"
+    ]
+  },
+  "seadra": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "poison-point",
+      "sniper",
+      "damp"
+    ]
+  },
+  "goldeen": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "water-veil",
+      "lightning-rod"
+    ]
+  },
+  "seaking": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "water-veil",
+      "lightning-rod"
+    ]
+  },
+  "staryu": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "illuminate",
+      "natural-cure",
+      "analytic"
+    ]
+  },
+  "starmie": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      "illuminate",
+      "natural-cure",
+      "analytic"
+    ]
+  },
+  "magikarp": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "rattled"
+    ]
+  },
+  "lapras": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "water-absorb",
+      "shell-armor",
+      "hydration"
+    ]
+  },
+  "vaporeon": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "water-absorb",
+      "hydration"
+    ]
+  },
+  "totodile": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ]
+  },
+  "croconaw": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ]
+  },
+  "feraligatr": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ]
+  },
+  "chinchou": {
+    "types": [
+      "water",
+      "electric"
+    ],
+    "abilities": [
+      "volt-absorb",
+      "illuminate",
+      "water-absorb"
+    ]
+  },
+  "lanturn": {
+    "types": [
+      "water",
+      "electric"
+    ],
+    "abilities": [
+      "volt-absorb",
+      "illuminate",
+      "water-absorb"
+    ]
+  },
+  "marill": {
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "abilities": [
+      "thick-fat",
+      "huge-power",
+      "sap-sipper"
+    ]
+  },
+  "azumarill": {
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "abilities": [
+      "thick-fat",
+      "huge-power",
+      "sap-sipper"
+    ]
+  },
+  "politoed": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "drizzle"
+    ]
+  },
+  "slowking": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ]
+  },
+  "remoraid": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "hustle",
+      "sniper",
+      "moody"
+    ]
+  },
+  "octillery": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "suction-cups",
+      "sniper",
+      "moody"
+    ]
+  },
+  "kingdra": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "swift-swim",
+      "sniper",
+      "damp"
+    ]
+  },
+  "suicune": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "pressure",
+      "inner-focus"
+    ]
+  },
+  "mudkip": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "damp"
+    ]
+  },
+  "lotad": {
+    "types": [
+      "water",
+      "grass"
+    ],
+    "abilities": [
+      "swift-swim",
+      "rain-dish",
+      "own-tempo"
+    ]
+  },
+  "lombre": {
+    "types": [
+      "water",
+      "grass"
+    ],
+    "abilities": [
+      "swift-swim",
+      "rain-dish",
+      "own-tempo"
+    ]
+  },
+  "ludicolo": {
+    "types": [
+      "water",
+      "grass"
+    ],
+    "abilities": [
+      "swift-swim",
+      "rain-dish",
+      "own-tempo"
+    ]
+  },
+  "carvanha": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "rough-skin",
+      "speed-boost"
+    ]
+  },
+  "sharpedo": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "rough-skin",
+      "speed-boost"
+    ]
+  },
+  "wailmer": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "water-veil",
+      "oblivious",
+      "pressure"
+    ]
+  },
+  "wailord": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "water-veil",
+      "oblivious",
+      "pressure"
+    ]
+  },
+  "corphish": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "adaptability"
+    ]
+  },
+  "crawdaunt": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "adaptability"
+    ]
+  },
+  "feebas": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "oblivious",
+      "adaptability"
+    ]
+  },
+  "milotic": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "marvel-scale",
+      "competitive",
+      "cute-charm"
+    ]
+  },
+  "spheal": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "thick-fat",
+      "ice-body",
+      "oblivious"
+    ]
+  },
+  "sealeo": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "thick-fat",
+      "ice-body",
+      "oblivious"
+    ]
+  },
+  "walrein": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "thick-fat",
+      "ice-body",
+      "oblivious"
+    ]
+  },
+  "clamperl": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "shell-armor",
+      "rattled"
+    ]
+  },
+  "huntail": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "water-veil"
+    ]
+  },
+  "gorebyss": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "hydration"
+    ]
+  },
+  "luvdisc": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "hydration"
+    ]
+  },
+  "kyogre": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "drizzle"
+    ]
+  },
+  "piplup": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "competitive"
+    ]
+  },
+  "prinplup": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "competitive"
+    ]
+  },
+  "buizel": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "water-veil"
+    ]
+  },
+  "floatzel": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "water-veil"
+    ]
+  },
+  "shellos": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "sticky-hold",
+      "storm-drain",
+      "sand-force"
+    ]
+  },
+  "finneon": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "storm-drain",
+      "water-veil"
+    ]
+  },
+  "lumineon": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "storm-drain",
+      "water-veil"
+    ]
+  },
+  "palkia": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "pressure",
+      "telepathy"
+    ]
+  },
+  "phione": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "hydration"
+    ]
+  },
+  "manaphy": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "hydration"
+    ]
+  },
+  "oshawott": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "shell-armor"
+    ]
+  },
+  "dewott": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "shell-armor"
+    ]
+  },
+  "samurott": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "shell-armor"
+    ]
+  },
+  "panpour": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "gluttony",
+      "torrent"
+    ]
+  },
+  "simipour": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "gluttony",
+      "torrent"
+    ]
+  },
+  "tympole": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "hydration",
+      "water-absorb"
+    ]
+  },
+  "basculin-red-striped": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "reckless",
+      "adaptability",
+      "mold-breaker"
+    ]
+  },
+  "alomomola": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "healer",
+      "hydration",
+      "regenerator"
+    ]
+  },
+  "froakie": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "protean"
+    ]
+  },
+  "frogadier": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "protean"
+    ]
+  },
+  "greninja": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "torrent",
+      "protean"
+    ]
+  },
+  "clauncher": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "mega-launcher"
+    ]
+  },
+  "clawitzer": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "mega-launcher"
+    ]
+  },
+  "popplio": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "liquid-voice"
+    ]
+  },
+  "brionne": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "liquid-voice"
+    ]
+  },
+  "primarina": {
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "abilities": [
+      "torrent",
+      "liquid-voice"
+    ]
+  },
+  "wishiwashi-solo": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "schooling"
+    ]
+  },
+  "pyukumuku": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "innards-out",
+      "unaware"
+    ]
+  },
+  "bruxish": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      "dazzling",
+      "strong-jaw",
+      "wonder-skin"
+    ]
+  },
+  "tapu-fini": {
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "abilities": [
+      "misty-surge",
+      "telepathy"
+    ]
+  },
+  "sobble": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "sniper"
+    ]
+  },
+  "drizzile": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "sniper"
+    ]
+  },
+  "inteleon": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "sniper"
+    ]
+  },
+  "chewtle": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "strong-jaw",
+      "shell-armor",
+      "swift-swim"
+    ]
+  },
+  "arrokuda": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "propeller-tail"
+    ]
+  },
+  "barraskewda": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "swift-swim",
+      "propeller-tail"
+    ]
+  },
+  "dracovish": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "water-absorb",
+      "strong-jaw",
+      "sand-rush"
+    ]
+  },
+  "arctovish": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "water-absorb",
+      "ice-body",
+      "slush-rush"
+    ]
+  },
+  "quaxly": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "moxie"
+    ]
+  },
+  "quaxwell": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "moxie"
+    ]
+  },
+  "wiglett": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "gooey",
+      "rattled",
+      "sand-veil"
+    ]
+  },
+  "wugtrio": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "gooey",
+      "rattled",
+      "sand-veil"
+    ]
+  },
+  "finizen": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "water-veil"
+    ]
+  },
+  "palafin-zero": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "zero-to-hero"
+    ]
+  },
+  "veluza": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      "mold-breaker",
+      "sharpness"
+    ]
+  },
+  "dondozo": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "unaware",
+      "oblivious",
+      "water-veil"
+    ]
+  },
+  "tatsugiri-curly": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "commander",
+      "storm-drain"
+    ]
+  },
+  "iron-bundle": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "walking-wake": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "rotom-wash": {
+    "types": [
+      "water",
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "castform-rainy": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "forecast"
+    ]
+  },
+  "basculin-blue-striped": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "rock-head",
+      "adaptability",
+      "mold-breaker"
+    ]
+  },
+  "blastoise-mega": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "mega-launcher"
+    ]
+  },
+  "gyarados-mega": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "mold-breaker"
+    ]
+  },
+  "sharpedo-mega": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "strong-jaw"
+    ]
+  },
+  "slowbro-mega": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      "shell-armor"
+    ]
+  },
+  "kyogre-primal": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "primordial-sea"
+    ]
+  },
+  "greninja-battle-bond": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "battle-bond"
+    ]
+  },
+  "greninja-ash": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "battle-bond"
+    ]
+  },
+  "wishiwashi-school": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "schooling"
+    ]
+  },
+  "blastoise-gmax": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ]
+  },
+  "kingler-gmax": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "sheer-force"
+    ]
+  },
+  "lapras-gmax": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      "water-absorb",
+      "shell-armor",
+      "hydration"
+    ]
+  },
+  "inteleon-gmax": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "torrent",
+      "sniper"
+    ]
+  },
+  "samurott-hisui": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "torrent",
+      "sharpness"
+    ]
+  },
+  "palkia-origin": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "pressure",
+      "telepathy"
+    ]
+  },
+  "basculin-white-striped": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "rattled",
+      "adaptability",
+      "mold-breaker"
+    ]
+  },
+  "palafin-hero": {
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      "zero-to-hero"
+    ]
+  },
+  "tatsugiri-droopy": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "commander",
+      "storm-drain"
+    ]
+  },
+  "tatsugiri-stretchy": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "commander",
+      "storm-drain"
+    ]
+  },
+  "ogerpon-wellspring-mask": {
+    "types": [
+      "water",
+      "grass"
+    ],
+    "abilities": [
+      "water-absorb"
+    ]
+  },
+  "starmie-mega": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      "huge-power"
+    ]
+  },
+  "feraligatr-mega": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": [
+      "dragonize"
+    ]
+  },
+  "greninja-mega": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "abilities": [
+      "protean"
+    ]
+  },
+  "tatsugiri-curly-mega": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": []
+  },
+  "tatsugiri-droopy-mega": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": []
+  },
+  "tatsugiri-stretchy-mega": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "abilities": []
+  },
+  "exeggcute": {
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "harvest"
+    ]
+  },
+  "exeggutor": {
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "harvest"
+    ]
+  },
+  "tangela": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "regenerator"
+    ]
+  },
+  "chikorita": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ]
+  },
+  "bayleef": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ]
+  },
+  "meganium": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ]
+  },
+  "bellossom": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "healer"
+    ]
+  },
+  "sunkern": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "solar-power",
+      "early-bird"
+    ]
+  },
+  "sunflora": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "solar-power",
+      "early-bird"
+    ]
+  },
+  "celebi": {
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "abilities": [
+      "natural-cure"
+    ]
+  },
+  "treecko": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "unburden"
+    ]
+  },
+  "grovyle": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "unburden"
+    ]
+  },
+  "sceptile": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "unburden"
+    ]
+  },
+  "seedot": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "early-bird",
+      "pickpocket"
+    ]
+  },
+  "nuzleaf": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "early-bird",
+      "pickpocket"
+    ]
+  },
+  "shiftry": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "wind-rider",
+      "pickpocket"
+    ]
+  },
+  "shroomish": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "effect-spore",
+      "poison-heal",
+      "quick-feet"
+    ]
+  },
+  "cacnea": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "sand-veil",
+      "water-absorb"
+    ]
+  },
+  "cacturne": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      "sand-veil",
+      "water-absorb"
+    ]
+  },
+  "turtwig": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "shell-armor"
+    ]
+  },
+  "grotle": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "shell-armor"
+    ]
+  },
+  "cherubi": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll"
+    ]
+  },
+  "cherrim": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "flower-gift"
+    ]
+  },
+  "carnivine": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "snover": {
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "abilities": [
+      "snow-warning",
+      "soundproof"
+    ]
+  },
+  "abomasnow": {
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "abilities": [
+      "snow-warning",
+      "soundproof"
+    ]
+  },
+  "tangrowth": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "regenerator"
+    ]
+  },
+  "leafeon": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "leaf-guard",
+      "chlorophyll"
+    ]
+  },
+  "shaymin-land": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "natural-cure"
+    ]
+  },
+  "snivy": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "contrary"
+    ]
+  },
+  "servine": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "contrary"
+    ]
+  },
+  "serperior": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "contrary"
+    ]
+  },
+  "pansage": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "gluttony",
+      "overgrow"
+    ]
+  },
+  "simisage": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "gluttony",
+      "overgrow"
+    ]
+  },
+  "cottonee": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "abilities": [
+      "prankster",
+      "infiltrator",
+      "chlorophyll"
+    ]
+  },
+  "whimsicott": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "abilities": [
+      "prankster",
+      "infiltrator",
+      "chlorophyll"
+    ]
+  },
+  "petilil": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "own-tempo",
+      "leaf-guard"
+    ]
+  },
+  "lilligant": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "own-tempo",
+      "leaf-guard"
+    ]
+  },
+  "maractus": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "water-absorb",
+      "chlorophyll",
+      "storm-drain"
+    ]
+  },
+  "chespin": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "bulletproof"
+    ]
+  },
+  "quilladin": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "bulletproof"
+    ]
+  },
+  "skiddo": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "sap-sipper",
+      "grass-pelt"
+    ]
+  },
+  "gogoat": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "sap-sipper",
+      "grass-pelt"
+    ]
+  },
+  "fomantis": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "leaf-guard",
+      "contrary"
+    ]
+  },
+  "lurantis": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "leaf-guard",
+      "contrary"
+    ]
+  },
+  "morelull": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "abilities": [
+      "illuminate",
+      "effect-spore",
+      "rain-dish"
+    ]
+  },
+  "shiinotic": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "abilities": [
+      "illuminate",
+      "effect-spore",
+      "rain-dish"
+    ]
+  },
+  "bounsweet": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "leaf-guard",
+      "oblivious",
+      "sweet-veil"
+    ]
+  },
+  "steenee": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "leaf-guard",
+      "oblivious",
+      "sweet-veil"
+    ]
+  },
+  "tsareena": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "leaf-guard",
+      "queenly-majesty",
+      "sweet-veil"
+    ]
+  },
+  "tapu-bulu": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "abilities": [
+      "grassy-surge",
+      "telepathy"
+    ]
+  },
+  "grookey": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "grassy-surge"
+    ]
+  },
+  "thwackey": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "grassy-surge"
+    ]
+  },
+  "rillaboom": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "grassy-surge"
+    ]
+  },
+  "gossifleur": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "cotton-down",
+      "regenerator",
+      "effect-spore"
+    ]
+  },
+  "eldegoss": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "cotton-down",
+      "regenerator",
+      "effect-spore"
+    ]
+  },
+  "applin": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "ripen",
+      "gluttony",
+      "bulletproof"
+    ]
+  },
+  "flapple": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "ripen",
+      "gluttony",
+      "hustle"
+    ]
+  },
+  "appletun": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "ripen",
+      "gluttony",
+      "thick-fat"
+    ]
+  },
+  "zarude": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      "leaf-guard"
+    ]
+  },
+  "calyrex": {
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "abilities": [
+      "unnerve"
+    ]
+  },
+  "sprigatito": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "protean"
+    ]
+  },
+  "floragato": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "protean"
+    ]
+  },
+  "meowscarada": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      "overgrow",
+      "protean"
+    ]
+  },
+  "capsakid": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "chlorophyll",
+      "insomnia",
+      "klutz"
+    ]
+  },
+  "brute-bonnet": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "wo-chien": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      "tablets-of-ruin"
+    ]
+  },
+  "iron-leaves": {
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "abilities": [
+      "quark-drive"
+    ]
+  },
+  "dipplin": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "supersweet-syrup",
+      "gluttony",
+      "sticky-hold"
+    ]
+  },
+  "ogerpon": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "defiant"
+    ]
+  },
+  "hydrapple": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "supersweet-syrup",
+      "regenerator",
+      "sticky-hold"
+    ]
+  },
+  "rotom-mow": {
+    "types": [
+      "grass",
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "abomasnow-mega": {
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "abilities": [
+      "snow-warning"
+    ]
+  },
+  "sceptile-mega": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "lightning-rod"
+    ]
+  },
+  "exeggutor-alola": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "frisk",
+      "harvest"
+    ]
+  },
+  "lurantis-totem": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "leaf-guard",
+      "contrary"
+    ]
+  },
+  "zarude-dada": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "abilities": [
+      "leaf-guard"
+    ]
+  },
+  "rillaboom-gmax": {
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      "overgrow",
+      "grassy-surge"
+    ]
+  },
+  "flapple-gmax": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "ripen",
+      "gluttony",
+      "hustle"
+    ]
+  },
+  "appletun-gmax": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "abilities": [
+      "ripen",
+      "gluttony",
+      "thick-fat"
+    ]
+  },
+  "voltorb-hisui": {
+    "types": [
+      "grass",
+      "electric"
+    ],
+    "abilities": [
+      "soundproof",
+      "static",
+      "aftermath"
+    ]
+  },
+  "electrode-hisui": {
+    "types": [
+      "grass",
+      "electric"
+    ],
+    "abilities": [
+      "soundproof",
+      "static",
+      "aftermath"
+    ]
+  },
+  "meganium-mega": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "abilities": [
+      "mega-sol"
+    ]
+  },
+  "pikachu": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "raichu": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "voltorb": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "soundproof",
+      "static",
+      "aftermath"
+    ]
+  },
+  "electrode": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "soundproof",
+      "static",
+      "aftermath"
+    ]
+  },
+  "electabuzz": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "vital-spirit"
+    ]
+  },
+  "jolteon": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "volt-absorb",
+      "quick-feet"
+    ]
+  },
+  "pichu": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "mareep": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "plus"
+    ]
+  },
+  "flaaffy": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "plus"
+    ]
+  },
+  "ampharos": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "plus"
+    ]
+  },
+  "elekid": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "vital-spirit"
+    ]
+  },
+  "raikou": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "pressure",
+      "inner-focus"
+    ]
+  },
+  "electrike": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod",
+      "minus"
+    ]
+  },
+  "manectric": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod",
+      "minus"
+    ]
+  },
+  "plusle": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "plus",
+      "lightning-rod"
+    ]
+  },
+  "minun": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "minus",
+      "volt-absorb"
+    ]
+  },
+  "shinx": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "rivalry",
+      "intimidate",
+      "guts"
+    ]
+  },
+  "luxio": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "rivalry",
+      "intimidate",
+      "guts"
+    ]
+  },
+  "luxray": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "rivalry",
+      "intimidate",
+      "guts"
+    ]
+  },
+  "pachirisu": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "run-away",
+      "pickup",
+      "volt-absorb"
+    ]
+  },
+  "electivire": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "motor-drive",
+      "vital-spirit"
+    ]
+  },
+  "blitzle": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "lightning-rod",
+      "motor-drive",
+      "sap-sipper"
+    ]
+  },
+  "zebstrika": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "lightning-rod",
+      "motor-drive",
+      "sap-sipper"
+    ]
+  },
+  "tynamo": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "eelektrik": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "eelektross": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "zekrom": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "teravolt"
+    ]
+  },
+  "dedenne": {
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "abilities": [
+      "cheek-pouch",
+      "pickup",
+      "plus"
+    ]
+  },
+  "tapu-koko": {
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "abilities": [
+      "electric-surge",
+      "telepathy"
+    ]
+  },
+  "xurkitree": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "zeraora": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "volt-absorb"
+    ]
+  },
+  "yamper": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "ball-fetch",
+      "rattled"
+    ]
+  },
+  "boltund": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "strong-jaw",
+      "competitive"
+    ]
+  },
+  "pincurchin": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "lightning-rod",
+      "electric-surge"
+    ]
+  },
+  "morpeko-full-belly": {
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "abilities": [
+      "hunger-switch"
+    ]
+  },
+  "dracozolt": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "volt-absorb",
+      "hustle",
+      "sand-rush"
+    ]
+  },
+  "arctozolt": {
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "abilities": [
+      "volt-absorb",
+      "static",
+      "slush-rush"
+    ]
+  },
+  "regieleki": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "transistor"
+    ]
+  },
+  "pawmi": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "natural-cure",
+      "iron-fist"
+    ]
+  },
+  "tadbulb": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "own-tempo",
+      "static",
+      "damp"
+    ]
+  },
+  "bellibolt": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "electromorphosis",
+      "static",
+      "damp"
+    ]
+  },
+  "miraidon": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "hadron-engine"
+    ]
+  },
+  "raging-bolt": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "rotom-frost": {
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "ampharos-mega": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "mold-breaker"
+    ]
+  },
+  "manectric-mega": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "intimidate"
+    ]
+  },
+  "pikachu-rock-star": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-belle": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-pop-star": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-phd": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-libre": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-cosplay": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-original-cap": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-hoenn-cap": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-sinnoh-cap": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-unova-cap": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-kalos-cap": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-alola-cap": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "raichu-alola": {
+    "types": [
+      "electric",
+      "psychic"
+    ],
+    "abilities": [
+      "surge-surfer"
+    ]
+  },
+  "pikachu-partner-cap": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-starter": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "pikachu-world-cap": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "morpeko-hangry": {
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "abilities": [
+      "hunger-switch"
+    ]
+  },
+  "pikachu-gmax": {
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
+  },
+  "miraidon-low-power-mode": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "hadron-engine"
+    ]
+  },
+  "miraidon-drive-mode": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "hadron-engine"
+    ]
+  },
+  "miraidon-aquatic-mode": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "hadron-engine"
+    ]
+  },
+  "miraidon-glide-mode": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "abilities": [
+      "hadron-engine"
+    ]
+  },
+  "eelektross-mega": {
+    "types": [
+      "electric"
+    ],
+    "abilities": []
+  },
+  "raichu-mega-x": {
+    "types": [
+      "electric"
+    ],
+    "abilities": []
+  },
+  "raichu-mega-y": {
+    "types": [
+      "electric"
+    ],
+    "abilities": []
+  },
+  "zeraora-mega": {
+    "types": [
+      "electric"
+    ],
+    "abilities": []
+  },
+  "abra": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ]
+  },
+  "kadabra": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ]
+  },
+  "alakazam": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ]
+  },
+  "drowzee": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "insomnia",
+      "forewarn",
+      "inner-focus"
+    ]
+  },
+  "hypno": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "insomnia",
+      "forewarn",
+      "inner-focus"
+    ]
+  },
+  "mr-mime": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "soundproof",
+      "filter",
+      "technician"
+    ]
+  },
+  "jynx": {
+    "types": [
+      "psychic",
+      "ice"
+    ],
+    "abilities": [
+      "oblivious",
+      "forewarn",
+      "dry-skin"
+    ]
+  },
+  "mewtwo": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "pressure",
+      "unnerve"
+    ]
+  },
+  "mew": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "synchronize"
+    ]
+  },
+  "espeon": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "synchronize",
+      "magic-bounce"
+    ]
+  },
+  "unown": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "wobbuffet": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "shadow-tag",
+      "telepathy"
+    ]
+  },
+  "smoochum": {
+    "types": [
+      "psychic",
+      "ice"
+    ],
+    "abilities": [
+      "oblivious",
+      "forewarn",
+      "hydration"
+    ]
+  },
+  "ralts": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "synchronize",
+      "trace",
+      "telepathy"
+    ]
+  },
+  "kirlia": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "synchronize",
+      "trace",
+      "telepathy"
+    ]
+  },
+  "gardevoir": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "synchronize",
+      "trace",
+      "telepathy"
+    ]
+  },
+  "spoink": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "thick-fat",
+      "own-tempo",
+      "gluttony"
+    ]
+  },
+  "grumpig": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "thick-fat",
+      "own-tempo",
+      "gluttony"
+    ]
+  },
+  "chimecho": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "wynaut": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "shadow-tag",
+      "telepathy"
+    ]
+  },
+  "latias": {
+    "types": [
+      "psychic",
+      "dragon"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "latios": {
+    "types": [
+      "psychic",
+      "dragon"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "deoxys-normal": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "pressure"
+    ]
+  },
+  "chingling": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "mime-jr": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "soundproof",
+      "filter",
+      "technician"
+    ]
+  },
+  "uxie": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "mesprit": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "azelf": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "cresselia": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "munna": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "forewarn",
+      "synchronize",
+      "telepathy"
+    ]
+  },
+  "musharna": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "forewarn",
+      "synchronize",
+      "telepathy"
+    ]
+  },
+  "gothita": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "frisk",
+      "competitive",
+      "shadow-tag"
+    ]
+  },
+  "gothorita": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "frisk",
+      "competitive",
+      "shadow-tag"
+    ]
+  },
+  "gothitelle": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "frisk",
+      "competitive",
+      "shadow-tag"
+    ]
+  },
+  "solosis": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "overcoat",
+      "magic-guard",
+      "regenerator"
+    ]
+  },
+  "duosion": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "overcoat",
+      "magic-guard",
+      "regenerator"
+    ]
+  },
+  "reuniclus": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "overcoat",
+      "magic-guard",
+      "regenerator"
+    ]
+  },
+  "elgyem": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "telepathy",
+      "synchronize",
+      "analytic"
+    ]
+  },
+  "beheeyem": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "telepathy",
+      "synchronize",
+      "analytic"
+    ]
+  },
+  "espurr": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "keen-eye",
+      "infiltrator",
+      "own-tempo"
+    ]
+  },
+  "meowstic-male": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "keen-eye",
+      "infiltrator",
+      "prankster"
+    ]
+  },
+  "inkay": {
+    "types": [
+      "psychic",
+      "dark"
+    ],
+    "abilities": [
+      "contrary",
+      "suction-cups",
+      "infiltrator"
+    ]
+  },
+  "malamar": {
+    "types": [
+      "psychic",
+      "dark"
+    ],
+    "abilities": [
+      "contrary",
+      "suction-cups",
+      "infiltrator"
+    ]
+  },
+  "tapu-lele": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "psychic-surge",
+      "telepathy"
+    ]
+  },
+  "cosmog": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "unaware"
+    ]
+  },
+  "cosmoem": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "sturdy"
+    ]
+  },
+  "necrozma": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "prism-armor"
+    ]
+  },
+  "hatenna": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "healer",
+      "anticipation",
+      "magic-bounce"
+    ]
+  },
+  "hattrem": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "healer",
+      "anticipation",
+      "magic-bounce"
+    ]
+  },
+  "hatterene": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "healer",
+      "anticipation",
+      "magic-bounce"
+    ]
+  },
+  "mr-rime": {
+    "types": [
+      "psychic",
+      "ice"
+    ],
+    "abilities": [
+      "tangled-feet",
+      "screen-cleaner",
+      "ice-body"
+    ]
+  },
+  "flittle": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "anticipation",
+      "frisk",
+      "speed-boost"
+    ]
+  },
+  "espathra": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "opportunist",
+      "frisk",
+      "speed-boost"
+    ]
+  },
+  "scream-tail": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "deoxys-attack": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "pressure"
+    ]
+  },
+  "deoxys-defense": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "pressure"
+    ]
+  },
+  "deoxys-speed": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "pressure"
+    ]
+  },
+  "meowstic-female": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "keen-eye",
+      "infiltrator",
+      "competitive"
+    ]
+  },
+  "alakazam-mega": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "trace"
+    ]
+  },
+  "mewtwo-mega-y": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "insomnia"
+    ]
+  },
+  "gardevoir-mega": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "pixilate"
+    ]
+  },
+  "latias-mega": {
+    "types": [
+      "psychic",
+      "dragon"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "latios-mega": {
+    "types": [
+      "psychic",
+      "dragon"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "hoopa-unbound": {
+    "types": [
+      "psychic",
+      "dark"
+    ],
+    "abilities": [
+      "magician"
+    ]
+  },
+  "necrozma-ultra": {
+    "types": [
+      "psychic",
+      "dragon"
+    ],
+    "abilities": [
+      "neuroforce"
+    ]
+  },
+  "ponyta-galar": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "run-away",
+      "pastel-veil",
+      "anticipation"
+    ]
+  },
+  "rapidash-galar": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "run-away",
+      "pastel-veil",
+      "anticipation"
+    ]
+  },
+  "slowpoke-galar": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "gluttony",
+      "own-tempo",
+      "regenerator"
+    ]
+  },
+  "mr-mime-galar": {
+    "types": [
+      "psychic",
+      "ice"
+    ],
+    "abilities": [
+      "vital-spirit",
+      "screen-cleaner",
+      "ice-body"
+    ]
+  },
+  "calyrex-ice": {
+    "types": [
+      "psychic",
+      "ice"
+    ],
+    "abilities": [
+      "as-one-glastrier"
+    ]
+  },
+  "hatterene-gmax": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      "healer",
+      "anticipation",
+      "magic-bounce"
+    ]
+  },
+  "malamar-mega": {
+    "types": [
+      "psychic",
+      "dark"
+    ],
+    "abilities": []
+  },
+  "meowstic-mega": {
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      "trace"
+    ]
+  },
+  "sneasel": {
+    "types": [
+      "ice",
+      "dark"
+    ],
+    "abilities": [
+      "inner-focus",
+      "keen-eye",
+      "pickpocket"
+    ]
+  },
+  "snorunt": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "inner-focus",
+      "ice-body",
+      "moody"
+    ]
+  },
+  "glalie": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "inner-focus",
+      "ice-body",
+      "moody"
+    ]
+  },
+  "regice": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "clear-body",
+      "ice-body"
+    ]
+  },
+  "weavile": {
+    "types": [
+      "ice",
+      "dark"
+    ],
+    "abilities": [
+      "pressure",
+      "pickpocket"
+    ]
+  },
+  "glaceon": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "snow-cloak",
+      "ice-body"
+    ]
+  },
+  "vanillite": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "ice-body",
+      "snow-cloak",
+      "weak-armor"
+    ]
+  },
+  "vanillish": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "ice-body",
+      "snow-cloak",
+      "weak-armor"
+    ]
+  },
+  "vanilluxe": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "ice-body",
+      "snow-warning",
+      "weak-armor"
+    ]
+  },
+  "cubchoo": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "snow-cloak",
+      "slush-rush",
+      "rattled"
+    ]
+  },
+  "beartic": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "snow-cloak",
+      "slush-rush",
+      "swift-swim"
+    ]
+  },
+  "cryogonal": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "kyurem": {
+    "types": [
+      "ice",
+      "dragon"
+    ],
+    "abilities": [
+      "pressure"
+    ]
+  },
+  "bergmite": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "own-tempo",
+      "ice-body",
+      "sturdy"
+    ]
+  },
+  "avalugg": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "own-tempo",
+      "ice-body",
+      "sturdy"
+    ]
+  },
+  "eiscue-ice": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "ice-face"
+    ]
+  },
+  "glastrier": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "chilling-neigh"
+    ]
+  },
+  "cetoddle": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "thick-fat",
+      "snow-cloak",
+      "sheer-force"
+    ]
+  },
+  "cetitan": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "thick-fat",
+      "slush-rush",
+      "sheer-force"
+    ]
+  },
+  "frigibax": {
+    "types": [
+      "ice",
+      "dragon"
+    ],
+    "abilities": [
+      "thermal-exchange",
+      "ice-body"
+    ]
+  },
+  "arctibax": {
+    "types": [
+      "ice",
+      "dragon"
+    ],
+    "abilities": [
+      "thermal-exchange",
+      "ice-body"
+    ]
+  },
+  "baxcalibur": {
+    "types": [
+      "ice",
+      "dragon"
+    ],
+    "abilities": [
+      "thermal-exchange",
+      "ice-body"
+    ]
+  },
+  "chien-pao": {
+    "types": [
+      "ice",
+      "dark"
+    ],
+    "abilities": [
+      "sword-of-ruin"
+    ]
+  },
+  "castform-snowy": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "forecast"
+    ]
+  },
+  "kyurem-black": {
+    "types": [
+      "ice",
+      "dragon"
+    ],
+    "abilities": [
+      "teravolt"
+    ]
+  },
+  "kyurem-white": {
+    "types": [
+      "ice",
+      "dragon"
+    ],
+    "abilities": [
+      "turboblaze"
+    ]
+  },
+  "glalie-mega": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "refrigerate"
+    ]
+  },
+  "vulpix-alola": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "snow-cloak",
+      "snow-warning"
+    ]
+  },
+  "ninetales-alola": {
+    "types": [
+      "ice",
+      "fairy"
+    ],
+    "abilities": [
+      "snow-cloak",
+      "snow-warning"
+    ]
+  },
+  "darumaka-galar": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "hustle",
+      "inner-focus"
+    ]
+  },
+  "darmanitan-galar-standard": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "gorilla-tactics",
+      "zen-mode"
+    ]
+  },
+  "eiscue-noice": {
+    "types": [
+      "ice"
+    ],
+    "abilities": [
+      "ice-face"
+    ]
+  },
+  "baxcalibur-mega": {
+    "types": [
+      "ice",
+      "dragon"
+    ],
+    "abilities": []
+  },
+  "dratini": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "shed-skin",
+      "marvel-scale"
+    ]
+  },
+  "dragonair": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "shed-skin",
+      "marvel-scale"
+    ]
+  },
+  "bagon": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "rock-head",
+      "sheer-force"
+    ]
+  },
+  "shelgon": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "rock-head",
+      "overcoat"
+    ]
+  },
+  "axew": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "rivalry",
+      "mold-breaker",
+      "unnerve"
+    ]
+  },
+  "fraxure": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "rivalry",
+      "mold-breaker",
+      "unnerve"
+    ]
+  },
+  "haxorus": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "rivalry",
+      "mold-breaker",
+      "unnerve"
+    ]
+  },
+  "druddigon": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "rough-skin",
+      "sheer-force",
+      "mold-breaker"
+    ]
+  },
+  "deino": {
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "abilities": [
+      "hustle"
+    ]
+  },
+  "zweilous": {
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "abilities": [
+      "hustle"
+    ]
+  },
+  "hydreigon": {
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "abilities": [
+      "levitate"
+    ]
+  },
+  "goomy": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "sap-sipper",
+      "hydration",
+      "gooey"
+    ]
+  },
+  "sliggoo": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "sap-sipper",
+      "hydration",
+      "gooey"
+    ]
+  },
+  "goodra": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "sap-sipper",
+      "hydration",
+      "gooey"
+    ]
+  },
+  "jangmo-o": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "bulletproof",
+      "soundproof",
+      "overcoat"
+    ]
+  },
+  "guzzlord": {
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "abilities": [
+      "beast-boost"
+    ]
+  },
+  "regidrago": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      "dragons-maw"
+    ]
+  },
+  "roaring-moon": {
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "abilities": [
+      "protosynthesis"
+    ]
+  },
+  "altaria-mega": {
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "abilities": [
+      "pixilate"
+    ]
+  },
+  "garchomp-mega-z": {
+    "types": [
+      "dragon"
+    ],
+    "abilities": []
+  },
+  "umbreon": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "synchronize",
+      "inner-focus"
+    ]
+  },
+  "poochyena": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "run-away",
+      "quick-feet",
+      "rattled"
+    ]
+  },
+  "mightyena": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "intimidate",
+      "quick-feet",
+      "moxie"
+    ]
+  },
+  "absol": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "pressure",
+      "super-luck",
+      "justified"
+    ]
+  },
+  "darkrai": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "bad-dreams"
+    ]
+  },
+  "purrloin": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "limber",
+      "unburden",
+      "prankster"
+    ]
+  },
+  "liepard": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "limber",
+      "unburden",
+      "prankster"
+    ]
+  },
+  "zorua": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "illusion"
+    ]
+  },
+  "zoroark": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "illusion"
+    ]
+  },
+  "nickit": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "run-away",
+      "unburden",
+      "stakeout"
+    ]
+  },
+  "thievul": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "run-away",
+      "unburden",
+      "stakeout"
+    ]
+  },
+  "impidimp": {
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "abilities": [
+      "prankster",
+      "frisk",
+      "pickpocket"
+    ]
+  },
+  "morgrem": {
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "abilities": [
+      "prankster",
+      "frisk",
+      "pickpocket"
+    ]
+  },
+  "grimmsnarl": {
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "abilities": [
+      "prankster",
+      "frisk",
+      "pickpocket"
+    ]
+  },
+  "maschiff": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "intimidate",
+      "run-away",
+      "stakeout"
+    ]
+  },
+  "mabosstiff": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "intimidate",
+      "guard-dog",
+      "stakeout"
+    ]
+  },
+  "absol-mega": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "magic-bounce"
+    ]
+  },
+  "meowth-alola": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "pickup",
+      "technician",
+      "rattled"
+    ]
+  },
+  "persian-alola": {
+    "types": [
+      "dark"
+    ],
+    "abilities": [
+      "fur-coat",
+      "technician",
+      "rattled"
+    ]
+  },
+  "grimmsnarl-gmax": {
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "abilities": [
+      "prankster",
+      "frisk",
+      "pickpocket"
+    ]
+  },
+  "darkrai-mega": {
+    "types": [
+      "dark"
+    ],
+    "abilities": []
+  },
+  "clefairy": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "friend-guard"
+    ]
+  },
+  "clefable": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "unaware"
+    ]
+  },
+  "cleffa": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "friend-guard"
+    ]
+  },
+  "togepi": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "hustle",
+      "serene-grace",
+      "super-luck"
+    ]
+  },
+  "snubbull": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "intimidate",
+      "run-away",
+      "rattled"
+    ]
+  },
+  "granbull": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "intimidate",
+      "quick-feet",
+      "rattled"
+    ]
+  },
+  "flabebe": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "flower-veil",
+      "symbiosis"
+    ]
+  },
+  "floette": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "flower-veil",
+      "symbiosis"
+    ]
+  },
+  "florges": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "flower-veil",
+      "symbiosis"
+    ]
+  },
+  "spritzee": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "healer",
+      "aroma-veil"
+    ]
+  },
+  "aromatisse": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "healer",
+      "aroma-veil"
+    ]
+  },
+  "swirlix": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "sweet-veil",
+      "unburden"
+    ]
+  },
+  "slurpuff": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "sweet-veil",
+      "unburden"
+    ]
+  },
+  "sylveon": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "cute-charm",
+      "pixilate"
+    ]
+  },
+  "xerneas": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "fairy-aura"
+    ]
+  },
+  "comfey": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "flower-veil",
+      "triage",
+      "natural-cure"
+    ]
+  },
+  "milcery": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "sweet-veil",
+      "aroma-veil"
+    ]
+  },
+  "alcremie": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "sweet-veil",
+      "aroma-veil"
+    ]
+  },
+  "zacian": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "intrepid-sword"
+    ]
+  },
+  "fidough": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "own-tempo",
+      "klutz"
+    ]
+  },
+  "dachsbun": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "well-baked-body",
+      "aroma-veil"
+    ]
+  },
+  "floette-eternal": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "flower-veil",
+      "symbiosis"
+    ]
+  },
+  "alcremie-gmax": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "sweet-veil",
+      "aroma-veil"
+    ]
+  },
+  "floette-mega": {
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      "fairy-aura"
+    ]
+  }
+}
