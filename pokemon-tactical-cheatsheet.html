@@ -1297,8 +1297,8 @@
         const lockStates = new Array(TEAM_SIZE).fill('none');
 
         // Dual roster state management
-        let userRoster = Array(TEAM_SIZE).fill({ pokemonName: '', ability: '' });
-        let enemyRoster = Array(TEAM_SIZE).fill({ pokemonName: '', ability: '' });
+        let userRoster = Array(TEAM_SIZE).fill(null).map(() => ({ pokemonName: '', ability: '' }));
+        let enemyRoster = Array(TEAM_SIZE).fill(null).map(() => ({ pokemonName: '', ability: '' }));
         let isEnemyMode = false;
 
         // Deep dive breakdown visibility state
@@ -1551,9 +1551,11 @@
         function getTeam() {
             const team = [];
             for (let i = 0; i < TEAM_SIZE; i++) {
-                const pokemonName = document.getElementById(`pokemon-${i}`).value;
+                let pokemonName = document.getElementById(`pokemon-${i}`).value;
                 const ability = document.getElementById(`ability-${i}`).value;
                 if (pokemonName) {
+                    // Convert to lowercase to match database keys
+                    pokemonName = pokemonName.toLowerCase();
                     team.push({ pokemonName, ability, slot: i, lockState: lockStates[i] });
                 }
             }
@@ -1563,8 +1565,12 @@
         function saveCurrentRoster() {
             const currentRoster = [];
             for (let i = 0; i < TEAM_SIZE; i++) {
-                const pokemonName = document.getElementById(`pokemon-${i}`).value;
+                let pokemonName = document.getElementById(`pokemon-${i}`).value;
                 const ability = document.getElementById(`ability-${i}`).value;
+                // Convert to lowercase to match database keys
+                if (pokemonName) {
+                    pokemonName = pokemonName.toLowerCase();
+                }
                 currentRoster.push({ pokemonName, ability });
             }
             return currentRoster;
@@ -1573,8 +1579,10 @@
         function loadRosterToUI(roster) {
             for (let i = 0; i < TEAM_SIZE; i++) {
                 if (roster[i]) {
-                    document.getElementById(`pokemon-${i}`).value = roster[i].pokemonName || '';
-                    updateAbilities(i, roster[i].pokemonName || '');
+                    const pokemonName = roster[i].pokemonName || '';
+                    // Capitalize for display in UI
+                    document.getElementById(`pokemon-${i}`).value = pokemonName ? capitalize(pokemonName) : '';
+                    updateAbilities(i, pokemonName);
                     setTimeout(() => {
                         if (roster[i].ability) {
                             document.getElementById(`ability-${i}`).value = roster[i].ability;
@@ -1945,6 +1953,10 @@
             return team
                 .filter(member => member.pokemonName !== team[0]?.pokemonName) // Don't match self
                 .filter(member => {
+                    // Validate Pokémon exists before calling applyAbilityModifiers
+                    if (!member.pokemonName || member.pokemonName.trim() === '' || !database[member.pokemonName]) {
+                        return false;
+                    }
                     const data = applyAbilityModifiers(
                         member.pokemonName,
                         database[member.pokemonName],
@@ -1959,6 +1971,10 @@
         function hasTeamCoverage(team, typeToCheck) {
             // Returns true if ANY team member has ANY defensive coverage (resist/immunity/neutral) against the type
             return team.some(member => {
+                // Validate Pokémon exists before calling applyAbilityModifiers
+                if (!member.pokemonName || member.pokemonName.trim() === '' || !database[member.pokemonName]) {
+                    return false;
+                }
                 const data = applyAbilityModifiers(
                     member.pokemonName,
                     database[member.pokemonName],
@@ -2038,7 +2054,14 @@
 
             // Score each teammate based on how many weaknesses they can cover
             const anchors = team
-                .filter(member => member.pokemonName !== activeMember.pokemonName)
+                .filter(member => {
+                    // Skip if it's the active member or if no Pokémon is selected
+                    if (member.pokemonName === activeMember.pokemonName || !member.pokemonName || member.pokemonName.trim() === '') {
+                        return false;
+                    }
+                    // Only include if the Pokémon exists in the database
+                    return !!database[member.pokemonName];
+                })
                 .map(member => {
                     const memberBaseData = database[member.pokemonName];
                     const memberData = applyAbilityModifiers(
@@ -2096,6 +2119,10 @@
 
             // Get all weaknesses of front 2
             front2Members.forEach(frontMember => {
+                // Validate Pokémon exists
+                if (!frontMember.pokemonName || frontMember.pokemonName.trim() === '' || !database[frontMember.pokemonName]) {
+                    return; // Skip this member
+                }
                 const baseData = database[frontMember.pokemonName];
                 const data = applyAbilityModifiers(frontMember.pokemonName, baseData, frontMember.ability);
                 const weaknesses = getWeaknesses(data.damage_from);
@@ -2107,6 +2134,10 @@
 
                     // Check how many are covered by back 2
                     const isCovered = back2Members.some(backMember => {
+                        // Validate Pokémon exists
+                        if (!backMember.pokemonName || backMember.pokemonName.trim() === '' || !database[backMember.pokemonName]) {
+                            return false;
+                        }
                         const backBaseData = database[backMember.pokemonName];
                         const backData = applyAbilityModifiers(backMember.pokemonName, backBaseData, backMember.ability);
                         const strengths = getStrengths(backData.damage_from);
@@ -2196,6 +2227,11 @@
                     for (let k = j + 1; k < team.length; k++) {
                         for (let l = k + 1; l < team.length; l++) {
                             const squad = [team[i], team[j], team[k], team[l]];
+
+                            // Skip if any squad member has no Pokémon selected
+                            if (squad.some(member => !member.pokemonName || member.pokemonName.trim() === '')) {
+                                continue;
+                            }
 
                             // CHECK LOCK CONSTRAINTS
                             // Check 'lead' locks: must be in positions 0 or 1
@@ -2323,7 +2359,16 @@
             }
 
             grid.innerHTML = team.map(member => {
+                // Skip if no Pokémon selected
+                if (!member.pokemonName || member.pokemonName.trim() === '') {
+                    return '';
+                }
+
                 const baseData = database[member.pokemonName];
+                if (!baseData) {
+                    return ''; // Skip if Pokémon not found in database
+                }
+
                 const data = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
                 const strengths = getStrengths(data.damage_from);
                 const weaknesses = getWeaknesses(data.damage_from);
@@ -2464,6 +2509,10 @@
 
                     // Generate Front 2 metadata tooltips
                     const front2MetadataHtml = squadData.front2.map(member => {
+                        // Validate Pokémon exists
+                        if (!member.pokemonName || !database[member.pokemonName]) {
+                            return '';
+                        }
                         const baseData = database[member.pokemonName];
                         const memberData = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
                         const stabTypes = getStabTypes(member.pokemonName);
@@ -2491,6 +2540,10 @@
 
                     // Generate Back 2 metadata tooltips
                     const back2MetadataHtml = squadData.back2.map(member => {
+                        // Validate Pokémon exists
+                        if (!member.pokemonName || !database[member.pokemonName]) {
+                            return '';
+                        }
                         const baseData = database[member.pokemonName];
                         const memberData = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
                         const strengths = getStrengths(memberData.damage_from);
@@ -2498,6 +2551,10 @@
                         // Build lead-by-lead protection map with premium/soft distinction
                         const protectionMap = [];
                         squadData.front2.forEach(lead => {
+                            // Validate lead Pokémon exists
+                            if (!lead.pokemonName || !database[lead.pokemonName]) {
+                                return; // Skip this lead
+                            }
                             const leadBaseData = database[lead.pokemonName];
                             const leadData = applyAbilityModifiers(lead.pokemonName, leadBaseData, lead.ability);
                             const leadWeaknesses = getWeaknesses(leadData.damage_from);
@@ -2561,6 +2618,10 @@
 
                     // Column 1: Sprites with paired metadata in capsules
                     const front2CapsuleHtml = squadData.front2.map(member => {
+                        // Validate Pokémon exists
+                        if (!member.pokemonName || !database[member.pokemonName]) {
+                            return '';
+                        }
                         const baseData = database[member.pokemonName];
                         const spriteUrl = baseData.sprite || `https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/${getPokemonId(member.pokemonName)}.png`;
                         const memberData = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
@@ -2601,6 +2662,10 @@
                     }).join('');
 
                     const back2CapsuleHtml = squadData.back2.map(member => {
+                        // Validate Pokémon exists
+                        if (!member.pokemonName || !database[member.pokemonName]) {
+                            return '';
+                        }
                         const baseData = database[member.pokemonName];
                         const spriteUrl = baseData.sprite || `https://raw.githubusercontent.com/PokeAPI/sprites/master/pokemon/other/official-artwork/${getPokemonId(member.pokemonName)}.png`;
                         const memberData = applyAbilityModifiers(member.pokemonName, baseData, member.ability);
@@ -2630,6 +2695,10 @@
                         // Build protection list for this specific pivot
                         const protectionMap = [];
                         squadData.front2.forEach(lead => {
+                            // Validate lead Pokémon exists
+                            if (!lead.pokemonName || !database[lead.pokemonName]) {
+                                return; // Skip this lead
+                            }
                             const leadBaseData = database[lead.pokemonName];
                             const leadData = applyAbilityModifiers(lead.pokemonName, leadBaseData, lead.ability);
                             const leadWeaknesses = getWeaknesses(leadData.damage_from);
@@ -2882,6 +2951,10 @@
 
             // For each front 2 lead
             front2.forEach(frontMember => {
+                // Validate Pokémon exists
+                if (!frontMember.pokemonName || !database[frontMember.pokemonName]) {
+                    return; // Skip this member
+                }
                 const baseData = database[frontMember.pokemonName];
                 const frontData = applyAbilityModifiers(frontMember.pokemonName, baseData, frontMember.ability);
                 const frontWeaknesses = getWeaknesses(frontData.damage_from);
@@ -2892,6 +2965,10 @@
                 frontWeaknesses.forEach(weakness => {
                     // Find which back 2 member covers this (premium or soft)
                     back2.forEach(backMember => {
+                        // Validate Pokémon exists
+                        if (!backMember.pokemonName || !database[backMember.pokemonName]) {
+                            return; // Skip this member
+                        }
                         const backBaseData = database[backMember.pokemonName];
                         const backData = applyAbilityModifiers(backMember.pokemonName, backBaseData, backMember.ability);
                         const backStrengths = getStrengths(backData.damage_from);
@@ -2937,6 +3014,10 @@
             // Get all weaknesses of front 2
             const frontWeaknesses = [];
             front2.forEach(frontMember => {
+                // Validate Pokémon exists
+                if (!frontMember.pokemonName || !database[frontMember.pokemonName]) {
+                    return; // Skip this member
+                }
                 const baseData = database[frontMember.pokemonName];
                 const data = applyAbilityModifiers(frontMember.pokemonName, baseData, frontMember.ability);
                 const weaknesses = getWeaknesses(data.damage_from);
@@ -2956,6 +3037,10 @@
                 let coverage = null; // 'premium', 'soft', or null
 
                 back2.forEach(backMember => {
+                    // Validate Pokémon exists
+                    if (!backMember.pokemonName || !database[backMember.pokemonName]) {
+                        return; // Skip this member
+                    }
                     const backBaseData = database[backMember.pokemonName];
                     const backData = applyAbilityModifiers(backMember.pokemonName, backBaseData, backMember.ability);
 
