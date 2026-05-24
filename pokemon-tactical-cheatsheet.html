@@ -1297,11 +1297,18 @@
     <script>
         let database = {};
         const TEAM_SIZE = 6;
-        const APP_VERSION = '1.6';
+        const APP_VERSION = '1.8';
         const lockStates = new Array(TEAM_SIZE).fill('none');
 
         // Dual roster state management
-        let userRoster = Array(TEAM_SIZE).fill(null).map(() => ({ pokemonName: '', ability: '' }));
+        let userRoster = [
+            { pokemonName: 'aerodactyl', ability: 'unnerve' },
+            { pokemonName: 'garchomp', ability: 'rough-skin' },
+            { pokemonName: 'charizard-mega-y', ability: 'drought' },
+            { pokemonName: 'kingambit', ability: 'defiant' },
+            { pokemonName: 'sneasler', ability: 'unburden' },
+            { pokemonName: 'basculegion-male', ability: 'swift-swim' }
+        ];
         let enemyRoster = Array(TEAM_SIZE).fill(null).map(() => ({ pokemonName: '', ability: '' }));
         let isEnemyMode = false;
 
@@ -1499,34 +1506,26 @@
                 });
             }
 
-            // Fill team with random Pokémon and abilities
+            // Load default team from userRoster
             setTimeout(() => {
-                const pokemonList = Object.keys(database);
-                const selectedPokemon = new Set();
-
                 for (let i = 0; i < TEAM_SIZE; i++) {
-                    let randomMon;
-                    // Ensure no duplicates
-                    do {
-                        randomMon = pokemonList[Math.floor(Math.random() * pokemonList.length)];
-                    } while (selectedPokemon.has(randomMon));
+                    if (userRoster[i] && userRoster[i].pokemonName) {
+                        const mon = userRoster[i].pokemonName;
+                        const ability = userRoster[i].ability;
 
-                    selectedPokemon.add(randomMon);
+                        // Set Pokémon (capitalize for display)
+                        const pokemonSelect = document.getElementById(`pokemon-${i}`);
+                        pokemonSelect.value = capitalize(mon);
 
-                    // Set Pokémon
-                    const pokemonSelect = document.getElementById(`pokemon-${i}`);
-                    pokemonSelect.value = randomMon;
-
-                    // Update abilities and set random one
-                    updateAbilities(i, randomMon);
-                    setTimeout(() => {
-                        const abilitySelect = document.getElementById(`ability-${i}`);
-                        const options = Array.from(abilitySelect.options).filter(opt => opt.value);
-                        if (options.length > 0) {
-                            const randomAbility = options[Math.floor(Math.random() * options.length)];
-                            abilitySelect.value = randomAbility.value;
-                        }
-                    }, 50);
+                        // Update abilities and set the default one
+                        updateAbilities(i, mon);
+                        setTimeout(() => {
+                            const abilitySelect = document.getElementById(`ability-${i}`);
+                            if (ability) {
+                                abilitySelect.value = ability;
+                            }
+                        }, 50);
+                    }
                 }
 
                 // Trigger sheet update after all selections are done
@@ -2224,6 +2223,45 @@
             return coverageRatio >= 0.5 ? 2.5 : 1.0;
         }
 
+        function reorderSquadForLocks(squad, team) {
+            // Try to reorder squad to satisfy lock constraints
+            const lockMap = {};
+            for (const member of team) {
+                if (member.lockState !== 'none') {
+                    lockMap[member.pokemonName] = member.lockState;
+                }
+            }
+
+            // If no locks, return squad as-is
+            if (Object.keys(lockMap).length === 0) {
+                return squad;
+            }
+
+            // Try to arrange squad: lead-locked Pokémon in front 2, back-locked in back 2
+            const leadLocked = squad.filter(m => lockMap[m.pokemonName] === 'lead');
+            const backLocked = squad.filter(m => lockMap[m.pokemonName] === 'back');
+            const unlocked = squad.filter(m => !lockMap[m.pokemonName]);
+
+            const newSquad = [];
+            // Fill front 2 with lead-locked first, then unlocked
+            for (let i = 0; i < 2 && i < leadLocked.length; i++) {
+                newSquad.push(leadLocked[i]);
+            }
+            while (newSquad.length < 2 && unlocked.length > 0) {
+                newSquad.push(unlocked.shift());
+            }
+
+            // Fill back 2 with back-locked first, then remaining unlocked
+            for (let i = 0; i < backLocked.length; i++) {
+                newSquad.push(backLocked[i]);
+            }
+            while (newSquad.length < 4 && unlocked.length > 0) {
+                newSquad.push(unlocked.shift());
+            }
+
+            return newSquad.length === 4 ? newSquad : squad;
+        }
+
         function getAllSquadCombinations(team) {
             if (team.length < 4) return [];
 
@@ -2243,12 +2281,15 @@
                 for (let j = i + 1; j < team.length; j++) {
                     for (let k = j + 1; k < team.length; k++) {
                         for (let l = k + 1; l < team.length; l++) {
-                            const squad = [team[i], team[j], team[k], team[l]];
+                            let squad = [team[i], team[j], team[k], team[l]];
 
                             // Skip if any squad member has no Pokémon selected
                             if (squad.some(member => !member.pokemonName || member.pokemonName.trim() === '')) {
                                 continue;
                             }
+
+                            // Try to reorder squad to satisfy lock constraints
+                            squad = reorderSquadForLocks(squad, team);
 
                             // CHECK LOCK CONSTRAINTS
                             // Check 'lead' locks: must be in positions 0 or 1
@@ -2305,17 +2346,21 @@
             }
 
             // If no valid combinations found with lock constraints, generate all combinations without constraints
+            // This is a fallback for when lock constraints can't be satisfied
             if (combinations.length === 0 && hasMandatoryLocks) {
                 for (let i = 0; i < team.length; i++) {
                     for (let j = i + 1; j < team.length; j++) {
                         for (let k = j + 1; k < team.length; k++) {
                             for (let l = k + 1; l < team.length; l++) {
-                                const squad = [team[i], team[j], team[k], team[l]];
+                                let squad = [team[i], team[j], team[k], team[l]];
 
                                 // Skip if any squad member has no Pokémon selected
                                 if (squad.some(member => !member.pokemonName || member.pokemonName.trim() === '')) {
                                     continue;
                                 }
+
+                                // Try to reorder squad to satisfy lock constraints
+                                squad = reorderSquadForLocks(squad, team);
 
                                 const front2 = squad.slice(0, 2);
                                 const back2 = squad.slice(2, 4);
